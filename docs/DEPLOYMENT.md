@@ -4,6 +4,8 @@
 
 用户已于 2026-10-27 指定 https://github.com/MimaGlows/homepage-new 作为源码仓库，并授权使用 GitHub Pages。预期地址为 https://mimaglows.github.io/homepage-new/；首次部署结果以仓库 Actions 的 Pages 运行记录及实际 HTTPS 检查为准。
 
+首次 Actions 构建/部署已成功；账号主站旧域名使默认地址跳到 http://hexo.mimaglows.com/homepage-new/。HTTP 的 76 个静态文件已核对一致，HTTPS 因旧域名证书不匹配尚未通过。当前状态和待本人决定的域名处理见 GITHUB_PAGES.md；下文“未线上部署”描述属于初始本地交付阶段，不代表当前 Actions 状态。
+
 仓库 main 保存源工程，不提交 node_modules、dist、真实环境变量、imports、.studio、本地 releases 或旧 .openai 身份。Pages Source 选择 GitHub Actions，在 Actions 中手动运行 “Publish static archive to GitHub Pages”。工作流执行 npm ci、npm run check、npm run build，再仅上传 dist。Studio 代码可随工程版本管理，但管理进程不在 Pages 运行。
 
 后续更新：在本机编辑、校验与预览后，提交源码至 main；再手动运行 Pages 工作流。普通保存或同步不会自动发布。公开仓库中不要提交非公开角色设定、未授权图片或密钥；published:false 只控制静态产物，不能让 GitHub 已提交的源文件变成私密。

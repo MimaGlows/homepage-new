@@ -16,3 +16,5 @@
 验收矩阵见 ACCEPTANCE，实测见 PERFORMANCE，维护说明见 MAINTENANCE。Last.fm 与 Apple 密钥待本人稍后配置；不会将测试收听记录当作真实内容。没有执行公开部署或远端推送。
 
 2026-10-27 本地审阅修订已合入当前 v5 包：底部导航/右下备案、移除装饰栏、大档案阅读区和低中高画质/SMAA。变化与对应证据见 REVIEW-2026-10-27.md；下载包与当前源码的一致性以 releases/manifest-v5.json 和 verification-v5.json 为准。
+
+后续 GitHub 迁移与 Pages 发布已获得用户授权，首次运行成功，公开 HTTP 产物与本地一致。账号旧域名的 HTTPS 问题尚未通过，最新地址、运行链接和维护流程见 GITHUB_PAGES.md。此前“未公开发布”的描述为本地交付时的历史状态。

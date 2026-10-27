@@ -1,0 +1,777 @@
+{
+  "date": "2026-10-27T03:49:30.144832+00:00",
+  "repository": "https://github.com/MimaGlows/homepage-new",
+  "sourceCommit": "0360628bfe25f1d75a81889b62641ba1f85e63ad",
+  "workflow": "https://github.com/MimaGlows/homepage-new/actions/runs/40445610810",
+  "build": "success, 23 tests passed, production build passed",
+  "deployment": "success",
+  "publicURL": "http://hexo.mimaglows.com/homepage-new/",
+  "defaultURL": "https://mimaglows.github.io/homepage-new/",
+  "defaultRedirect": "301 to inherited HTTP custom domain",
+  "https": "Certificate hostname mismatch on inherited hexo.mimaglows.com; owner decision pending",
+  "verifiedStaticFiles": 76,
+  "allStaticHashesMatch": true,
+  "measurementLimit": "HTTP resource verification; not browser FCP/LCP or a guarantee of HTTPS availability",
+  "files": [
+    {
+      "file": "_headers",
+      "status": 200,
+      "sha256": "25711ba6a7681abc466f2d02dc68b16612edd4225640cdca09baf8ae6b221f93",
+      "matches": true,
+      "bytes": 255,
+      "contentType": "application/octet-stream",
+      "cache": "MISS",
+      "elapsedMs": 927
+    },
+    {
+      "file": "assets/archive-browser-935Ln-pq.js",
+      "status": 200,
+      "sha256": "6da923a52375fc003319733641ff7bd49a3fb21095a9c2d7dc1a567a1ada1cbc",
+      "matches": true,
+      "bytes": 11093,
+      "contentType": "application/javascript; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 926
+    },
+    {
+      "file": "assets/cover-blog.webp",
+      "status": 200,
+      "sha256": "83d5be49d6e8dc3e71aa33d94db5f5dd6682fab438a2525239f6fc93442aa3f8",
+      "matches": true,
+      "bytes": 28410,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 1025
+    },
+    {
+      "file": "assets/cover-minecraft.webp",
+      "status": 200,
+      "sha256": "ee67ed248d5098a171fb7036319b3ab6674f553559264d6b0397451b16a25f95",
+      "matches": true,
+      "bytes": 32082,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 1029
+    },
+    {
+      "file": "assets/cover-stronghold.webp",
+      "status": 200,
+      "sha256": "8de53fd71b04f78b92bd5cdb0509dd19d0e39df110623564841b282471495e74",
+      "matches": true,
+      "bytes": 23796,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 1053
+    },
+    {
+      "file": "assets/index-CDZfHl4d.css",
+      "status": 200,
+      "sha256": "9346c9eedab67f6d3f49925d3ba0933686f69c613589c787f1929d4417f90cf8",
+      "matches": true,
+      "bytes": 15431,
+      "contentType": "text/css; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 995
+    },
+    {
+      "file": "assets/index-DW8jP_MD.js",
+      "status": 200,
+      "sha256": "0aac84aa94b5021252ce30f87fbd3c6807e14459fd9901c85da01dff92a66e7d",
+      "matches": true,
+      "bytes": 12678,
+      "contentType": "application/javascript; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 385
+    },
+    {
+      "file": "assets/music-case-v043.glb",
+      "status": 200,
+      "sha256": "f27162cdb5a3646303091a655c5a33b4190966d02de1634c60636056298dba7a",
+      "matches": true,
+      "bytes": 78948,
+      "contentType": "model/gltf-binary",
+      "cache": "MISS",
+      "elapsedMs": 562
+    },
+    {
+      "file": "assets/placeholder.svg",
+      "status": 200,
+      "sha256": "f4fd0408ce34567b97eeee5940989da36766332415f5f075aa619a2ee78b86ed",
+      "matches": true,
+      "bytes": 438,
+      "contentType": "image/svg+xml",
+      "cache": "MISS",
+      "elapsedMs": 380
+    },
+    {
+      "file": "assets/preview-day-mobile.webp",
+      "status": 200,
+      "sha256": "3ebbe24c965c3a62e3d7c2f5662d913857bc5d6b87d7d812fb7d9912858cc867",
+      "matches": true,
+      "bytes": 20458,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 505
+    },
+    {
+      "file": "assets/preview-day.webp",
+      "status": 200,
+      "sha256": "00ca62ed623d5dda9d555df5d9a2976bb200c8c3845c0b4d988fb23697cb251a",
+      "matches": true,
+      "bytes": 28552,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 506
+    },
+    {
+      "file": "assets/preview-night-mobile.webp",
+      "status": 200,
+      "sha256": "ae62f833274ee43bdb31725b5d7b44eb3dc5b6099b1e879600eab9eecb724fd0",
+      "matches": true,
+      "bytes": 17384,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 451
+    },
+    {
+      "file": "assets/preview-night.webp",
+      "status": 200,
+      "sha256": "e90585bcbab896175db364c1caf81b482fffa28405dd3cd15baf78b2381644c9",
+      "matches": true,
+      "bytes": 35874,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 485
+    },
+    {
+      "file": "assets/scene-_pWbGvhj.js",
+      "status": 200,
+      "sha256": "adfce9b447ae17d2911523a2b99718dde112b69ee66aa77ae8ac57dbefc4ff28",
+      "matches": true,
+      "bytes": 110222,
+      "contentType": "application/javascript; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 641
+    },
+    {
+      "file": "assets/three-D5mGIMtI.js",
+      "status": 200,
+      "sha256": "adec893556da338acc62bc61bb95d361c42d0c7bb7aab5e85500e19205e9d034",
+      "matches": true,
+      "bytes": 940235,
+      "contentType": "application/javascript; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 1012
+    },
+    {
+      "file": "assets/x-timeline-krGT2GBm.js",
+      "status": 200,
+      "sha256": "b672afaadd8fa48a1aff869d0bd95ed4cfa9e72d528d1d678698771675643f9d",
+      "matches": true,
+      "bytes": 1022,
+      "contentType": "application/javascript; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 373
+    },
+    {
+      "file": "data/bodies/lin-aliangliang.json",
+      "status": 200,
+      "sha256": "8924d70413cb69699988d0a632b68183521d58f9ca67568d4deec4cd44270da4",
+      "matches": true,
+      "bytes": 266,
+      "contentType": "application/json; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 367
+    },
+    {
+      "file": "data/bodies/nanakaze.json",
+      "status": 200,
+      "sha256": "57b2b74a05715b08aa610579a11f4548bec52a269d3bb349e86a168cd6c24981",
+      "matches": true,
+      "bytes": 628,
+      "contentType": "application/json; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 365
+    },
+    {
+      "file": "data/bodies/qifengren.json",
+      "status": 200,
+      "sha256": "24e1700276f3ad5b479223c23aa33fb24defc064deede633888c31c23fe68049",
+      "matches": true,
+      "bytes": 193,
+      "contentType": "application/json; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 366
+    },
+    {
+      "file": "data/catalog.json",
+      "status": 200,
+      "sha256": "ddd8991513cd8a219911c4f7db63044cc43d29319dd06effa2d84a1afb82f0cc",
+      "matches": true,
+      "bytes": 9778,
+      "contentType": "application/json; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 361
+    },
+    {
+      "file": "data/modules/blog.json",
+      "status": 200,
+      "sha256": "a827ccff5347035453d5d5433d63ab2162a98540149dfbc0a3d0a52174fee5d6",
+      "matches": true,
+      "bytes": 11511,
+      "contentType": "application/json; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 412
+    },
+    {
+      "file": "data/modules/characters.json",
+      "status": 200,
+      "sha256": "2c47ace83d475dfa120735bb619936c2c5c10db6212980ebeb305fd031158c1d",
+      "matches": true,
+      "bytes": 2485,
+      "contentType": "application/json; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 382
+    },
+    {
+      "file": "data/modules/friends.json",
+      "status": 200,
+      "sha256": "d358c1e64c49c098627e4d328ade282d549cda57c069ead463d02e209e45199a",
+      "matches": true,
+      "bytes": 2096,
+      "contentType": "application/json; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 367
+    },
+    {
+      "file": "data/modules/music.json",
+      "status": 200,
+      "sha256": "3fec395cc64c23628f3e5ed6765c32f77628cec39f588c470450dc3c81019a2c",
+      "matches": true,
+      "bytes": 30,
+      "contentType": "application/json; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 392
+    },
+    {
+      "file": "data/modules/navigation.json",
+      "status": 200,
+      "sha256": "3dfe5a190548ed7fcc432a5e452b2f9c0dfe4539d8d0b39c32f529fb0a16c19b",
+      "matches": true,
+      "bytes": 1019,
+      "contentType": "application/json; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 380
+    },
+    {
+      "file": "data/modules/social.json",
+      "status": 200,
+      "sha256": "86bfcb9d943722fbe55513d603c4ab329cd3fe7c8113a150a252c1844988e882",
+      "matches": true,
+      "bytes": 503,
+      "contentType": "application/json; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 361
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "sha256": "2a0df37bccfd589d3461805e27c11efe987fbe6d74622c2268c613c0d61cfd77",
+      "matches": true,
+      "bytes": 7504,
+      "contentType": "text/html; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 369
+    },
+    {
+      "file": "licenses/mimaglows-notice.md",
+      "status": 200,
+      "sha256": "b11b279c71db71da910355f590edbe40091e394da0a195d1dcfed7aa77a530a0",
+      "matches": true,
+      "bytes": 1289,
+      "contentType": "text/markdown; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 369
+    },
+    {
+      "file": "licenses/project-mit.txt",
+      "status": 200,
+      "sha256": "b940fbfa02c0020c6169a02b633448603bcba38a08ed370aeef0c78042c0f16c",
+      "matches": true,
+      "bytes": 1141,
+      "contentType": "text/plain; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 366
+    },
+    {
+      "file": "licenses/three.txt",
+      "status": 200,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "matches": true,
+      "bytes": 1081,
+      "contentType": "text/plain; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 363
+    },
+    {
+      "file": "licenses/upstream-notice.md",
+      "status": 200,
+      "sha256": "e8ba4d90ade3483bd8e598f7186d347b223c501e4e3f6ca0487f8a1633da152f",
+      "matches": true,
+      "bytes": 6848,
+      "contentType": "text/markdown; charset=utf-8",
+      "cache": "MISS",
+      "elapsedMs": 375
+    },
+    {
+      "file": "media/archive/05dde2210cf8702479c7-1440.webp",
+      "status": 200,
+      "sha256": "c0acd1480b24ee3080e4268dfe88bc9ea2e2cba5c451c603360c5cdce1d35585",
+      "matches": true,
+      "bytes": 78056,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 797
+    },
+    {
+      "file": "media/archive/05dde2210cf8702479c7-256.webp",
+      "status": 200,
+      "sha256": "c19cb847a184d9838187e6530d18d370c457543e547ca6bf93f133af441f4716",
+      "matches": true,
+      "bytes": 8490,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 406
+    },
+    {
+      "file": "media/archive/05dde2210cf8702479c7-768.webp",
+      "status": 200,
+      "sha256": "7be215900e28733c327f57d46ddb5dbfd7ad59bea26da3879a5709f12b7feb9e",
+      "matches": true,
+      "bytes": 53796,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 586
+    },
+    {
+      "file": "media/archive/0e46e58df17f6f93820d-1440.webp",
+      "status": 200,
+      "sha256": "bea02b172d6190a02c8098236487917eace8513782c7f1930f74fea9fa2407f1",
+      "matches": true,
+      "bytes": 183672,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 674
+    },
+    {
+      "file": "media/archive/0e46e58df17f6f93820d-256.webp",
+      "status": 200,
+      "sha256": "7b639d3dbdbf2d34277dd4923ea9b45e9fa68774187fafc794034041f01c9086",
+      "matches": true,
+      "bytes": 7634,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 364
+    },
+    {
+      "file": "media/archive/0e46e58df17f6f93820d-768.webp",
+      "status": 200,
+      "sha256": "0526070510b0d26146547370d936f32a41334a89f6b637ebf24c9b7628a6f14c",
+      "matches": true,
+      "bytes": 64888,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 705
+    },
+    {
+      "file": "media/archive/24a354f138672ee7224b-1440.webp",
+      "status": 200,
+      "sha256": "c2a211a92c38117983fe82cf28411b9b127476eeed42976beec8c7e127cded37",
+      "matches": true,
+      "bytes": 52314,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 604
+    },
+    {
+      "file": "media/archive/24a354f138672ee7224b-256.webp",
+      "status": 200,
+      "sha256": "2c2bcbe899357bb8315f8d6fccd5167d2a02a632b7e2a4f363aff589b491a456",
+      "matches": true,
+      "bytes": 1898,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 821
+    },
+    {
+      "file": "media/archive/24a354f138672ee7224b-768.webp",
+      "status": 200,
+      "sha256": "56c21b1000b20ca11db2edbfca0d65844854a3d5fb419f7ff3ac68455db9e5bd",
+      "matches": true,
+      "bytes": 16912,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 489
+    },
+    {
+      "file": "media/archive/41e81333798ed67e46cf-1440.webp",
+      "status": 200,
+      "sha256": "76197d60983986c83337de6a57f707cb1f610788d14d4b637922715d2dea4e74",
+      "matches": true,
+      "bytes": 50284,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 609
+    },
+    {
+      "file": "media/archive/41e81333798ed67e46cf-256.webp",
+      "status": 200,
+      "sha256": "546c8b1a818da0a0be50d927b7c59e71163e8ecd146e6ad05a745c3081f47a79",
+      "matches": true,
+      "bytes": 2710,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 826
+    },
+    {
+      "file": "media/archive/41e81333798ed67e46cf-768.webp",
+      "status": 200,
+      "sha256": "792a10d929c8470e901c25915d4beef9bb067ceac2e216fc3ca473339e110e5c",
+      "matches": true,
+      "bytes": 16642,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 439
+    },
+    {
+      "file": "media/archive/50d7a4b8180a479cba13-1440.webp",
+      "status": 200,
+      "sha256": "4b798fd8733995c762869d3342a49c369655f0faaa8d04d0bbd47cde9a5b18a5",
+      "matches": true,
+      "bytes": 23722,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 911
+    },
+    {
+      "file": "media/archive/50d7a4b8180a479cba13-256.webp",
+      "status": 200,
+      "sha256": "9b68a6e932bc1210dc82054851d1295c1254928381c2d251960a332b0684b957",
+      "matches": true,
+      "bytes": 1734,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 379
+    },
+    {
+      "file": "media/archive/50d7a4b8180a479cba13-768.webp",
+      "status": 200,
+      "sha256": "10ae37086fa961465eed64f0daf6baf996cea3bb5495eb8e3c9deddaf368d311",
+      "matches": true,
+      "bytes": 9464,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 377
+    },
+    {
+      "file": "media/archive/5dadfe867c044efcde41-1440.webp",
+      "status": 200,
+      "sha256": "99d62ff7c7f9c167937acd8a6703befee514ff972ef202c705a9f9c16062c9d0",
+      "matches": true,
+      "bytes": 115774,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 583
+    },
+    {
+      "file": "media/archive/5dadfe867c044efcde41-256.webp",
+      "status": 200,
+      "sha256": "643fde73d1c523f64e3ee203c840c95a90f6eb88a6391c7bfe22867ce80cb8c8",
+      "matches": true,
+      "bytes": 4772,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 361
+    },
+    {
+      "file": "media/archive/5dadfe867c044efcde41-768.webp",
+      "status": 200,
+      "sha256": "e4f28f3b8d6851e8f563233b4886e7190a1ffa33338a017268010f596e0666e5",
+      "matches": true,
+      "bytes": 50650,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 510
+    },
+    {
+      "file": "media/archive/5dfb5964058c11703fe5-1440.webp",
+      "status": 200,
+      "sha256": "73cdd41b8793966f8370bb31d0e24ee273f149747f0552d930ad539c0cdd60bf",
+      "matches": true,
+      "bytes": 150806,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 624
+    },
+    {
+      "file": "media/archive/5dfb5964058c11703fe5-256.webp",
+      "status": 200,
+      "sha256": "eb824bd698a9d0d6b812a979743ae5d00b01239c62cd1f858ba4b373b2d7790b",
+      "matches": true,
+      "bytes": 7508,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 405
+    },
+    {
+      "file": "media/archive/5dfb5964058c11703fe5-768.webp",
+      "status": 200,
+      "sha256": "96272a2d0cd0361b848031d42cf79a1912f0004c8d8213ed4a03ad80ced98e04",
+      "matches": true,
+      "bytes": 61602,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 517
+    },
+    {
+      "file": "media/archive/692e315dad532e8e5bfe-1440.webp",
+      "status": 200,
+      "sha256": "9f5ce227b83c0e62da82642d07f3192039d0189f514a8af8d7c3ed791258131e",
+      "matches": true,
+      "bytes": 18164,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 424
+    },
+    {
+      "file": "media/archive/692e315dad532e8e5bfe-256.webp",
+      "status": 200,
+      "sha256": "d537047aa31db8be2f0ad2d98338ae1b2844a122f8ac18dd8382557ad632f328",
+      "matches": true,
+      "bytes": 992,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 476
+    },
+    {
+      "file": "media/archive/692e315dad532e8e5bfe-768.webp",
+      "status": 200,
+      "sha256": "859e0ee0db7c15d19828ec915222461fd2f8ea09cbfab18f5022e35bb2e3cd16",
+      "matches": true,
+      "bytes": 7426,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 371
+    },
+    {
+      "file": "media/archive/734d335ec4813709eed3-1440.webp",
+      "status": 200,
+      "sha256": "cab5f26232e3a968e81da3ebbe47873c6a3abcd5999f359773da46428ef0f0ce",
+      "matches": true,
+      "bytes": 96986,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 557
+    },
+    {
+      "file": "media/archive/734d335ec4813709eed3-256.webp",
+      "status": 200,
+      "sha256": "8ab671489209920efcb2f07d91a8482ecfef16c20cad617d6f0479d28cdd05b5",
+      "matches": true,
+      "bytes": 5172,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 371
+    },
+    {
+      "file": "media/archive/734d335ec4813709eed3-768.webp",
+      "status": 200,
+      "sha256": "ea606257bd785a33333de9e0c0a9d2fedbc2c1b66b3e78a5f62df735bd9be6d8",
+      "matches": true,
+      "bytes": 42316,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 496
+    },
+    {
+      "file": "media/archive/75899e6703d5d418814f-1440.webp",
+      "status": 200,
+      "sha256": "967d47940a2175f5df4d4b8aec0ef4b0f407384fa7e147d1eef58c1d2f55337b",
+      "matches": true,
+      "bytes": 94732,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 1390
+    },
+    {
+      "file": "media/archive/75899e6703d5d418814f-256.webp",
+      "status": 200,
+      "sha256": "b4327bcb38659eaea9d3e426419939c78979580aaf9e0440775734a9c0c88591",
+      "matches": true,
+      "bytes": 5102,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 361
+    },
+    {
+      "file": "media/archive/75899e6703d5d418814f-768.webp",
+      "status": 200,
+      "sha256": "5faf231a025f7843a8bbe7fc1674c11a3f5fab8b653307b77eca8beed96952d4",
+      "matches": true,
+      "bytes": 36228,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 1060
+    },
+    {
+      "file": "media/archive/dfd0d6ea04c9af3567f8-1440.webp",
+      "status": 200,
+      "sha256": "39e9b233cd75bed417090e663a72f4519f0b6bebc7a99959a668ec34c85fe56c",
+      "matches": true,
+      "bytes": 2168,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 441
+    },
+    {
+      "file": "media/archive/dfd0d6ea04c9af3567f8-256.webp",
+      "status": 200,
+      "sha256": "5774348b943f7ad8d1f651741f0f41103a4a99ca43d9e2769358ddb245be4a23",
+      "matches": true,
+      "bytes": 1820,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 417
+    },
+    {
+      "file": "media/archive/dfd0d6ea04c9af3567f8-768.webp",
+      "status": 200,
+      "sha256": "39e9b233cd75bed417090e663a72f4519f0b6bebc7a99959a668ec34c85fe56c",
+      "matches": true,
+      "bytes": 2168,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 359
+    },
+    {
+      "file": "media/archive/ff9c15eb0c921d03cbd8-1440.webp",
+      "status": 200,
+      "sha256": "ce80fe2d042cfd207c04d96b80bce2c173db2a39661bf0eb65dada88d7af3a35",
+      "matches": true,
+      "bytes": 86082,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 1216
+    },
+    {
+      "file": "media/archive/ff9c15eb0c921d03cbd8-256.webp",
+      "status": 200,
+      "sha256": "8827b56af218d5cfe5ba8eebebfb48a9a841ad52d5d047b31f63c1b2bbff29d6",
+      "matches": true,
+      "bytes": 5874,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 494
+    },
+    {
+      "file": "media/archive/ff9c15eb0c921d03cbd8-768.webp",
+      "status": 200,
+      "sha256": "7e21feae1f9ecda06e94b2815da4ab1bd3d0641ecce380d25700ff21499238f8",
+      "matches": true,
+      "bytes": 37620,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 737
+    },
+    {
+      "file": "media/characters/55a83c95245040512788-1440.webp",
+      "status": 200,
+      "sha256": "5b2010255e90ba79a917ecb6a5ce1be46d385251a1fe9880af09ca6f08caf329",
+      "matches": true,
+      "bytes": 56026,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 640
+    },
+    {
+      "file": "media/characters/55a83c95245040512788-256.webp",
+      "status": 200,
+      "sha256": "9ae5606f28c40a28559a1273be79596148ee1106dd6e29c6b971273d8b1f46c5",
+      "matches": true,
+      "bytes": 3894,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 369
+    },
+    {
+      "file": "media/characters/55a83c95245040512788-768.webp",
+      "status": 200,
+      "sha256": "aa1a8310b1ec8f15e9da07467ec1c0bcfc45924f08ff4c2926c52cfaafca8f07",
+      "matches": true,
+      "bytes": 25232,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 501
+    },
+    {
+      "file": "media/friends/0d842792f5fcf435e1d2-1440.webp",
+      "status": 200,
+      "sha256": "148f7d6d03ed4489cf445f7ba72f05caa51108a46d950e2a43554dea359f26af",
+      "matches": true,
+      "bytes": 18232,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 428
+    },
+    {
+      "file": "media/friends/0d842792f5fcf435e1d2-256.webp",
+      "status": 200,
+      "sha256": "83d7d568357028e79cef43e77b5b837252cd1a27e3d83fcdb3f2abc834c82e35",
+      "matches": true,
+      "bytes": 3374,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 368
+    },
+    {
+      "file": "media/friends/0d842792f5fcf435e1d2-768.webp",
+      "status": 200,
+      "sha256": "148f7d6d03ed4489cf445f7ba72f05caa51108a46d950e2a43554dea359f26af",
+      "matches": true,
+      "bytes": 18232,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 448
+    },
+    {
+      "file": "media/friends/b071a12ca8b199b2f9a1-1440.webp",
+      "status": 200,
+      "sha256": "b0a81f8a24768c6241548583866c2f98ddd0f043d5bc5c5e64a1aa69f4bf577f",
+      "matches": true,
+      "bytes": 205068,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 724
+    },
+    {
+      "file": "media/friends/b071a12ca8b199b2f9a1-256.webp",
+      "status": 200,
+      "sha256": "0aa982d8decfbc84ed735192efd58568a5cb19c9f032adf9da2be368a2942923",
+      "matches": true,
+      "bytes": 6480,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 375
+    },
+    {
+      "file": "media/friends/b071a12ca8b199b2f9a1-768.webp",
+      "status": 200,
+      "sha256": "5eb07210c26b8688417dad1276e6c8bf6c62744d0ef06b334be3d01730f1a49a",
+      "matches": true,
+      "bytes": 49712,
+      "contentType": "image/webp",
+      "cache": "MISS",
+      "elapsedMs": 542
+    }
+  ]
+}

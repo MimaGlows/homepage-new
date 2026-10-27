@@ -16,3 +16,5 @@
 历史 v4 数据留在 audits；当前生产测量见 PERFORMANCE.md 和 qa/results.json。低硬件提示与持续慢帧降档另见 qa/phase7-adaptive-quality.json；两种模拟都验证了实际性能档设置。
 
 2026-10-27 审阅修订：完成四条页面标注及低/中/高画面设置，高档完整粒子，中高档实际 SMAA；保留手动选择优先。大档案区、底部导航与右下备案在四种尺寸通过检查，见 REVIEW-2026-10-27.md / qa/review-feedback.json。主生产性能和交互已重跑；未改变暂不发布和账号稍后配置的决定。
+
+随后用户授权迁入 MimaGlows/homepage-new 并使用 GitHub Pages，已完成 main 导入及首次成功部署，线上 HTTP 76 文件全部校验一致。默认地址继承账号主站旧域名，HTTPS 证书不匹配仍需本人选择域名处理；不擅改其他站点。最新发布状态见 GITHUB_PAGES.md / qa/github-pages.json，音乐账号密钥继续待配置。

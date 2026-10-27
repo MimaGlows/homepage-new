@@ -1,5 +1,7 @@
 # MimaGlows · Personal Archive v5
 
+源码现维护于 [MimaGlows/homepage-new](https://github.com/MimaGlows/homepage-new)。GitHub Pages 首次构建与部署已成功，当前临时地址为 [HTTP 展示页](http://hexo.mimaglows.com/homepage-new/)；账号旧域名继承导致 HTTPS 尚待处理，详见 [部署记录](docs/GITHUB_PAGES.md)。
+
 个人档案主页：暖灰玻璃阵列、暖金信号光、深蓝夜间主题。基于 RonaldDeng/Rhine-Music-Demo **v0.5.0 / d200b84983e05cb306e49e564fe57113893e7056**，保留原生 Three.js 模型、透射着色、空间灯光、镜头与编排。首屏保持姓名和三个固定入口；友链、人物、文献、音乐和 X 在按需档案面板浏览。
 
 ## 本地运行
@@ -93,6 +95,6 @@ Chrome 路径可以通过 `CHROME_PATH` 指定。生成预览图额外需要 sha
 
 保留根目录 `LICENSE`、`NOTICE.md`、`README.original.md` 和上游署名 **LBEILC / RonaldDeng**；生产文件包含 `licenses/`。有权授权的程序代码按 MIT；代码许可不自动涵盖原作相关非代码资产。模型未被替换或重新声明为 MimaGlows 原创。MimaGlows v3 封面由用户交接包提供，新 WebP 由该封面压缩转换。
 
-本项目未复制 rhine-lock 的 AGPL 代码、字体或音乐；只将其列为用户指定的视觉参考。原项目及《明日方舟》相关权利说明见 [`docs/UPSTREAM.md`](docs/UPSTREAM.md)。本次交付为本地开发结果，未执行公开部署。
+本项目未复制 rhine-lock 的 AGPL 代码、字体或音乐；只将其列为用户指定的视觉参考。原项目及《明日方舟》相关权利说明见 [`docs/UPSTREAM.md`](docs/UPSTREAM.md)。本地验收后已按用户授权迁入 GitHub 并执行 Pages 部署，实际访问限制见上述部署记录。
 
 真实内容现有公开 RSS 文章、友链和七风设计稿。Last.fm 用户名已为 MimaGlows，用户选择稍后配置 API Key；Apple 官方 Catalog 也需要 developer token。无密钥仍可手动新增/导入音乐、修正链接与合并映射；未将测试数据或虚假收听写入正式内容。林阿良良和戚风刃缺少公开立绘/设定的部分保留占位，不编造。
