@@ -1,0 +1,7 @@
+{
+  "$schema": "../schemas/records.schema.json",
+  "schemaVersion": 1,
+  "items": [
+    {"id":"mima-x","type":"social","title":"MimaGlows · X","description":"公开通讯入口。精选动态由本人维护；可按需载入官方时间线。","url":"https://x.com/MimaGlows","published":true,"order":10,"source":{"url":"https://x.com/MimaGlows","attribution":"MimaGlows 本人公开账号"}}
+  ]
+}

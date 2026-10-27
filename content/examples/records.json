@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/records.schema.json",
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "example-friend",
+      "type": "friend",
+      "title": "示例友链（不发布）",
+      "description": "复制后修改名称、网址和头像。",
+      "url": "https://example.org/",
+      "image": "/assets/placeholder.svg",
+      "published": false,
+      "order": 10
+    },
+    {
+      "id": "example-track",
+      "type": "music",
+      "title": "示例曲目（不发布）",
+      "artist": "示例歌手",
+      "published": false,
+      "platformLinks": [
+        {
+          "platform": "apple",
+          "url": "https://music.apple.com/",
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "id": "example-post",
+      "type": "blog",
+      "title": "示例外部文章（不发布）",
+      "published": false,
+      "url": "https://example.org/article",
+      "tags": [
+        "朝花夕拾"
+      ]
+    }
+  ]
+}

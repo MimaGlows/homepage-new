@@ -1,0 +1,83 @@
+{
+  "$schema": "../schemas/records.schema.json",
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "nanakaze",
+      "type": "character",
+      "title": "七风",
+      "description": "七风 / Qi Feng。青蓝发色与品红挑染，衬衫搭毛衫；登场于“奴雾路”。",
+      "image": "/media/characters/55a83c95245040512788-768.webp",
+      "url": "https://nanakaze.mimaglows.com/ocqi-feng-ren-wu-xing-xiang-jue-ding-shu/",
+      "published": true,
+      "featured": true,
+      "order": 10,
+      "bodyFile": "characters/nanakaze.md",
+      "source": {
+        "url": "https://nanakaze.mimaglows.com/ocqi-feng-ren-wu-xing-xiang-jue-ding-shu/",
+        "attribution": "MimaGlows 设定；虫子Neurax 绘制设计稿",
+        "retrievedAt": "2026-10-26T00:00:00Z",
+        "license": "来自本人公开设定页；保留原作者署名，不随项目代码授予 MIT"
+      },
+      "relations": [
+        {
+          "targetId": "lin-aliangliang",
+          "label": "对手",
+          "public": true
+        }
+      ],
+      "thumbnail": "/media/characters/55a83c95245040512788-256.webp",
+      "imageLarge": "/media/characters/55a83c95245040512788-1440.webp",
+      "artworks": [
+        {
+          "image": "/media/characters/55a83c95245040512788-1440.webp",
+          "caption": "七风人物设计稿",
+          "sourceUrl": "https://nanakaze.mimaglows.com/ocqi-feng-ren-wu-xing-xiang-jue-ding-shu/",
+          "attribution": "虫子Neurax 绘制；MimaGlows 设定",
+          "public": true
+        }
+      ]
+    },
+    {
+      "id": "lin-aliangliang",
+      "type": "character",
+      "title": "林阿良良",
+      "description": "Arara Lin。公开蓝皮书记载，与七风是对手关系。",
+      "image": "/assets/placeholder.svg",
+      "url": "https://nanakaze.mimaglows.com/oc-lin-a-liang-liang-she-ji-lan-pi-shu/",
+      "published": true,
+      "featured": false,
+      "order": 20,
+      "bodyFile": "characters/lin-aliangliang.md",
+      "source": {
+        "url": "https://nanakaze.mimaglows.com/oc-lin-a-liang-liang-she-ji-lan-pi-shu/",
+        "attribution": "MimaGlows",
+        "retrievedAt": "2026-10-26T00:00:00Z"
+      },
+      "relations": [
+        {
+          "targetId": "nanakaze",
+          "label": "对手",
+          "public": true
+        }
+      ]
+    },
+    {
+      "id": "qifengren",
+      "type": "character",
+      "title": "戚风刃",
+      "description": "详细设定待本人补充；目前只登记名称，不推断人物背景。",
+      "image": "/assets/placeholder.svg",
+      "url": "https://nanakaze.mimaglows.com/",
+      "published": true,
+      "featured": false,
+      "order": 30,
+      "bodyFile": "characters/qifengren.md",
+      "source": {
+        "url": "https://nanakaze.mimaglows.com/",
+        "attribution": "MimaGlows",
+        "retrievedAt": "2026-10-26T00:00:00Z"
+      }
+    }
+  ]
+}

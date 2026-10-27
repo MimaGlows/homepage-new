@@ -1,0 +1,313 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9._:-]{0,79}$"
+          },
+          "patch": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string",
+                "maxLength": 180,
+                "minLength": 1
+              },
+              "description": {
+                "type": "string",
+                "maxLength": 800
+              },
+              "image": {
+                "type": "string",
+                "format": "image-path",
+                "maxLength": 240
+              },
+              "thumbnail": {
+                "type": "string",
+                "format": "image-path",
+                "maxLength": 240
+              },
+              "imageLarge": {
+                "type": "string",
+                "format": "image-path",
+                "maxLength": 240
+              },
+              "url": {
+                "type": "string",
+                "format": "public-url",
+                "maxLength": 2000
+              },
+              "published": {
+                "type": "boolean"
+              },
+              "featured": {
+                "type": "boolean"
+              },
+              "pinned": {
+                "type": "boolean"
+              },
+              "archived": {
+                "type": "boolean"
+              },
+              "order": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 10000
+              },
+              "modes": {
+                "type": "array",
+                "items": {
+                  "enum": [
+                    "focus",
+                    "archive"
+                  ]
+                },
+                "maxItems": 2
+              },
+              "tags": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 50
+                },
+                "maxItems": 20
+              },
+              "group": {
+                "type": "string",
+                "maxLength": 60
+              },
+              "updatedAt": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "bodyFile": {
+                "type": "string",
+                "pattern": "^[a-z0-9][a-z0-9/-]*\\.md$",
+                "maxLength": 180
+              },
+              "source": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string",
+                    "format": "public-url",
+                    "maxLength": 2000
+                  },
+                  "imageUrl": {
+                    "type": "string",
+                    "format": "public-url",
+                    "maxLength": 2000
+                  },
+                  "attribution": {
+                    "type": "string",
+                    "maxLength": 240
+                  },
+                  "license": {
+                    "type": "string",
+                    "maxLength": 240
+                  },
+                  "retrievedAt": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                },
+                "required": [
+                  "url"
+                ],
+                "additionalProperties": false
+              },
+              "relations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "targetId": {
+                      "type": "string",
+                      "pattern": "^[a-z0-9][a-z0-9._:-]{0,79}$"
+                    },
+                    "label": {
+                      "type": "string",
+                      "maxLength": 100
+                    },
+                    "public": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "targetId",
+                    "label"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 50
+              },
+              "artworks": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "image": {
+                      "type": "string",
+                      "format": "image-path",
+                      "maxLength": 240
+                    },
+                    "caption": {
+                      "type": "string",
+                      "maxLength": 200
+                    },
+                    "sourceUrl": {
+                      "type": "string",
+                      "format": "public-url",
+                      "maxLength": 2000
+                    },
+                    "attribution": {
+                      "type": "string",
+                      "maxLength": 240
+                    },
+                    "public": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "image"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 30
+              },
+              "articleLinks": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    "url": {
+                      "type": "string",
+                      "format": "public-url",
+                      "maxLength": 2000
+                    }
+                  },
+                  "required": [
+                    "title",
+                    "url"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 30
+              },
+              "artist": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "album": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "isrc": {
+                "type": "string",
+                "pattern": "^[A-Z]{2}[A-Z0-9]{3}[0-9]{7}$"
+              },
+              "duration": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 86400
+              },
+              "version": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "platformLinks": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "platform": {
+                      "enum": [
+                        "apple",
+                        "netease",
+                        "youtube",
+                        "lastfm",
+                        "listenbrainz",
+                        "other"
+                      ]
+                    },
+                    "url": {
+                      "type": "string",
+                      "format": "public-url",
+                      "maxLength": 2000
+                    },
+                    "platformId": {
+                      "type": "string",
+                      "maxLength": 120
+                    },
+                    "confirmed": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "platform",
+                    "url"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 12
+              },
+              "lastPlayedAt": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "publishedAt": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "canonicalId": {
+                "type": "string",
+                "pattern": "^[a-z0-9][a-z0-9._:-]{0,79}$"
+              },
+              "mergeLocked": {
+                "type": "boolean"
+              },
+              "neverMergeWith": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9][a-z0-9._:-]{0,79}$"
+                },
+                "maxItems": 128
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "patch"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 500
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "items"
+  ],
+  "additionalProperties": false
+}

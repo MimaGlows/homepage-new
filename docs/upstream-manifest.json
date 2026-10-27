@@ -1,0 +1,225 @@
+{
+  "repository": "https://github.com/RonaldDeng/Rhine-Music-Demo",
+  "ref": "v0.5.0",
+  "commit": "d200b84983e05cb306e49e564fe57113893e7056",
+  "files": [
+    {
+      "file": "src/engine/appearance.ts",
+      "upstream_file": "src/appearance.ts",
+      "upstream_sha256": "8ad730b12e7b71f61c8ca055728f09b9b6133511431efa554580db319ed359fb",
+      "current_sha256": "8ad730b12e7b71f61c8ca055728f09b9b6133511431efa554580db319ed359fb",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/archive-lighting.ts",
+      "upstream_file": "src/archive-lighting.ts",
+      "upstream_sha256": "fc14af44039728419a0338770e13774697b6eea20ce61abc59e76b99f0c0d349",
+      "current_sha256": "fc14af44039728419a0338770e13774697b6eea20ce61abc59e76b99f0c0d349",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/archive-loop.ts",
+      "upstream_file": "src/archive-loop.ts",
+      "upstream_sha256": "997a888c1dd07a94b754aeb74d254418dd0be7989f2b9804728b47d00ed2dda8",
+      "current_sha256": "9a3c80b9d30c91a324dfac8f2ea9f22e180d1c163ae23a649024b0532e88667a",
+      "unchanged": false
+    },
+    {
+      "file": "src/engine/asset-url.ts",
+      "upstream_file": "src/asset-url.ts",
+      "upstream_sha256": "d8eebd5c0b08d9541cc6aa92e7bc4f492b3cc69626e298cd1f74fed72ce1ce4d",
+      "current_sha256": "d8eebd5c0b08d9541cc6aa92e7bc4f492b3cc69626e298cd1f74fed72ce1ce4d",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/brand.ts",
+      "upstream_file": "src/brand.ts",
+      "upstream_sha256": "36f88bda7e6d92338245581613585a75c58982669a30a5751bf8f6614143525a",
+      "current_sha256": "36f88bda7e6d92338245581613585a75c58982669a30a5751bf8f6614143525a",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/cover-atlas.ts",
+      "upstream_file": "src/cover-atlas.ts",
+      "upstream_sha256": "09c17aa0f27513bd08ba1131e3a20f41f72b2a6245d09e46845deb8023e1850f",
+      "current_sha256": "d2cd072d62ebedeb1e47e8f723b1d3a878c6217dc06124403cadf76e132f90a7",
+      "unchanged": false
+    },
+    {
+      "file": "src/engine/data.ts",
+      "upstream_file": "src/data.ts",
+      "upstream_sha256": "e926df209d9785af868137f291e5377cc9ab89102f8dc3aeb188471bb0955438",
+      "current_sha256": "c3104ca2f23b93abc082704b1066d94bd8495bb6b1dde2b7375ed374895f0c19",
+      "unchanged": false
+    },
+    {
+      "file": "src/engine/decryption.ts",
+      "upstream_file": "src/decryption.ts",
+      "upstream_sha256": "e0ad3554df74d8b0cc8ca8e84f2084e842d60824a5b6177daea9b81804684ec1",
+      "current_sha256": "e0ad3554df74d8b0cc8ca8e84f2084e842d60824a5b6177daea9b81804684ec1",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/generated-album-cover.ts",
+      "upstream_file": "src/generated-album-cover.ts",
+      "upstream_sha256": "bb97583bfc5fd916f801d0df025554c319a9c25ba7c5531cc233387ff7e91872",
+      "current_sha256": "399b9a74085a6fbccb1d454415a5279ed19e34b493de1f3474d17308304cc7ea",
+      "unchanged": false
+    },
+    {
+      "file": "src/engine/glass-reveal.ts",
+      "upstream_file": "src/glass-reveal.ts",
+      "upstream_sha256": "26a16d2b4ad9447390f53e0956b8691001e12182827e68a713e9cb40598db513",
+      "current_sha256": "26a16d2b4ad9447390f53e0956b8691001e12182827e68a713e9cb40598db513",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/internal-optics.ts",
+      "upstream_file": "src/internal-optics.ts",
+      "upstream_sha256": "51001ae8df1a5050fb14214058ff21e7a957b0dc5e97207eb8e87c6b2ffddc21",
+      "current_sha256": "51001ae8df1a5050fb14214058ff21e7a957b0dc5e97207eb8e87c6b2ffddc21",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/motion.ts",
+      "upstream_file": "src/motion.ts",
+      "upstream_sha256": "b13b92382dd4005eb17a8680902f33feff03e5195beaa9d5bc2b309d4d82f602",
+      "current_sha256": "b13b92382dd4005eb17a8680902f33feff03e5195beaa9d5bc2b309d4d82f602",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/music-archive-motion.ts",
+      "upstream_file": "src/music-archive-motion.ts",
+      "upstream_sha256": "f2cfe772cff84169742a3e2598535e77700dbebc33a341847b1ad732586e8e55",
+      "current_sha256": "f2cfe772cff84169742a3e2598535e77700dbebc33a341847b1ad732586e8e55",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/music-array-layout.ts",
+      "upstream_file": "src/music-array-layout.ts",
+      "upstream_sha256": "772d89e5ec58fb90c62c625005739385948593f0ee1a8ce12a223c31f2e8f4fb",
+      "current_sha256": "772d89e5ec58fb90c62c625005739385948593f0ee1a8ce12a223c31f2e8f4fb",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/music-atmosphere.ts",
+      "upstream_file": "src/music-atmosphere.ts",
+      "upstream_sha256": "a53b48e426c2bf0e553f52c43d7c3dbe08688f75a07ef04e4da3cd0213536a21",
+      "current_sha256": "a53b48e426c2bf0e553f52c43d7c3dbe08688f75a07ef04e4da3cd0213536a21",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/music-camera.ts",
+      "upstream_file": "src/music-camera.ts",
+      "upstream_sha256": "ca87f7fbb4a3ffb268b1be4491f89a788141dad7607f028d37e5f32154031ead",
+      "current_sha256": "ca87f7fbb4a3ffb268b1be4491f89a788141dad7607f028d37e5f32154031ead",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/music-cd-asset.ts",
+      "upstream_file": "src/music-cd-asset.ts",
+      "upstream_sha256": "fcba76a72232212deee0f040bc236d6ccc0ce604dd6e643a6fd45b3049a47cfd",
+      "current_sha256": "fcba76a72232212deee0f040bc236d6ccc0ce604dd6e643a6fd45b3049a47cfd",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/music-intro-motion.ts",
+      "upstream_file": "src/music-intro-motion.ts",
+      "upstream_sha256": "05767b11501d023db7255e28e8952448fecc1feca959611c8efbd78adf87b0cd",
+      "current_sha256": "05767b11501d023db7255e28e8952448fecc1feca959611c8efbd78adf87b0cd",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/music-lighting.ts",
+      "upstream_file": "src/music-lighting.ts",
+      "upstream_sha256": "7f3c65fe07b3630d195704cbe0c2d661b419e34268262c119889f7ba11e183be",
+      "current_sha256": "7f3c65fe07b3630d195704cbe0c2d661b419e34268262c119889f7ba11e183be",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/music-model.ts",
+      "upstream_file": "src/music-model.ts",
+      "upstream_sha256": "f7c39b5b6c12547ec2d3b8a7e4f2c1774d74f1cc2908a16da52092fc2e69fd57",
+      "current_sha256": "f7c39b5b6c12547ec2d3b8a7e4f2c1774d74f1cc2908a16da52092fc2e69fd57",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/music-motion-settings.ts",
+      "upstream_file": "src/music-motion-settings.ts",
+      "upstream_sha256": "67708bcdf2d7fe9ce82acfe6424aa94d6f21fd3b755f0583857ddcc831d481d7",
+      "current_sha256": "67708bcdf2d7fe9ce82acfe6424aa94d6f21fd3b755f0583857ddcc831d481d7",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/music-overview-edge.ts",
+      "upstream_file": "src/music-overview-edge.ts",
+      "upstream_sha256": "1c4a48bc91a9e737eeb33f7bf5414cc9bc9e14c2ff91c9fc6dc63484f0924cf3",
+      "current_sha256": "1c4a48bc91a9e737eeb33f7bf5414cc9bc9e14c2ff91c9fc6dc63484f0924cf3",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/music-overview.ts",
+      "upstream_file": "src/music-overview.ts",
+      "upstream_sha256": "52017073d7355c3699c5b9c325762a9e52d659280ca1601ecab27f11be13c509",
+      "current_sha256": "52017073d7355c3699c5b9c325762a9e52d659280ca1601ecab27f11be13c509",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/music-real-columns.ts",
+      "upstream_file": "src/music-real-columns.ts",
+      "upstream_sha256": "39039159a5f1540f437b2c0164ba1ed483bd4eebd89c00752ea5744d93e80b87",
+      "current_sha256": "39039159a5f1540f437b2c0164ba1ed483bd4eebd89c00752ea5744d93e80b87",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/music-row-lighting.ts",
+      "upstream_file": "src/music-row-lighting.ts",
+      "upstream_sha256": "55ae79d2101f96e98b0caff697ba428cba2b634408c88fe85b84fe95032362b2",
+      "current_sha256": "55ae79d2101f96e98b0caff697ba428cba2b634408c88fe85b84fe95032362b2",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/quality-renderer.ts",
+      "upstream_file": "src/quality-renderer.ts",
+      "upstream_sha256": "9c0dcc4c6ce011a147701b0c52100b93cec18cfe5732f09581e8b70d6f9d2a35",
+      "current_sha256": "9c0dcc4c6ce011a147701b0c52100b93cec18cfe5732f09581e8b70d6f9d2a35",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/render-quality.ts",
+      "upstream_file": "src/render-quality.ts",
+      "upstream_sha256": "862758c9e4c1c272ba10f44c2c58746b53b62ac42d2d7d8776eca0fc349118de",
+      "current_sha256": "862758c9e4c1c272ba10f44c2c58746b53b62ac42d2d7d8776eca0fc349118de",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/scene.ts",
+      "upstream_file": "src/scene.ts",
+      "upstream_sha256": "f071fcc9eeebb517b5634dd52f055b09c21b5fcc6c5c258e62d0abf6bac9b23c",
+      "current_sha256": "6c7198e52a677cf523a83eee53958182812b403830420490e5fe18ca763b8dbc",
+      "unchanged": false
+    },
+    {
+      "file": "src/engine/theme-transition.ts",
+      "upstream_file": "src/theme-transition.ts",
+      "upstream_sha256": "7b59fdda7586195d9e1d26eb38073ecfe645279b197b127bdd61bfa2e0d52344",
+      "current_sha256": "7b59fdda7586195d9e1d26eb38073ecfe645279b197b127bdd61bfa2e0d52344",
+      "unchanged": true
+    },
+    {
+      "file": "src/engine/viewport-layout.ts",
+      "upstream_file": "src/viewport-layout.ts",
+      "upstream_sha256": "79401f55975f13af2233d8f8ab81edbe17478e01db49767462d3e9ebfedefe8a",
+      "current_sha256": "79401f55975f13af2233d8f8ab81edbe17478e01db49767462d3e9ebfedefe8a",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/music-case-v043.glb",
+      "upstream_file": "public/assets/music-case-v043.glb",
+      "upstream_sha256": "f27162cdb5a3646303091a655c5a33b4190966d02de1634c60636056298dba7a",
+      "current_sha256": "f27162cdb5a3646303091a655c5a33b4190966d02de1634c60636056298dba7a",
+      "unchanged": true,
+      "bytes": 78948
+    }
+  ]
+}

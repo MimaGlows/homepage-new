@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9._:-]{0,79}$"
+          },
+          "module": {
+            "enum": [
+              "friends",
+              "music",
+              "blog",
+              "social",
+              "characters"
+            ]
+          },
+          "adapter": {
+            "enum": [
+              "rss",
+              "friends-html",
+              "listenbrainz",
+              "lastfm",
+              "apple-catalog",
+              "netease-import",
+              "youtube-import",
+              "x-manual"
+            ]
+          },
+          "enabled": {
+            "type": "boolean"
+          },
+          "url": {
+            "type": "string",
+            "format": "public-url",
+            "maxLength": 2000
+          },
+          "username": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "tokenEnv": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]{1,80}$"
+          },
+          "refreshHours": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 8760
+          },
+          "maxItems": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100
+          },
+          "storefront": {
+            "type": "string",
+            "pattern": "^[a-z]{2}$"
+          },
+          "importFile": {
+            "type": "string",
+            "pattern": "^imports/[a-z0-9][a-z0-9_-]*\\.json$"
+          }
+        },
+        "required": [
+          "id",
+          "module",
+          "adapter",
+          "enabled"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 30
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "sources"
+  ],
+  "additionalProperties": false
+}

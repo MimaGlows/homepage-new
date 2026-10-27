@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-27T03:01:48.938Z",
+  "passed": true,
+  "checks": [
+    "仅当前浏览模块加载数据",
+    "真实七风设计稿与绘者署名",
+    "安全 Markdown 标题排版",
+    "人物关系同步三维 ID",
+    "真实三个友链与外链",
+    "RSS 文章日期/筛选",
+    "手机备案",
+    "公开展示无第三方网络请求"
+  ],
+  "requests": [
+    "http://127.0.0.1:4173/data/catalog.json",
+    "http://127.0.0.1:4173/data/modules/characters.json",
+    "http://127.0.0.1:4173/data/modules/navigation.json",
+    "http://127.0.0.1:4173/data/bodies/nanakaze.json",
+    "http://127.0.0.1:4173/data/bodies/lin-aliangliang.json",
+    "http://127.0.0.1:4173/data/modules/friends.json",
+    "http://127.0.0.1:4173/data/modules/blog.json"
+  ]
+}

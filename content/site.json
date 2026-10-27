@@ -1,0 +1,108 @@
+{
+  "$schema": "./schemas/site.schema.json",
+  "schemaVersion": 1,
+  "title": "MimaGlows Personal Archive",
+  "name": "MimaGlows",
+  "description": "MimaGlows 的三维私人档案馆。",
+  "registration": {
+    "text": "渝ICP备2022014294号-1",
+    "url": "https://beian.miit.gov.cn/"
+  },
+  "navigation": [
+    {
+      "id": "blog",
+      "title": "Blog",
+      "url": "https://mimaglows.com",
+      "order": 10
+    },
+    {
+      "id": "minecraft",
+      "title": "Minecraft",
+      "url": "https://mimaglows.com/mckai-fu-quan-xin-lu-li-cheng/",
+      "order": 20
+    },
+    {
+      "id": "stronghold",
+      "title": "Stronghold-Protocol",
+      "url": "https://ten.mimaglows.com:44580/",
+      "order": 30
+    }
+  ],
+  "defaults": {
+    "mode": "focus",
+    "theme": "day",
+    "intro": true,
+    "particles": true,
+    "parallax": true
+  },
+  "moduleOrder": [
+    "navigation",
+    "characters",
+    "friends",
+    "music",
+    "blog",
+    "social"
+  ],
+  "modules": {
+    "navigation": {
+      "enabled": true,
+      "showInFocus": true,
+      "showInArchive": true,
+      "displayLimit": 12,
+      "sorting": "manual",
+      "syncEnabled": false,
+      "refreshInterval": 24,
+      "fallbackBehavior": "cache"
+    },
+    "friends": {
+      "enabled": true,
+      "showInFocus": true,
+      "showInArchive": true,
+      "displayLimit": 12,
+      "sorting": "manual",
+      "syncEnabled": true,
+      "refreshInterval": 24,
+      "fallbackBehavior": "cache"
+    },
+    "music": {
+      "enabled": true,
+      "showInFocus": true,
+      "showInArchive": true,
+      "displayLimit": 12,
+      "sorting": "manual",
+      "syncEnabled": false,
+      "refreshInterval": 24,
+      "fallbackBehavior": "cache"
+    },
+    "blog": {
+      "enabled": true,
+      "showInFocus": true,
+      "showInArchive": true,
+      "displayLimit": 12,
+      "sorting": "manual",
+      "syncEnabled": true,
+      "refreshInterval": 24,
+      "fallbackBehavior": "cache"
+    },
+    "social": {
+      "enabled": true,
+      "showInFocus": true,
+      "showInArchive": true,
+      "displayLimit": 12,
+      "sorting": "manual",
+      "syncEnabled": false,
+      "refreshInterval": 24,
+      "fallbackBehavior": "cache"
+    },
+    "characters": {
+      "enabled": true,
+      "showInFocus": true,
+      "showInArchive": true,
+      "displayLimit": 12,
+      "sorting": "manual",
+      "syncEnabled": false,
+      "refreshInterval": 24,
+      "fallbackBehavior": "cache"
+    }
+  }
+}

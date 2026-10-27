@@ -1,0 +1,415 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "title": {
+      "type": "string",
+      "maxLength": 100,
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 60,
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 240
+    },
+    "registration": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "maxLength": 80
+        },
+        "url": {
+          "type": "string",
+          "format": "public-url",
+          "maxLength": 2000
+        }
+      },
+      "required": [
+        "text",
+        "url"
+      ],
+      "additionalProperties": false
+    },
+    "navigation": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "enum": [
+              "blog",
+              "minecraft",
+              "stronghold"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "maxLength": 40
+          },
+          "url": {
+            "type": "string",
+            "format": "public-url",
+            "maxLength": 2000
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10000
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "url",
+          "order"
+        ],
+        "additionalProperties": false
+      },
+      "maxItems": 3
+    },
+    "defaults": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "enum": [
+            "focus",
+            "archive"
+          ]
+        },
+        "theme": {
+          "enum": [
+            "day",
+            "night"
+          ]
+        },
+        "intro": {
+          "type": "boolean"
+        },
+        "particles": {
+          "type": "boolean"
+        },
+        "parallax": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "mode",
+        "theme",
+        "intro",
+        "particles",
+        "parallax"
+      ],
+      "additionalProperties": false
+    },
+    "moduleOrder": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "navigation",
+          "friends",
+          "music",
+          "blog",
+          "social",
+          "characters"
+        ]
+      },
+      "maxItems": 6
+    },
+    "modules": {
+      "type": "object",
+      "properties": {
+        "navigation": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "showInFocus": {
+              "type": "boolean"
+            },
+            "showInArchive": {
+              "type": "boolean"
+            },
+            "displayLimit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 128
+            },
+            "sorting": {
+              "enum": [
+                "manual",
+                "newest",
+                "title"
+              ]
+            },
+            "syncEnabled": {
+              "type": "boolean"
+            },
+            "refreshInterval": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 8760
+            },
+            "fallbackBehavior": {
+              "enum": [
+                "cache",
+                "manual",
+                "hide"
+              ]
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "friends": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "showInFocus": {
+              "type": "boolean"
+            },
+            "showInArchive": {
+              "type": "boolean"
+            },
+            "displayLimit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 128
+            },
+            "sorting": {
+              "enum": [
+                "manual",
+                "newest",
+                "title"
+              ]
+            },
+            "syncEnabled": {
+              "type": "boolean"
+            },
+            "refreshInterval": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 8760
+            },
+            "fallbackBehavior": {
+              "enum": [
+                "cache",
+                "manual",
+                "hide"
+              ]
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "music": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "showInFocus": {
+              "type": "boolean"
+            },
+            "showInArchive": {
+              "type": "boolean"
+            },
+            "displayLimit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 128
+            },
+            "sorting": {
+              "enum": [
+                "manual",
+                "newest",
+                "title"
+              ]
+            },
+            "syncEnabled": {
+              "type": "boolean"
+            },
+            "refreshInterval": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 8760
+            },
+            "fallbackBehavior": {
+              "enum": [
+                "cache",
+                "manual",
+                "hide"
+              ]
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "blog": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "showInFocus": {
+              "type": "boolean"
+            },
+            "showInArchive": {
+              "type": "boolean"
+            },
+            "displayLimit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 128
+            },
+            "sorting": {
+              "enum": [
+                "manual",
+                "newest",
+                "title"
+              ]
+            },
+            "syncEnabled": {
+              "type": "boolean"
+            },
+            "refreshInterval": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 8760
+            },
+            "fallbackBehavior": {
+              "enum": [
+                "cache",
+                "manual",
+                "hide"
+              ]
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "social": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "showInFocus": {
+              "type": "boolean"
+            },
+            "showInArchive": {
+              "type": "boolean"
+            },
+            "displayLimit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 128
+            },
+            "sorting": {
+              "enum": [
+                "manual",
+                "newest",
+                "title"
+              ]
+            },
+            "syncEnabled": {
+              "type": "boolean"
+            },
+            "refreshInterval": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 8760
+            },
+            "fallbackBehavior": {
+              "enum": [
+                "cache",
+                "manual",
+                "hide"
+              ]
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "characters": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "showInFocus": {
+              "type": "boolean"
+            },
+            "showInArchive": {
+              "type": "boolean"
+            },
+            "displayLimit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 128
+            },
+            "sorting": {
+              "enum": [
+                "manual",
+                "newest",
+                "title"
+              ]
+            },
+            "syncEnabled": {
+              "type": "boolean"
+            },
+            "refreshInterval": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 8760
+            },
+            "fallbackBehavior": {
+              "enum": [
+                "cache",
+                "manual",
+                "hide"
+              ]
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "navigation",
+        "friends",
+        "music",
+        "blog",
+        "social",
+        "characters"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "title",
+    "name",
+    "description",
+    "registration",
+    "navigation",
+    "defaults",
+    "moduleOrder",
+    "modules"
+  ],
+  "additionalProperties": false
+}

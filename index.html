@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="__DEFAULT_THEME__" data-scene="pending">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#eae5e1" />
+  <meta name="description" content="__SITE_DESCRIPTION__" />
+  <title>__SITE_TITLE__</title>
+  <!--SITE_CONFIG-->
+  <script>try{{const theme=localStorage.getItem('mima-theme');if(theme==='night'||theme==='day')document.documentElement.dataset.theme=theme}}catch{}</script>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./src/shell.css" />
+</head>
+<body>
+  <main id="terminal" aria-label="MimaGlows 个人档案终端">
+    <picture id="preview" aria-hidden="true">
+      <source media="(max-aspect-ratio: 1/1)" srcset="./assets/preview-day-mobile.webp" />
+      <img src="./assets/preview-day.webp" width="1440" height="900" alt="" fetchpriority="high" decoding="async" />
+    </picture>
+    <div id="scene" aria-label="三维档案阵列"></div>
+    <div class="veil" aria-hidden="true"></div>
+    <div class="scan" aria-hidden="true"></div>
+    <div class="frame" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+    <header class="topbar">
+      <div class="terminal-code" aria-hidden="true"><svg viewBox="0 0 36 24"><path d="M2 20V4h7l9 16L27 4h7v16M2 12h32" /></svg><span>ARCHIVE<br><b>MG / 004</b></span></div>
+      <div class="tools">
+        <div class="mode-toggle" role="group" aria-label="展示模式"><button data-mode="focus" type="button">FOCUS</button><button data-mode="archive" type="button">ARCHIVE</button></div>
+        <button id="browse" class="browse-button" aria-expanded="false" aria-controls="archive-browser">档案</button>
+        <div class="selector" role="group" aria-label="选择档案">
+          <button type="button" data-select="0" aria-label="选择 Blog" aria-pressed="true"><span></span></button>
+          <button type="button" data-select="1" aria-label="选择 Minecraft" aria-pressed="false"><span></span></button>
+          <button type="button" data-select="2" aria-label="选择 Stronghold-Protocol" aria-pressed="false"><span></span></button>
+        </div>
+        <button id="extract" class="icon-button" aria-label="抽取当前档案" title="抽取 / 归位 · Enter / Esc" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M6 15v5h12v-5M12 16V3m-4 4 4-4 4 4"/></svg></button>
+        <div class="graphics-control">
+          <button id="graphics" class="icon-button" type="button" aria-label="画面设置" title="画面设置" aria-expanded="false" aria-controls="graphics-panel"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 17h16M8 4v6m8 4v6"/></svg></button>
+          <section id="graphics-panel" hidden aria-label="画面设置">
+            <h2>画面设置</h2>
+            <div class="graphics-levels" role="group" aria-label="画面质量">
+              <button type="button" data-quality="low" aria-pressed="false">低</button>
+              <button type="button" data-quality="medium" aria-pressed="false">中</button>
+              <button type="button" data-quality="high" aria-pressed="false">高</button>
+            </div>
+            <p id="graphics-description" role="status">中 · 抗锯齿与柔和光影</p>
+          </section>
+        </div>
+        <button id="theme" class="icon-button" aria-label="切换至暗色主题" title="切换主题 · D / N" aria-pressed="false"><svg class="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg class="moon" viewBox="0 0 24 24"><path d="M20 14.8A8.5 8.5 0 0 1 9.2 4a8.5 8.5 0 1 0 10.8 10.8Z"/></svg></button>
+      </div>
+    </header>
+    <section id="auth" hidden aria-label="装饰性访客验证动画">
+      <div class="auth-symbol" aria-hidden="true"><i></i><i></i><span>MG</span></div>
+      <p id="auth-status" role="status">VISITOR IDENTIFIED</p>
+      <div class="auth-rail" aria-hidden="true"><span></span></div>
+      <button id="skip" type="button">SKIP INTRO <span>↗</span></button>
+    </section>
+    <footer class="footer">
+      <div class="signature"><span class="signature-line" aria-hidden="true"></span><h1><button id="replay" type="button" title="重播入场 · R" aria-label="__SITE_NAME__，重播入场动画">__SITE_NAME__</button></h1></div>
+      <nav aria-label="外部链接">
+        <a href="__LINK_blog__" data-link="0" target="_blank" rel="noopener noreferrer"><span class="link-index" aria-hidden="true">01</span><span>__LABEL_blog__</span><span class="arrow" aria-hidden="true">↗</span></a>
+        <a href="__LINK_minecraft__" data-link="1" target="_blank" rel="noopener noreferrer"><span class="link-index" aria-hidden="true">02</span><span>__LABEL_minecraft__</span><span class="arrow" aria-hidden="true">↗</span></a>
+        <a href="__LINK_stronghold__" data-link="2" target="_blank" rel="noopener noreferrer"><span class="link-index" aria-hidden="true">03</span><span>__LABEL_stronghold__</span><span class="arrow" aria-hidden="true">↗</span></a>
+      </nav>
+    </footer>
+    <a class="registration" href="__REGISTRATION_URL__" target="_blank" rel="noopener noreferrer">__REGISTRATION_TEXT__</a>
+    <section id="archive-browser" hidden aria-label="内容档案" tabindex="-1"></section>
+    <div id="fallback" role="status" hidden><span>静态档案视图</span><button id="retry" type="button">重试三维 ↗</button></div>
+    <noscript><style>.tools{display:none}</style></noscript>
+  </main>
+  <script type="module" src="./src/shell.ts"></script>
+</body>
+</html>

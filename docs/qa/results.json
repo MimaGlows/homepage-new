@@ -1,0 +1,3478 @@
+{
+  "date": "2026-10-27T03:05:19.591Z",
+  "base": "http://127.0.0.1:4173/",
+  "browser": "156.0.8078.48",
+  "environment": "Local production Vite preview; fresh contexts; CDP cache disabled; Vite preview gzip responses; no external CDN",
+  "performance": [
+    {
+      "device": "desktop-1440x900",
+      "run": 1,
+      "network": "unthrottled localhost",
+      "errors": [],
+      "firstLinks": [
+        {
+          "href": "https://mimaglows.com/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://mimaglows.com/mckai-fu-quan-xin-lu-li-cheng/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://ten.mimaglows.com:44580/",
+          "visible": true,
+          "clickable": true
+        }
+      ],
+      "lcp": 52,
+      "cls": 0,
+      "longTasks": [
+        {
+          "start": 467.40000009536743,
+          "duration": 72
+        },
+        {
+          "start": 568.2000000476837,
+          "duration": 179
+        }
+      ],
+      "shifts": [],
+      "lcpElement": "BUTTON",
+      "paints": [
+        {
+          "name": "first-paint",
+          "start": 52
+        },
+        {
+          "name": "first-contentful-paint",
+          "start": 52
+        }
+      ],
+      "marks": [
+        {
+          "name": "mima:shell",
+          "start": 29.800000071525574
+        },
+        {
+          "name": "mima:preview-visible",
+          "start": 38.800000071525574
+        },
+        {
+          "name": "mima:scene-request",
+          "start": 434.8000000715256
+        },
+        {
+          "name": "mima:scene-ready",
+          "start": 756.3000000715256
+        }
+      ],
+      "resources": [
+        {
+          "name": "index-DW8jP_MD.js",
+          "start": 7.200000047683716,
+          "end": 10.400000095367432,
+          "transfer": 5465,
+          "encoded": 5165,
+          "decoded": 12678,
+          "type": "script"
+        },
+        {
+          "name": "index-CDZfHl4d.css",
+          "start": 7.300000071525574,
+          "end": 11,
+          "transfer": 4415,
+          "encoded": 4115,
+          "decoded": 15431,
+          "type": "link"
+        },
+        {
+          "name": "preview-day.webp",
+          "start": 7.400000095367432,
+          "end": 11,
+          "transfer": 28852,
+          "encoded": 28552,
+          "decoded": 28552,
+          "type": "img"
+        },
+        {
+          "name": "favicon.svg",
+          "start": 35.300000071525574,
+          "end": 36.5,
+          "transfer": 2839,
+          "encoded": 2539,
+          "decoded": 7504,
+          "type": "other"
+        },
+        {
+          "name": "catalog.json",
+          "start": 435.10000002384186,
+          "end": 437.10000002384186,
+          "transfer": 3804,
+          "encoded": 3504,
+          "decoded": 9778,
+          "type": "fetch"
+        },
+        {
+          "name": "scene-_pWbGvhj.js",
+          "start": 437.8000000715256,
+          "end": 441.5,
+          "transfer": 34629,
+          "encoded": 34329,
+          "decoded": 110222,
+          "type": "script"
+        },
+        {
+          "name": "three-D5mGIMtI.js",
+          "start": 442.90000009536743,
+          "end": 465.7000000476837,
+          "transfer": 300901,
+          "encoded": 300601,
+          "decoded": 940235,
+          "type": "script"
+        },
+        {
+          "name": "music-case-v043.glb?v=f27162cdb5a3",
+          "start": 539.7000000476837,
+          "end": 555.3000000715256,
+          "transfer": 79248,
+          "encoded": 78948,
+          "decoded": 78948,
+          "type": "fetch"
+        },
+        {
+          "name": "placeholder.svg",
+          "start": 563,
+          "end": 568,
+          "transfer": 738,
+          "encoded": 438,
+          "decoded": 438,
+          "type": "img"
+        },
+        {
+          "name": "cover-blog.webp",
+          "start": 747.2000000476837,
+          "end": 749.1000000238419,
+          "transfer": 28710,
+          "encoded": 28410,
+          "decoded": 28410,
+          "type": "img"
+        },
+        {
+          "name": "cover-minecraft.webp",
+          "start": 747.2000000476837,
+          "end": 749.1000000238419,
+          "transfer": 32382,
+          "encoded": 32082,
+          "decoded": 32082,
+          "type": "img"
+        },
+        {
+          "name": "cover-stronghold.webp",
+          "start": 747.3000000715256,
+          "end": 749.1000000238419,
+          "transfer": 24096,
+          "encoded": 23796,
+          "decoded": 23796,
+          "type": "img"
+        },
+        {
+          "name": "characters.json",
+          "start": 756.2000000476837,
+          "end": 757.9000000953674,
+          "transfer": 1258,
+          "encoded": 958,
+          "decoded": 2485,
+          "type": "fetch"
+        },
+        {
+          "name": "55a83c95245040512788-768.webp",
+          "start": 768.8000000715256,
+          "end": 770.1000000238419,
+          "transfer": 25532,
+          "encoded": 25232,
+          "decoded": 25232,
+          "type": "img"
+        }
+      ],
+      "stats": {
+        "postprocessing": {
+          "smaa": true,
+          "ao": true,
+          "depthOfField": true
+        },
+        "particles": {
+          "enabled": true,
+          "stars": 0,
+          "dust": 43
+        },
+        "covers": {
+          "atlasWidth": 4096,
+          "atlasHeight": 512,
+          "atlasBytes": 8388608,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "activeDecodes": 0,
+          "queuedDecodes": 0,
+          "pendingImages": 0,
+          "peakDecodes": 3,
+          "cachedImages": 5,
+          "cachedBytes": 2544528,
+          "dirtyTiles": 0,
+          "uploadedTiles": 19,
+          "uploadedBytes": 4980736,
+          "uploadBatches": 4,
+          "gpuInitialized": true
+        },
+        "visibleArchiveIds": [
+          "portal-blog",
+          "portal-minecraft",
+          "portal-stronghold",
+          "nanakaze"
+        ],
+        "arrayMode": "filled",
+        "graphics": {
+          "geometries": 8,
+          "textures": 22,
+          "programs": 26,
+          "contextLost": false
+        },
+        "visibleAlbumCells": 160,
+        "uniqueAlbumCells": 4,
+        "decryption": {
+          "time": -1,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting"
+        },
+        "topLeft": [
+          387,
+          288
+        ],
+        "topRight": [
+          674,
+          97
+        ],
+        "projectedCenter": [
+          534,
+          376
+        ],
+        "labelTopLeft": [
+          449,
+          313
+        ],
+        "labelBottomLeft": [
+          449,
+          359
+        ],
+        "modelPosition": [
+          0,
+          -1.4959,
+          -2.17
+        ],
+        "cameraPosition": [
+          -109.615,
+          59.7121,
+          65.6888
+        ],
+        "cameraAim": [
+          -0.855,
+          0.5455,
+          0.3392
+        ],
+        "fieldOfView": 3.3322196837484346,
+        "loaded": true,
+        "drawCalls": 42,
+        "triangles": 1312612,
+        "archiveCount": 360,
+        "returningFiles": 0,
+        "selectionPhase": "wave",
+        "pendingPulse": null,
+        "pulses": [
+          {
+            "lane": 3,
+            "row": 12,
+            "time": 0.7476000000238419
+          },
+          {
+            "lane": 3,
+            "row": 12,
+            "time": 0.7476000000238419
+          }
+        ],
+        "referenceTime": 35.67,
+        "selectedSlot": 108,
+        "selectedLane": 3,
+        "selectedAlbumId": "nanakaze",
+        "albumCovers": true,
+        "theme": "day",
+        "selectionLight": {
+          "experiment": {
+            "mode": "guided",
+            "strength": 1.3,
+            "dayGain": 11,
+            "width": 1.35,
+            "offset": 0.3,
+            "fill": 1,
+            "transitionDuration": 1.1
+          },
+          "ribbon": {
+            "row": 12.3,
+            "lane": 3,
+            "opening": false,
+            "position": [
+              0,
+              -1.4958861487706252,
+              -2.17
+            ]
+          },
+          "visible": true,
+          "position": [
+            -60.922374136513966,
+            -0.002836401714672254,
+            -22.678946660194647
+          ],
+          "target": [
+            -1.858,
+            0.7339232274651872,
+            -2.17
+          ]
+        },
+        "selectedCell": {
+          "lane": 3,
+          "row": 12
+        },
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -1,
+          "maxLane": 7,
+          "minRow": -7,
+          "maxRow": 32
+        },
+        "laneFocus": 3,
+        "columnCamera": 4.746,
+        "rotation": 0,
+        "clearance": -2.37216185863228,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.9,
+        "previewLift": 0.9,
+        "appearance": 1,
+        "cameraDetail": 0,
+        "musicPresentationPhase": "archive",
+        "musicPlacement": {
+          "progress": 0,
+          "velocity": 0,
+          "settled": true
+        },
+        "musicArchiveMotion": {
+          "active": false,
+          "progress": 1,
+          "duration": 0,
+          "tracks": {
+            "rail": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "column": {
+              "value": 4.746,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "shoulder": {
+              "value": 12,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "lane": {
+              "value": 3,
+              "velocity": 0,
+              "acceleration": 0
+            }
+          }
+        },
+        "musicNavigationLift": false,
+        "musicPresentationReady": false,
+        "musicArchiveReady": true,
+        "idleGain": 0.00009454740973089624,
+        "cameraDistance": 140,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 150,
+        "fogFar": 180,
+        "returningAppearance": [],
+        "rail": 0,
+        "reduced": false,
+        "suspended": false,
+        "animationScheduled": true,
+        "mobile": false,
+        "mode": "focus",
+        "qualityLevel": "medium",
+        "qualityLocked": false,
+        "qualityTier": "balanced",
+        "qualityReason": "default"
+      },
+      "devtools": [
+        {
+          "name": "Timestamp",
+          "value": 661702.932432
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 2
+        },
+        {
+          "name": "Frames",
+          "value": 2
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 61
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 112
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 216
+        },
+        {
+          "name": "Resources",
+          "value": 3
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 11
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 2
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 59
+        },
+        {
+          "name": "LayoutCount",
+          "value": 8
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 128
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.018365
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.014043
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.006203
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.163978
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0.000037
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.531154
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.328528
+        },
+        {
+          "name": "ThreadTime",
+          "value": 0.328148
+        },
+        {
+          "name": "ProcessTime",
+          "value": 0.637752
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 8808296
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 16613376
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 661700.714189
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 661700.695635
+        },
+        {
+          "name": "NavigationStart",
+          "value": 661700.665307
+        }
+      ]
+    },
+    {
+      "device": "desktop-1440x900",
+      "run": 2,
+      "network": "unthrottled localhost",
+      "errors": [],
+      "firstLinks": [
+        {
+          "href": "https://mimaglows.com/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://mimaglows.com/mckai-fu-quan-xin-lu-li-cheng/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://ten.mimaglows.com:44580/",
+          "visible": true,
+          "clickable": true
+        }
+      ],
+      "lcp": 36,
+      "cls": 0,
+      "longTasks": [
+        {
+          "start": 466.89999997615814,
+          "duration": 52
+        },
+        {
+          "start": 529.1000000238419,
+          "duration": 119
+        }
+      ],
+      "shifts": [],
+      "lcpElement": "BUTTON",
+      "paints": [
+        {
+          "name": "first-paint",
+          "start": 36
+        },
+        {
+          "name": "first-contentful-paint",
+          "start": 36
+        }
+      ],
+      "marks": [
+        {
+          "name": "mima:shell",
+          "start": 23.200000047683716
+        },
+        {
+          "name": "mima:preview-visible",
+          "start": 37.89999997615814
+        },
+        {
+          "name": "mima:scene-request",
+          "start": 427.7000000476837
+        },
+        {
+          "name": "mima:scene-ready",
+          "start": 656.2000000476837
+        }
+      ],
+      "resources": [
+        {
+          "name": "index-CDZfHl4d.css",
+          "start": 3.8000000715255737,
+          "end": 6.200000047683716,
+          "transfer": 4415,
+          "encoded": 4115,
+          "decoded": 15431,
+          "type": "link"
+        },
+        {
+          "name": "index-DW8jP_MD.js",
+          "start": 3.8000000715255737,
+          "end": 5.899999976158142,
+          "transfer": 5465,
+          "encoded": 5165,
+          "decoded": 12678,
+          "type": "script"
+        },
+        {
+          "name": "preview-day.webp",
+          "start": 3.899999976158142,
+          "end": 6,
+          "transfer": 28852,
+          "encoded": 28552,
+          "decoded": 28552,
+          "type": "img"
+        },
+        {
+          "name": "favicon.svg",
+          "start": 28.300000071525574,
+          "end": 29.600000023841858,
+          "transfer": 2839,
+          "encoded": 2539,
+          "decoded": 7504,
+          "type": "other"
+        },
+        {
+          "name": "catalog.json",
+          "start": 428.39999997615814,
+          "end": 430.60000002384186,
+          "transfer": 3804,
+          "encoded": 3504,
+          "decoded": 9778,
+          "type": "fetch"
+        },
+        {
+          "name": "scene-_pWbGvhj.js",
+          "start": 431.7000000476837,
+          "end": 436.89999997615814,
+          "transfer": 34629,
+          "encoded": 34329,
+          "decoded": 110222,
+          "type": "script"
+        },
+        {
+          "name": "three-D5mGIMtI.js",
+          "start": 438.5,
+          "end": 465.2000000476837,
+          "transfer": 300901,
+          "encoded": 300601,
+          "decoded": 940235,
+          "type": "script"
+        },
+        {
+          "name": "music-case-v043.glb?v=f27162cdb5a3",
+          "start": 519.5,
+          "end": 520.8000000715256,
+          "transfer": 79248,
+          "encoded": 78948,
+          "decoded": 78948,
+          "type": "fetch"
+        },
+        {
+          "name": "placeholder.svg",
+          "start": 527.8000000715256,
+          "end": 529,
+          "transfer": 738,
+          "encoded": 438,
+          "decoded": 438,
+          "type": "img"
+        },
+        {
+          "name": "cover-blog.webp",
+          "start": 648.1000000238419,
+          "end": 649.7000000476837,
+          "transfer": 28710,
+          "encoded": 28410,
+          "decoded": 28410,
+          "type": "img"
+        },
+        {
+          "name": "cover-minecraft.webp",
+          "start": 648.2000000476837,
+          "end": 649.8000000715256,
+          "transfer": 32382,
+          "encoded": 32082,
+          "decoded": 32082,
+          "type": "img"
+        },
+        {
+          "name": "cover-stronghold.webp",
+          "start": 648.2000000476837,
+          "end": 649.8999999761581,
+          "transfer": 24096,
+          "encoded": 23796,
+          "decoded": 23796,
+          "type": "img"
+        },
+        {
+          "name": "characters.json",
+          "start": 656.1000000238419,
+          "end": 657.6000000238419,
+          "transfer": 1258,
+          "encoded": 958,
+          "decoded": 2485,
+          "type": "fetch"
+        },
+        {
+          "name": "55a83c95245040512788-768.webp",
+          "start": 665.8000000715256,
+          "end": 667,
+          "transfer": 25532,
+          "encoded": 25232,
+          "decoded": 25232,
+          "type": "img"
+        }
+      ],
+      "stats": {
+        "postprocessing": {
+          "smaa": true,
+          "ao": true,
+          "depthOfField": true
+        },
+        "particles": {
+          "enabled": true,
+          "stars": 0,
+          "dust": 43
+        },
+        "covers": {
+          "atlasWidth": 4096,
+          "atlasHeight": 512,
+          "atlasBytes": 8388608,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "activeDecodes": 0,
+          "queuedDecodes": 0,
+          "pendingImages": 0,
+          "peakDecodes": 3,
+          "cachedImages": 5,
+          "cachedBytes": 2544528,
+          "dirtyTiles": 0,
+          "uploadedTiles": 19,
+          "uploadedBytes": 4980736,
+          "uploadBatches": 4,
+          "gpuInitialized": true
+        },
+        "visibleArchiveIds": [
+          "portal-blog",
+          "portal-minecraft",
+          "portal-stronghold",
+          "nanakaze"
+        ],
+        "arrayMode": "filled",
+        "graphics": {
+          "geometries": 8,
+          "textures": 22,
+          "programs": 26,
+          "contextLost": false
+        },
+        "visibleAlbumCells": 160,
+        "uniqueAlbumCells": 4,
+        "decryption": {
+          "time": -1,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting"
+        },
+        "topLeft": [
+          387,
+          288
+        ],
+        "topRight": [
+          674,
+          97
+        ],
+        "projectedCenter": [
+          534,
+          376
+        ],
+        "labelTopLeft": [
+          449,
+          313
+        ],
+        "labelBottomLeft": [
+          449,
+          359
+        ],
+        "modelPosition": [
+          0,
+          -1.496,
+          -2.17
+        ],
+        "cameraPosition": [
+          -109.615,
+          59.7121,
+          65.6888
+        ],
+        "cameraAim": [
+          -0.855,
+          0.5455,
+          0.3392
+        ],
+        "fieldOfView": 3.3322196837484346,
+        "loaded": true,
+        "drawCalls": 42,
+        "triangles": 1312612,
+        "archiveCount": 360,
+        "returningFiles": 0,
+        "selectionPhase": "wave",
+        "pendingPulse": null,
+        "pulses": [
+          {
+            "lane": 3,
+            "row": 12,
+            "time": 0.6483999999761582
+          },
+          {
+            "lane": 3,
+            "row": 12,
+            "time": 0.6483999999761582
+          }
+        ],
+        "referenceTime": 35.67,
+        "selectedSlot": 108,
+        "selectedLane": 3,
+        "selectedAlbumId": "nanakaze",
+        "albumCovers": true,
+        "theme": "day",
+        "selectionLight": {
+          "experiment": {
+            "mode": "guided",
+            "strength": 1.3,
+            "dayGain": 11,
+            "width": 1.35,
+            "offset": 0.3,
+            "fill": 1,
+            "transitionDuration": 1.1
+          },
+          "ribbon": {
+            "row": 12.3,
+            "lane": 3,
+            "opening": false,
+            "position": [
+              0,
+              -1.4959648234358576,
+              -2.17
+            ]
+          },
+          "visible": true,
+          "position": [
+            -60.922374136513966,
+            -0.003232963959463264,
+            -22.678946660194647
+          ],
+          "target": [
+            -1.858,
+            0.7335266652203962,
+            -2.17
+          ]
+        },
+        "selectedCell": {
+          "lane": 3,
+          "row": 12
+        },
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -1,
+          "maxLane": 7,
+          "minRow": -7,
+          "maxRow": 32
+        },
+        "laneFocus": 3,
+        "columnCamera": 4.746,
+        "rotation": 0,
+        "clearance": -2.37195342796225,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.9,
+        "previewLift": 0.9,
+        "appearance": 1,
+        "cameraDetail": 0,
+        "musicPresentationPhase": "archive",
+        "musicPlacement": {
+          "progress": 0,
+          "velocity": 0,
+          "settled": true
+        },
+        "musicArchiveMotion": {
+          "active": false,
+          "progress": 1,
+          "duration": 0,
+          "tracks": {
+            "rail": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "column": {
+              "value": 4.746,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "shoulder": {
+              "value": 12,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "lane": {
+              "value": 3,
+              "velocity": 0,
+              "acceleration": 0
+            }
+          }
+        },
+        "musicNavigationLift": false,
+        "musicPresentationReady": false,
+        "musicArchiveReady": true,
+        "idleGain": 0.00009707670107573644,
+        "cameraDistance": 140,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 150,
+        "fogFar": 180,
+        "returningAppearance": [],
+        "rail": 0,
+        "reduced": false,
+        "suspended": false,
+        "animationScheduled": true,
+        "mobile": false,
+        "mode": "focus",
+        "qualityLevel": "medium",
+        "qualityLocked": false,
+        "qualityTier": "balanced",
+        "qualityReason": "default"
+      },
+      "devtools": [
+        {
+          "name": "Timestamp",
+          "value": 661705.419538
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 2
+        },
+        {
+          "name": "Frames",
+          "value": 2
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 61
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 112
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 216
+        },
+        {
+          "name": "Resources",
+          "value": 3
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 11
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 2
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 59
+        },
+        {
+          "name": "LayoutCount",
+          "value": 8
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 129
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.017061
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.013836
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.007951
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.157559
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0.000027
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.439702
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.243268
+        },
+        {
+          "name": "ThreadTime",
+          "value": 0.308228
+        },
+        {
+          "name": "ProcessTime",
+          "value": 0.590471
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 9309008
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 18448384
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 661703.274194
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 661703.262576
+        },
+        {
+          "name": "NavigationStart",
+          "value": 661703.238914
+        }
+      ]
+    },
+    {
+      "device": "desktop-1440x900",
+      "run": 3,
+      "network": "unthrottled localhost",
+      "errors": [],
+      "firstLinks": [
+        {
+          "href": "https://mimaglows.com/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://mimaglows.com/mckai-fu-quan-xin-lu-li-cheng/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://ten.mimaglows.com:44580/",
+          "visible": true,
+          "clickable": true
+        }
+      ],
+      "lcp": 48,
+      "cls": 0,
+      "longTasks": [
+        {
+          "start": 476.89999997615814,
+          "duration": 64
+        },
+        {
+          "start": 551.1000000238419,
+          "duration": 133
+        }
+      ],
+      "shifts": [],
+      "lcpElement": "BUTTON",
+      "paints": [
+        {
+          "name": "first-paint",
+          "start": 48
+        },
+        {
+          "name": "first-contentful-paint",
+          "start": 48
+        }
+      ],
+      "marks": [
+        {
+          "name": "mima:shell",
+          "start": 25.100000023841858
+        },
+        {
+          "name": "mima:preview-visible",
+          "start": 35.199999928474426
+        },
+        {
+          "name": "mima:scene-request",
+          "start": 437.60000002384186
+        },
+        {
+          "name": "mima:scene-ready",
+          "start": 693.6000000238419
+        }
+      ],
+      "resources": [
+        {
+          "name": "index-DW8jP_MD.js",
+          "start": 6.399999976158142,
+          "end": 13.5,
+          "transfer": 5465,
+          "encoded": 5165,
+          "decoded": 12678,
+          "type": "script"
+        },
+        {
+          "name": "preview-day.webp",
+          "start": 6.600000023841858,
+          "end": 13.600000023841858,
+          "transfer": 28852,
+          "encoded": 28552,
+          "decoded": 28552,
+          "type": "img"
+        },
+        {
+          "name": "index-CDZfHl4d.css",
+          "start": 6.600000023841858,
+          "end": 13.799999952316284,
+          "transfer": 4415,
+          "encoded": 4115,
+          "decoded": 15431,
+          "type": "link"
+        },
+        {
+          "name": "favicon.svg",
+          "start": 38.60000002384186,
+          "end": 39.799999952316284,
+          "transfer": 2839,
+          "encoded": 2539,
+          "decoded": 7504,
+          "type": "other"
+        },
+        {
+          "name": "catalog.json",
+          "start": 438.7999999523163,
+          "end": 441.60000002384186,
+          "transfer": 3804,
+          "encoded": 3504,
+          "decoded": 9778,
+          "type": "fetch"
+        },
+        {
+          "name": "scene-_pWbGvhj.js",
+          "start": 442.6999999284744,
+          "end": 447,
+          "transfer": 34629,
+          "encoded": 34329,
+          "decoded": 110222,
+          "type": "script"
+        },
+        {
+          "name": "three-D5mGIMtI.js",
+          "start": 448.5,
+          "end": 475.2999999523163,
+          "transfer": 300901,
+          "encoded": 300601,
+          "decoded": 940235,
+          "type": "script"
+        },
+        {
+          "name": "music-case-v043.glb?v=f27162cdb5a3",
+          "start": 541.2999999523163,
+          "end": 542.7999999523163,
+          "transfer": 79248,
+          "encoded": 78948,
+          "decoded": 78948,
+          "type": "fetch"
+        },
+        {
+          "name": "placeholder.svg",
+          "start": 550.1000000238419,
+          "end": 551.1000000238419,
+          "transfer": 738,
+          "encoded": 438,
+          "decoded": 438,
+          "type": "img"
+        },
+        {
+          "name": "cover-blog.webp",
+          "start": 684.1000000238419,
+          "end": 686.6999999284744,
+          "transfer": 28710,
+          "encoded": 28410,
+          "decoded": 28410,
+          "type": "img"
+        },
+        {
+          "name": "cover-minecraft.webp",
+          "start": 684.1000000238419,
+          "end": 686.8999999761581,
+          "transfer": 32382,
+          "encoded": 32082,
+          "decoded": 32082,
+          "type": "img"
+        },
+        {
+          "name": "cover-stronghold.webp",
+          "start": 684.1999999284744,
+          "end": 686.7999999523163,
+          "transfer": 24096,
+          "encoded": 23796,
+          "decoded": 23796,
+          "type": "img"
+        },
+        {
+          "name": "characters.json",
+          "start": 693.5,
+          "end": 696.7999999523163,
+          "transfer": 1258,
+          "encoded": 958,
+          "decoded": 2485,
+          "type": "fetch"
+        },
+        {
+          "name": "55a83c95245040512788-768.webp",
+          "start": 703.6999999284744,
+          "end": 704.8999999761581,
+          "transfer": 25532,
+          "encoded": 25232,
+          "decoded": 25232,
+          "type": "img"
+        }
+      ],
+      "stats": {
+        "postprocessing": {
+          "smaa": true,
+          "ao": true,
+          "depthOfField": true
+        },
+        "particles": {
+          "enabled": true,
+          "stars": 0,
+          "dust": 43
+        },
+        "covers": {
+          "atlasWidth": 4096,
+          "atlasHeight": 512,
+          "atlasBytes": 8388608,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "activeDecodes": 0,
+          "queuedDecodes": 0,
+          "pendingImages": 0,
+          "peakDecodes": 3,
+          "cachedImages": 5,
+          "cachedBytes": 2544528,
+          "dirtyTiles": 0,
+          "uploadedTiles": 19,
+          "uploadedBytes": 4980736,
+          "uploadBatches": 4,
+          "gpuInitialized": true
+        },
+        "visibleArchiveIds": [
+          "portal-blog",
+          "portal-minecraft",
+          "portal-stronghold",
+          "nanakaze"
+        ],
+        "arrayMode": "filled",
+        "graphics": {
+          "geometries": 8,
+          "textures": 22,
+          "programs": 26,
+          "contextLost": false
+        },
+        "visibleAlbumCells": 160,
+        "uniqueAlbumCells": 4,
+        "decryption": {
+          "time": -1,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting"
+        },
+        "topLeft": [
+          387,
+          288
+        ],
+        "topRight": [
+          674,
+          97
+        ],
+        "projectedCenter": [
+          534,
+          376
+        ],
+        "labelTopLeft": [
+          449,
+          313
+        ],
+        "labelBottomLeft": [
+          449,
+          359
+        ],
+        "modelPosition": [
+          0,
+          -1.4958,
+          -2.17
+        ],
+        "cameraPosition": [
+          -109.615,
+          59.7121,
+          65.6888
+        ],
+        "cameraAim": [
+          -0.855,
+          0.5455,
+          0.3392
+        ],
+        "fieldOfView": 3.3322196837484346,
+        "loaded": true,
+        "drawCalls": 42,
+        "triangles": 1312612,
+        "archiveCount": 360,
+        "returningFiles": 0,
+        "selectionPhase": "wave",
+        "pendingPulse": null,
+        "pulses": [
+          {
+            "lane": 3,
+            "row": 12,
+            "time": 0.6845
+          },
+          {
+            "lane": 3,
+            "row": 12,
+            "time": 0.6845
+          }
+        ],
+        "referenceTime": 35.68,
+        "selectedSlot": 108,
+        "selectedLane": 3,
+        "selectedAlbumId": "nanakaze",
+        "albumCovers": true,
+        "theme": "day",
+        "selectionLight": {
+          "experiment": {
+            "mode": "guided",
+            "strength": 1.3,
+            "dayGain": 11,
+            "width": 1.35,
+            "offset": 0.3,
+            "fill": 1,
+            "transitionDuration": 1.1
+          },
+          "ribbon": {
+            "row": 12.3,
+            "lane": 3,
+            "opening": false,
+            "position": [
+              0,
+              -1.4958422032160406,
+              -2.17
+            ]
+          },
+          "visible": true,
+          "position": [
+            -60.922374136513966,
+            -0.0025970327230877555,
+            -22.678946660194647
+          ],
+          "target": [
+            -1.858,
+            0.7341625964567717,
+            -2.17
+          ]
+        },
+        "selectedCell": {
+          "lane": 3,
+          "row": 12
+        },
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -1,
+          "maxLane": 7,
+          "minRow": -7,
+          "maxRow": 32
+        },
+        "laneFocus": 3,
+        "columnCamera": 4.746,
+        "rotation": 0,
+        "clearance": -2.3722824600986234,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.9,
+        "previewLift": 0.9,
+        "appearance": 1,
+        "cameraDetail": 0,
+        "musicPresentationPhase": "archive",
+        "musicPlacement": {
+          "progress": 0,
+          "velocity": 0,
+          "settled": true
+        },
+        "musicArchiveMotion": {
+          "active": false,
+          "progress": 1,
+          "duration": 0,
+          "tracks": {
+            "rail": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "column": {
+              "value": 4.746,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "shoulder": {
+              "value": 12,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "lane": {
+              "value": 3,
+              "velocity": 0,
+              "acceleration": 0
+            }
+          }
+        },
+        "musicNavigationLift": false,
+        "musicPresentationReady": false,
+        "musicArchiveReady": true,
+        "idleGain": 0.00009308391506806908,
+        "cameraDistance": 140,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 150,
+        "fogFar": 180,
+        "returningAppearance": [],
+        "rail": 0,
+        "reduced": false,
+        "suspended": false,
+        "animationScheduled": true,
+        "mobile": false,
+        "mode": "focus",
+        "qualityLevel": "medium",
+        "qualityLocked": false,
+        "qualityTier": "balanced",
+        "qualityReason": "default"
+      },
+      "devtools": [
+        {
+          "name": "Timestamp",
+          "value": 661707.823668
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 2
+        },
+        {
+          "name": "Frames",
+          "value": 2
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 61
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 112
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 216
+        },
+        {
+          "name": "Resources",
+          "value": 3
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 11
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 2
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 59
+        },
+        {
+          "name": "LayoutCount",
+          "value": 8
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 126
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.021266
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.012931
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.007683
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.186978
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0.000032
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.495094
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.266204
+        },
+        {
+          "name": "ThreadTime",
+          "value": 0.344124
+        },
+        {
+          "name": "ProcessTime",
+          "value": 0.64092
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 7284028
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 18186240
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 661705.662624
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 661705.641671
+        },
+        {
+          "name": "NavigationStart",
+          "value": 661705.616123
+        }
+      ]
+    },
+    {
+      "device": "mobile-390x844",
+      "run": 1,
+      "network": "1.6 Mbps down / 150 ms latency / CPU 4x",
+      "errors": [],
+      "firstLinks": [
+        {
+          "href": "https://mimaglows.com/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://mimaglows.com/mckai-fu-quan-xin-lu-li-cheng/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://ten.mimaglows.com:44580/",
+          "visible": true,
+          "clickable": true
+        }
+      ],
+      "lcp": 460,
+      "cls": 0,
+      "longTasks": [
+        {
+          "start": 3049.2000000476837,
+          "duration": 146
+        },
+        {
+          "start": 3921.7999999523163,
+          "duration": 178
+        }
+      ],
+      "shifts": [],
+      "lcpElement": "BUTTON",
+      "paints": [
+        {
+          "name": "first-paint",
+          "start": 460
+        },
+        {
+          "name": "first-contentful-paint",
+          "start": 460
+        }
+      ],
+      "marks": [
+        {
+          "name": "mima:shell",
+          "start": 446.7999999523163
+        },
+        {
+          "name": "mima:preview-visible",
+          "start": 491.89999997615814
+        },
+        {
+          "name": "mima:scene-request",
+          "start": 876.1000000238419
+        },
+        {
+          "name": "mima:scene-ready",
+          "start": 4121
+        }
+      ],
+      "resources": [
+        {
+          "name": "index-DW8jP_MD.js",
+          "start": 169.79999995231628,
+          "end": 397.5,
+          "transfer": 5465,
+          "encoded": 5165,
+          "decoded": 12678,
+          "type": "script"
+        },
+        {
+          "name": "index-CDZfHl4d.css",
+          "start": 170,
+          "end": 381.5,
+          "transfer": 4415,
+          "encoded": 4115,
+          "decoded": 15431,
+          "type": "link"
+        },
+        {
+          "name": "preview-day-mobile.webp",
+          "start": 170,
+          "end": 479.7999999523163,
+          "transfer": 20758,
+          "encoded": 20458,
+          "decoded": 20458,
+          "type": "img"
+        },
+        {
+          "name": "favicon.svg",
+          "start": 488.60000002384186,
+          "end": 652.7999999523163,
+          "transfer": 2839,
+          "encoded": 2539,
+          "decoded": 7504,
+          "type": "other"
+        },
+        {
+          "name": "catalog.json",
+          "start": 877.7000000476837,
+          "end": 1049,
+          "transfer": 3804,
+          "encoded": 3504,
+          "decoded": 9778,
+          "type": "fetch"
+        },
+        {
+          "name": "scene-_pWbGvhj.js",
+          "start": 1050.7000000476837,
+          "end": 1378.8999999761581,
+          "transfer": 34629,
+          "encoded": 34329,
+          "decoded": 110222,
+          "type": "script"
+        },
+        {
+          "name": "three-D5mGIMtI.js",
+          "start": 1381.2999999523163,
+          "end": 3044.600000023842,
+          "transfer": 300901,
+          "encoded": 300601,
+          "decoded": 940235,
+          "type": "script"
+        },
+        {
+          "name": "music-case-v043.glb?v=f27162cdb5a3",
+          "start": 3193.899999976158,
+          "end": 3741.2000000476837,
+          "transfer": 79248,
+          "encoded": 78948,
+          "decoded": 78948,
+          "type": "fetch"
+        },
+        {
+          "name": "placeholder.svg",
+          "start": 3766.399999976158,
+          "end": 3921.2000000476837,
+          "transfer": 738,
+          "encoded": 438,
+          "decoded": 438,
+          "type": "img"
+        },
+        {
+          "name": "cover-stronghold.webp",
+          "start": 4099.899999976158,
+          "end": 4641.399999976158,
+          "transfer": 24096,
+          "encoded": 23796,
+          "decoded": 23796,
+          "type": "img"
+        },
+        {
+          "name": "cover-blog.webp",
+          "start": 4099.899999976158,
+          "end": 4679.799999952316,
+          "transfer": 28710,
+          "encoded": 28410,
+          "decoded": 28410,
+          "type": "img"
+        },
+        {
+          "name": "cover-minecraft.webp",
+          "start": 4099.899999976158,
+          "end": 4702.399999976158,
+          "transfer": 32382,
+          "encoded": 32082,
+          "decoded": 32082,
+          "type": "img"
+        },
+        {
+          "name": "characters.json",
+          "start": 4120.899999976158,
+          "end": 4297.600000023842,
+          "transfer": 1258,
+          "encoded": 958,
+          "decoded": 2485,
+          "type": "fetch"
+        },
+        {
+          "name": "55a83c95245040512788-768.webp",
+          "start": 4657.200000047684,
+          "end": 4942.200000047684,
+          "transfer": 25532,
+          "encoded": 25232,
+          "decoded": 25232,
+          "type": "img"
+        }
+      ],
+      "stats": {
+        "postprocessing": {
+          "smaa": false,
+          "ao": false,
+          "depthOfField": false
+        },
+        "particles": {
+          "enabled": false,
+          "stars": 0,
+          "dust": 0
+        },
+        "covers": {
+          "atlasWidth": 4096,
+          "atlasHeight": 512,
+          "atlasBytes": 8388608,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "activeDecodes": 0,
+          "queuedDecodes": 0,
+          "pendingImages": 0,
+          "peakDecodes": 3,
+          "cachedImages": 5,
+          "cachedBytes": 2544528,
+          "dirtyTiles": 0,
+          "uploadedTiles": 19,
+          "uploadedBytes": 4980736,
+          "uploadBatches": 6,
+          "gpuInitialized": true
+        },
+        "visibleArchiveIds": [
+          "portal-blog",
+          "portal-minecraft",
+          "portal-stronghold",
+          "nanakaze"
+        ],
+        "arrayMode": "filled",
+        "graphics": {
+          "geometries": 7,
+          "textures": 11,
+          "programs": 14,
+          "contextLost": false
+        },
+        "visibleAlbumCells": 160,
+        "uniqueAlbumCells": 4,
+        "decryption": {
+          "time": -1,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting"
+        },
+        "topLeft": [
+          134,
+          243
+        ],
+        "topRight": [
+          254,
+          165
+        ],
+        "projectedCenter": [
+          195,
+          283
+        ],
+        "labelTopLeft": [
+          160,
+          254
+        ],
+        "labelBottomLeft": [
+          160,
+          274
+        ],
+        "modelPosition": [
+          0,
+          -1.4959,
+          -2.17
+        ],
+        "cameraPosition": [
+          -109.682,
+          56.7137,
+          63.7336
+        ],
+        "cameraAim": [
+          -0.9219,
+          -2.4528,
+          -1.616
+        ],
+        "fieldOfView": 7.42921025288988,
+        "loaded": true,
+        "drawCalls": 15,
+        "triangles": 589157,
+        "archiveCount": 360,
+        "returningFiles": 0,
+        "selectionPhase": "wave",
+        "pendingPulse": null,
+        "pulses": [
+          {
+            "lane": 3,
+            "row": 12,
+            "time": 4.101799999952316
+          },
+          {
+            "lane": 3,
+            "row": 12,
+            "time": 4.101799999952316
+          }
+        ],
+        "referenceTime": 35.67,
+        "selectedSlot": 108,
+        "selectedLane": 3,
+        "selectedAlbumId": "nanakaze",
+        "albumCovers": true,
+        "theme": "day",
+        "selectionLight": {
+          "experiment": {
+            "mode": "guided",
+            "strength": 1.3,
+            "dayGain": 11,
+            "width": 1.35,
+            "offset": 0.3,
+            "fill": 1,
+            "transitionDuration": 1.1
+          },
+          "ribbon": {
+            "row": 12.3,
+            "lane": 3,
+            "opening": false,
+            "position": [
+              0,
+              -1.495896284355791,
+              -2.17
+            ]
+          },
+          "visible": true,
+          "position": [
+            -60.922374136513966,
+            -0.002414999372490456,
+            -22.678946660194647
+          ],
+          "target": [
+            -1.858,
+            0.734344629807369,
+            -2.17
+          ]
+        },
+        "selectedCell": {
+          "lane": 3,
+          "row": 12
+        },
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -1,
+          "maxLane": 7,
+          "minRow": -7,
+          "maxRow": 32
+        },
+        "laneFocus": 3,
+        "columnCamera": 4.746,
+        "rotation": 0,
+        "clearance": -2.37210533714251,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.9,
+        "previewLift": 0.9,
+        "appearance": 1,
+        "cameraDetail": 0,
+        "musicPresentationPhase": "archive",
+        "musicPlacement": {
+          "progress": 0,
+          "velocity": 0,
+          "settled": true
+        },
+        "musicArchiveMotion": {
+          "active": false,
+          "progress": 1,
+          "duration": 0,
+          "tracks": {
+            "rail": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "column": {
+              "value": 4.746,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "shoulder": {
+              "value": 12,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "lane": {
+              "value": 3,
+              "velocity": 0,
+              "acceleration": 0
+            }
+          }
+        },
+        "musicNavigationLift": false,
+        "musicPresentationReady": false,
+        "musicArchiveReady": true,
+        "idleGain": 0.00009523060761478079,
+        "cameraDistance": 140,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 150,
+        "fogFar": 180,
+        "returningAppearance": [],
+        "rail": 0,
+        "reduced": false,
+        "suspended": false,
+        "animationScheduled": true,
+        "mobile": true,
+        "mode": "focus",
+        "qualityLevel": "low",
+        "qualityLocked": false,
+        "qualityTier": "performance",
+        "qualityReason": "mobile"
+      },
+      "devtools": [
+        {
+          "name": "Timestamp",
+          "value": 661713.603738
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 6
+        },
+        {
+          "name": "Frames",
+          "value": 5
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 61
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 107
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 274
+        },
+        {
+          "name": "Resources",
+          "value": 16
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 17
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 4
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 6
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 2
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 159
+        },
+        {
+          "name": "LayoutCount",
+          "value": 10
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 244
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.06262
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.0276
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.023237
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.185914
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0.000048
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.844087
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.544668
+        },
+        {
+          "name": "ThreadTime",
+          "value": 4.349996
+        },
+        {
+          "name": "ProcessTime",
+          "value": 4.779142
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 8758040
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 18939904
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 661708.428634
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 661708.419873
+        },
+        {
+          "name": "NavigationStart",
+          "value": 661707.970484
+        }
+      ]
+    },
+    {
+      "device": "mobile-390x844",
+      "run": 2,
+      "network": "1.6 Mbps down / 150 ms latency / CPU 4x",
+      "errors": [],
+      "firstLinks": [
+        {
+          "href": "https://mimaglows.com/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://mimaglows.com/mckai-fu-quan-xin-lu-li-cheng/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://ten.mimaglows.com:44580/",
+          "visible": true,
+          "clickable": true
+        }
+      ],
+      "lcp": 460,
+      "cls": 0,
+      "longTasks": [
+        {
+          "start": 3064.8000000715256,
+          "duration": 142
+        },
+        {
+          "start": 3944.2000000476837,
+          "duration": 172
+        }
+      ],
+      "shifts": [],
+      "lcpElement": "BUTTON",
+      "paints": [
+        {
+          "name": "first-paint",
+          "start": 460
+        },
+        {
+          "name": "first-contentful-paint",
+          "start": 460
+        }
+      ],
+      "marks": [
+        {
+          "name": "mima:shell",
+          "start": 455.40000009536743
+        },
+        {
+          "name": "mima:preview-visible",
+          "start": 494.5
+        },
+        {
+          "name": "mima:scene-request",
+          "start": 882.7000000476837
+        },
+        {
+          "name": "mima:scene-ready",
+          "start": 4137.800000071526
+        }
+      ],
+      "resources": [
+        {
+          "name": "index-DW8jP_MD.js",
+          "start": 169.40000009536743,
+          "end": 396.60000002384186,
+          "transfer": 5465,
+          "encoded": 5165,
+          "decoded": 12678,
+          "type": "script"
+        },
+        {
+          "name": "index-CDZfHl4d.css",
+          "start": 170.5,
+          "end": 389.60000002384186,
+          "transfer": 4415,
+          "encoded": 4115,
+          "decoded": 15431,
+          "type": "link"
+        },
+        {
+          "name": "preview-day-mobile.webp",
+          "start": 170.5,
+          "end": 479.2000000476837,
+          "transfer": 20758,
+          "encoded": 20458,
+          "decoded": 20458,
+          "type": "img"
+        },
+        {
+          "name": "favicon.svg",
+          "start": 496.3000000715256,
+          "end": 667.3000000715256,
+          "transfer": 2839,
+          "encoded": 2539,
+          "decoded": 7504,
+          "type": "other"
+        },
+        {
+          "name": "catalog.json",
+          "start": 884.2000000476837,
+          "end": 1057.5,
+          "transfer": 3804,
+          "encoded": 3504,
+          "decoded": 9778,
+          "type": "fetch"
+        },
+        {
+          "name": "scene-_pWbGvhj.js",
+          "start": 1059.9000000953674,
+          "end": 1395.2000000476837,
+          "transfer": 34629,
+          "encoded": 34329,
+          "decoded": 110222,
+          "type": "script"
+        },
+        {
+          "name": "three-D5mGIMtI.js",
+          "start": 1397.3000000715256,
+          "end": 3060,
+          "transfer": 300901,
+          "encoded": 300601,
+          "decoded": 940235,
+          "type": "script"
+        },
+        {
+          "name": "music-case-v043.glb?v=f27162cdb5a3",
+          "start": 3206.3000000715256,
+          "end": 3756.600000023842,
+          "transfer": 79248,
+          "encoded": 78948,
+          "decoded": 78948,
+          "type": "fetch"
+        },
+        {
+          "name": "placeholder.svg",
+          "start": 3784,
+          "end": 3943.8000000715256,
+          "transfer": 738,
+          "encoded": 438,
+          "decoded": 438,
+          "type": "img"
+        },
+        {
+          "name": "cover-stronghold.webp",
+          "start": 4116,
+          "end": 4657.300000071526,
+          "transfer": 24096,
+          "encoded": 23796,
+          "decoded": 23796,
+          "type": "img"
+        },
+        {
+          "name": "cover-blog.webp",
+          "start": 4116,
+          "end": 4702,
+          "transfer": 28710,
+          "encoded": 28410,
+          "decoded": 28410,
+          "type": "img"
+        },
+        {
+          "name": "cover-minecraft.webp",
+          "start": 4116,
+          "end": 4716.900000095367,
+          "transfer": 32382,
+          "encoded": 32082,
+          "decoded": 32082,
+          "type": "img"
+        },
+        {
+          "name": "characters.json",
+          "start": 4136.900000095367,
+          "end": 4313,
+          "transfer": 1258,
+          "encoded": 958,
+          "decoded": 2485,
+          "type": "fetch"
+        },
+        {
+          "name": "55a83c95245040512788-768.webp",
+          "start": 4675.600000023842,
+          "end": 4963.900000095367,
+          "transfer": 25532,
+          "encoded": 25232,
+          "decoded": 25232,
+          "type": "img"
+        }
+      ],
+      "stats": {
+        "postprocessing": {
+          "smaa": false,
+          "ao": false,
+          "depthOfField": false
+        },
+        "particles": {
+          "enabled": false,
+          "stars": 0,
+          "dust": 0
+        },
+        "covers": {
+          "atlasWidth": 4096,
+          "atlasHeight": 512,
+          "atlasBytes": 8388608,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "activeDecodes": 0,
+          "queuedDecodes": 0,
+          "pendingImages": 0,
+          "peakDecodes": 3,
+          "cachedImages": 5,
+          "cachedBytes": 2544528,
+          "dirtyTiles": 0,
+          "uploadedTiles": 19,
+          "uploadedBytes": 4980736,
+          "uploadBatches": 6,
+          "gpuInitialized": true
+        },
+        "visibleArchiveIds": [
+          "portal-blog",
+          "portal-minecraft",
+          "portal-stronghold",
+          "nanakaze"
+        ],
+        "arrayMode": "filled",
+        "graphics": {
+          "geometries": 7,
+          "textures": 11,
+          "programs": 14,
+          "contextLost": false
+        },
+        "visibleAlbumCells": 160,
+        "uniqueAlbumCells": 4,
+        "decryption": {
+          "time": -1,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting"
+        },
+        "topLeft": [
+          134,
+          243
+        ],
+        "topRight": [
+          254,
+          165
+        ],
+        "projectedCenter": [
+          195,
+          283
+        ],
+        "labelTopLeft": [
+          160,
+          254
+        ],
+        "labelBottomLeft": [
+          160,
+          274
+        ],
+        "modelPosition": [
+          0,
+          -1.4959,
+          -2.17
+        ],
+        "cameraPosition": [
+          -109.682,
+          56.7137,
+          63.7336
+        ],
+        "cameraAim": [
+          -0.9219,
+          -2.4528,
+          -1.616
+        ],
+        "fieldOfView": 7.42921025288988,
+        "loaded": true,
+        "drawCalls": 15,
+        "triangles": 589157,
+        "archiveCount": 360,
+        "returningFiles": 0,
+        "selectionPhase": "wave",
+        "pendingPulse": null,
+        "pulses": [
+          {
+            "lane": 3,
+            "row": 12,
+            "time": 4.117300000071525
+          },
+          {
+            "lane": 3,
+            "row": 12,
+            "time": 4.117300000071525
+          }
+        ],
+        "referenceTime": 35.67,
+        "selectedSlot": 108,
+        "selectedLane": 3,
+        "selectedAlbumId": "nanakaze",
+        "albumCovers": true,
+        "theme": "day",
+        "selectionLight": {
+          "experiment": {
+            "mode": "guided",
+            "strength": 1.3,
+            "dayGain": 11,
+            "width": 1.35,
+            "offset": 0.3,
+            "fill": 1,
+            "transitionDuration": 1.1
+          },
+          "ribbon": {
+            "row": 12.3,
+            "lane": 3,
+            "opening": false,
+            "position": [
+              0,
+              -1.4958650904468547,
+              -2.17
+            ]
+          },
+          "visible": true,
+          "position": [
+            -60.922374136513966,
+            -0.002251660559452584,
+            -22.678946660194647
+          ],
+          "target": [
+            -1.858,
+            0.7345079686204069,
+            -2.17
+          ]
+        },
+        "selectedCell": {
+          "lane": 3,
+          "row": 12
+        },
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -1,
+          "maxLane": 7,
+          "minRow": -7,
+          "maxRow": 32
+        },
+        "laneFocus": 3,
+        "columnCamera": 4.746,
+        "rotation": 0,
+        "clearance": -2.3721896298273624,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.9,
+        "previewLift": 0.9,
+        "appearance": 1,
+        "cameraDetail": 0,
+        "musicPresentationPhase": "archive",
+        "musicPlacement": {
+          "progress": 0,
+          "velocity": 0,
+          "settled": true
+        },
+        "musicArchiveMotion": {
+          "active": false,
+          "progress": 1,
+          "duration": 0,
+          "tracks": {
+            "rail": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "column": {
+              "value": 4.746,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "shoulder": {
+              "value": 12,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "lane": {
+              "value": 3,
+              "velocity": 0,
+              "acceleration": 0
+            }
+          }
+        },
+        "musicNavigationLift": false,
+        "musicPresentationReady": false,
+        "musicArchiveReady": true,
+        "idleGain": 0.00009420765100650887,
+        "cameraDistance": 140,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 150,
+        "fogFar": 180,
+        "returningAppearance": [],
+        "rail": 0,
+        "reduced": false,
+        "suspended": false,
+        "animationScheduled": true,
+        "mobile": true,
+        "mode": "focus",
+        "qualityLevel": "low",
+        "qualityLocked": false,
+        "qualityTier": "performance",
+        "qualityReason": "mobile"
+      },
+      "devtools": [
+        {
+          "name": "Timestamp",
+          "value": 661719.421362
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 6
+        },
+        {
+          "name": "Frames",
+          "value": 5
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 61
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 107
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 274
+        },
+        {
+          "name": "Resources",
+          "value": 16
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 17
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 4
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 6
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 2
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 159
+        },
+        {
+          "name": "LayoutCount",
+          "value": 10
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 245
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.062884
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.034253
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.023958
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.192055
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0.000045
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.864038
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.550843
+        },
+        {
+          "name": "ThreadTime",
+          "value": 4.36812
+        },
+        {
+          "name": "ProcessTime",
+          "value": 4.801988
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 8527080
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 18939904
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 661714.231834
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 661714.230411
+        },
+        {
+          "name": "NavigationStart",
+          "value": 661713.772815
+        }
+      ]
+    },
+    {
+      "device": "mobile-390x844",
+      "run": 3,
+      "network": "1.6 Mbps down / 150 ms latency / CPU 4x",
+      "errors": [],
+      "firstLinks": [
+        {
+          "href": "https://mimaglows.com/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://mimaglows.com/mckai-fu-quan-xin-lu-li-cheng/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://ten.mimaglows.com:44580/",
+          "visible": true,
+          "clickable": true
+        }
+      ],
+      "lcp": 460,
+      "cls": 0,
+      "longTasks": [
+        {
+          "start": 3065.3000000715256,
+          "duration": 133
+        },
+        {
+          "start": 3936.8000000715256,
+          "duration": 174
+        }
+      ],
+      "shifts": [],
+      "lcpElement": "BUTTON",
+      "paints": [
+        {
+          "name": "first-paint",
+          "start": 460
+        },
+        {
+          "name": "first-contentful-paint",
+          "start": 460
+        }
+      ],
+      "marks": [
+        {
+          "name": "mima:shell",
+          "start": 456.89999997615814
+        },
+        {
+          "name": "mima:preview-visible",
+          "start": 496
+        },
+        {
+          "name": "mima:scene-request",
+          "start": 884.2000000476837
+        },
+        {
+          "name": "mima:scene-ready",
+          "start": 4146.899999976158
+        }
+      ],
+      "resources": [
+        {
+          "name": "index-DW8jP_MD.js",
+          "start": 168.5,
+          "end": 396.8000000715256,
+          "transfer": 5465,
+          "encoded": 5165,
+          "decoded": 12678,
+          "type": "script"
+        },
+        {
+          "name": "index-CDZfHl4d.css",
+          "start": 168.89999997615814,
+          "end": 390,
+          "transfer": 4415,
+          "encoded": 4115,
+          "decoded": 15431,
+          "type": "link"
+        },
+        {
+          "name": "preview-day-mobile.webp",
+          "start": 168.89999997615814,
+          "end": 480.10000002384186,
+          "transfer": 20758,
+          "encoded": 20458,
+          "decoded": 20458,
+          "type": "img"
+        },
+        {
+          "name": "favicon.svg",
+          "start": 497.8000000715256,
+          "end": 667.7000000476837,
+          "transfer": 2839,
+          "encoded": 2539,
+          "decoded": 7504,
+          "type": "other"
+        },
+        {
+          "name": "catalog.json",
+          "start": 885.2000000476837,
+          "end": 1057.8999999761581,
+          "transfer": 3804,
+          "encoded": 3504,
+          "decoded": 9778,
+          "type": "fetch"
+        },
+        {
+          "name": "scene-_pWbGvhj.js",
+          "start": 1060.2000000476837,
+          "end": 1394,
+          "transfer": 34629,
+          "encoded": 34329,
+          "decoded": 110222,
+          "type": "script"
+        },
+        {
+          "name": "three-D5mGIMtI.js",
+          "start": 1396.1000000238419,
+          "end": 3059.899999976158,
+          "transfer": 300901,
+          "encoded": 300601,
+          "decoded": 940235,
+          "type": "script"
+        },
+        {
+          "name": "music-case-v043.glb?v=f27162cdb5a3",
+          "start": 3197.2000000476837,
+          "end": 3749.5,
+          "transfer": 79248,
+          "encoded": 78948,
+          "decoded": 78948,
+          "type": "fetch"
+        },
+        {
+          "name": "placeholder.svg",
+          "start": 3780,
+          "end": 3936.600000023842,
+          "transfer": 738,
+          "encoded": 438,
+          "decoded": 438,
+          "type": "img"
+        },
+        {
+          "name": "cover-blog.webp",
+          "start": 4110.200000047684,
+          "end": 4687.700000047684,
+          "transfer": 28710,
+          "encoded": 28410,
+          "decoded": 28410,
+          "type": "img"
+        },
+        {
+          "name": "cover-minecraft.webp",
+          "start": 4110.200000047684,
+          "end": 4709.800000071526,
+          "transfer": 32382,
+          "encoded": 32082,
+          "decoded": 32082,
+          "type": "img"
+        },
+        {
+          "name": "cover-stronghold.webp",
+          "start": 4110.300000071526,
+          "end": 4648.800000071526,
+          "transfer": 24096,
+          "encoded": 23796,
+          "decoded": 23796,
+          "type": "img"
+        },
+        {
+          "name": "characters.json",
+          "start": 4146.300000071526,
+          "end": 4327.700000047684,
+          "transfer": 1258,
+          "encoded": 958,
+          "decoded": 2485,
+          "type": "fetch"
+        },
+        {
+          "name": "55a83c95245040512788-768.webp",
+          "start": 4662.5,
+          "end": 4949.200000047684,
+          "transfer": 25532,
+          "encoded": 25232,
+          "decoded": 25232,
+          "type": "img"
+        }
+      ],
+      "stats": {
+        "postprocessing": {
+          "smaa": false,
+          "ao": false,
+          "depthOfField": false
+        },
+        "particles": {
+          "enabled": false,
+          "stars": 0,
+          "dust": 0
+        },
+        "covers": {
+          "atlasWidth": 4096,
+          "atlasHeight": 512,
+          "atlasBytes": 8388608,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "activeDecodes": 0,
+          "queuedDecodes": 0,
+          "pendingImages": 0,
+          "peakDecodes": 3,
+          "cachedImages": 5,
+          "cachedBytes": 2544528,
+          "dirtyTiles": 0,
+          "uploadedTiles": 19,
+          "uploadedBytes": 4980736,
+          "uploadBatches": 7,
+          "gpuInitialized": true
+        },
+        "visibleArchiveIds": [
+          "portal-blog",
+          "portal-minecraft",
+          "portal-stronghold",
+          "nanakaze"
+        ],
+        "arrayMode": "filled",
+        "graphics": {
+          "geometries": 7,
+          "textures": 11,
+          "programs": 14,
+          "contextLost": false
+        },
+        "visibleAlbumCells": 160,
+        "uniqueAlbumCells": 4,
+        "decryption": {
+          "time": -1,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting"
+        },
+        "topLeft": [
+          134,
+          243
+        ],
+        "topRight": [
+          254,
+          165
+        ],
+        "projectedCenter": [
+          195,
+          283
+        ],
+        "labelTopLeft": [
+          160,
+          254
+        ],
+        "labelBottomLeft": [
+          160,
+          274
+        ],
+        "modelPosition": [
+          0,
+          -1.4956,
+          -2.17
+        ],
+        "cameraPosition": [
+          -109.682,
+          56.7137,
+          63.7336
+        ],
+        "cameraAim": [
+          -0.9219,
+          -2.4528,
+          -1.616
+        ],
+        "fieldOfView": 7.42921025288988,
+        "loaded": true,
+        "drawCalls": 15,
+        "triangles": 589157,
+        "archiveCount": 360,
+        "returningFiles": 0,
+        "selectionPhase": "wave",
+        "pendingPulse": null,
+        "pulses": [
+          {
+            "lane": 3,
+            "row": 12,
+            "time": 4.1117000000476835
+          },
+          {
+            "lane": 3,
+            "row": 12,
+            "time": 4.1117000000476835
+          }
+        ],
+        "referenceTime": 35.7,
+        "selectedSlot": 108,
+        "selectedLane": 3,
+        "selectedAlbumId": "nanakaze",
+        "albumCovers": true,
+        "theme": "day",
+        "selectionLight": {
+          "experiment": {
+            "mode": "guided",
+            "strength": 1.3,
+            "dayGain": 11,
+            "width": 1.35,
+            "offset": 0.3,
+            "fill": 1,
+            "transitionDuration": 1.1
+          },
+          "ribbon": {
+            "row": 12.3,
+            "lane": 3,
+            "opening": false,
+            "position": [
+              0,
+              -1.4956379794523595,
+              -2.17
+            ]
+          },
+          "visible": true,
+          "position": [
+            -60.922374136513966,
+            -0.0008803742586782626,
+            -22.678946660194647
+          ],
+          "target": [
+            -1.858,
+            0.7358792549211812,
+            -2.17
+          ]
+        },
+        "selectedCell": {
+          "lane": 3,
+          "row": 12
+        },
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -1,
+          "maxLane": 7,
+          "minRow": -7,
+          "maxRow": 32
+        },
+        "laneFocus": 3,
+        "columnCamera": 4.746,
+        "rotation": 0,
+        "clearance": -2.372871791913272,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.9,
+        "previewLift": 0.9,
+        "appearance": 1,
+        "cameraDetail": 0,
+        "musicPresentationPhase": "archive",
+        "musicPlacement": {
+          "progress": 0,
+          "velocity": 0,
+          "settled": true
+        },
+        "musicArchiveMotion": {
+          "active": false,
+          "progress": 1,
+          "duration": 0,
+          "tracks": {
+            "rail": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "column": {
+              "value": 4.746,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "shoulder": {
+              "value": 12,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "lane": {
+              "value": 3,
+              "velocity": 0,
+              "acceleration": 0
+            }
+          }
+        },
+        "musicNavigationLift": false,
+        "musicPresentationReady": false,
+        "musicArchiveReady": true,
+        "idleGain": 0.00008589291956121452,
+        "cameraDistance": 140,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 150,
+        "fogFar": 180,
+        "returningAppearance": [],
+        "rail": 0,
+        "reduced": false,
+        "suspended": false,
+        "animationScheduled": true,
+        "mobile": true,
+        "mode": "focus",
+        "qualityLevel": "low",
+        "qualityLocked": false,
+        "qualityTier": "performance",
+        "qualityReason": "mobile"
+      },
+      "devtools": [
+        {
+          "name": "Timestamp",
+          "value": 661725.23051
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 6
+        },
+        {
+          "name": "Frames",
+          "value": 5
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 61
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 107
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 274
+        },
+        {
+          "name": "Resources",
+          "value": 16
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 17
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 4
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 6
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 2
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 159
+        },
+        {
+          "name": "LayoutCount",
+          "value": 10
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 246
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.063396
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.033108
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.022948
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.206521
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0.000051
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.890273
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.564249
+        },
+        {
+          "name": "ThreadTime",
+          "value": 4.377685
+        },
+        {
+          "name": "ProcessTime",
+          "value": 4.816949
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 10077140
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 18153472
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 661720.031819
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 661720.030635
+        },
+        {
+          "name": "NavigationStart",
+          "value": 661719.571862
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "Theme controls update scene lighting, DOM and persisted preference",
+      "passed": true
+    },
+    {
+      "name": "Replay and Escape skip preserve unobstructed external navigation",
+      "passed": true
+    },
+    {
+      "name": "Keyboard and link hover select matching native 3D archive lanes",
+      "passed": true
+    },
+    {
+      "name": "Extraction and return use original camera and lift transition",
+      "passed": true
+    },
+    {
+      "name": "Full 5.2-second native camera replay reaches a continuous browsing endpoint",
+      "passed": true
+    },
+    {
+      "name": "Context loss keeps poster + links and supports a clean retry",
+      "passed": true
+    },
+    {
+      "name": "Touch swipe changes archive without touching the link strip",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion suppresses intro, parallax, idle animation and recurring RAF",
+      "passed": true
+    },
+    {
+      "name": "Complete static fallback: no-javascript",
+      "passed": true
+    },
+    {
+      "name": "Complete static fallback: module-failure",
+      "passed": true
+    },
+    {
+      "name": "Complete static fallback: model-failure",
+      "passed": true
+    },
+    {
+      "name": "Complete static fallback: no-webgl",
+      "passed": true
+    },
+    {
+      "name": "Complete static fallback: save-data",
+      "passed": true
+    }
+  ],
+  "build": [
+    {
+      "name": "archive-browser-935Ln-pq.js",
+      "bytes": 11093,
+      "sha256": "6da923a52375fc003319733641ff7bd49a3fb21095a9c2d7dc1a567a1ada1cbc"
+    },
+    {
+      "name": "index-CDZfHl4d.css",
+      "bytes": 15431,
+      "sha256": "9346c9eedab67f6d3f49925d3ba0933686f69c613589c787f1929d4417f90cf8"
+    },
+    {
+      "name": "index-DW8jP_MD.js",
+      "bytes": 12678,
+      "sha256": "0aac84aa94b5021252ce30f87fbd3c6807e14459fd9901c85da01dff92a66e7d"
+    },
+    {
+      "name": "scene-_pWbGvhj.js",
+      "bytes": 110222,
+      "sha256": "adfce9b447ae17d2911523a2b99718dde112b69ee66aa77ae8ac57dbefc4ff28"
+    },
+    {
+      "name": "three-D5mGIMtI.js",
+      "bytes": 940235,
+      "sha256": "adec893556da338acc62bc61bb95d361c42d0c7bb7aab5e85500e19205e9d034"
+    },
+    {
+      "name": "x-timeline-krGT2GBm.js",
+      "bytes": 1022,
+      "sha256": "b672afaadd8fa48a1aff869d0bd95ed4cfa9e72d528d1d678698771675643f9d"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "$schema": "./schemas/tombstones.schema.json",
+  "schemaVersion": 1,
+  "ids": []
+}

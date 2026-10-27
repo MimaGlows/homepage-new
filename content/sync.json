@@ -1,0 +1,52 @@
+{
+  "$schema": "./schemas/sync.schema.json",
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "blog-rss",
+      "module": "blog",
+      "adapter": "rss",
+      "enabled": true,
+      "url": "https://mimaglows.com/rss/",
+      "refreshHours": 24,
+      "maxItems": 20
+    },
+    {
+      "id": "friends-page",
+      "module": "friends",
+      "adapter": "friends-html",
+      "enabled": true,
+      "url": "https://mimaglows.com/about-2/",
+      "refreshHours": 168,
+      "maxItems": 30
+    },
+    {
+      "id": "listenbrainz",
+      "module": "music",
+      "adapter": "listenbrainz",
+      "enabled": false,
+      "refreshHours": 24,
+      "maxItems": 30
+    },
+    {
+      "id": "lastfm",
+      "module": "music",
+      "adapter": "lastfm",
+      "enabled": true,
+      "tokenEnv": "LASTFM_API_KEY",
+      "refreshHours": 24,
+      "maxItems": 30,
+      "username": "MimaGlows"
+    },
+    {
+      "id": "apple-catalog",
+      "module": "music",
+      "adapter": "apple-catalog",
+      "enabled": false,
+      "tokenEnv": "APPLE_MUSIC_DEVELOPER_TOKEN",
+      "storefront": "cn",
+      "refreshHours": 168,
+      "maxItems": 20
+    }
+  ]
+}

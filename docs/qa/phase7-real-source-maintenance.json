@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-26T11:53:20.614Z",
+  "passed": true,
+  "source": "https://mimaglows.com/about-2/",
+  "result": [
+    {
+      "id": "friends-page",
+      "status": "updated",
+      "count": 3
+    }
+  ],
+  "checks": [
+    "隔离副本隐藏一位真实友链后成功重抓实际公开来源，未恢复",
+    "另一个真实友链的人工网址覆盖仍有效",
+    "全部第三方同步关闭后缓存和人工内容保持",
+    "验收更改未写入主项目内容"
+  ]
+}

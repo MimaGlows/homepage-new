@@ -1,0 +1,34 @@
+{
+  "name": "mimaglows-rhine-archive",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build && node scripts/check-build.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "node --test scripts/*.test.mjs",
+    "model": "node --experimental-strip-types art/build-music-case.mjs",
+    "content:validate": "node scripts/content/validate.mjs",
+    "content:schema": "node scripts/content/export-schemas.mjs",
+    "prebuild": "npm run content:validate",
+    "predev": "npm run content:validate",
+    "sync": "node scripts/sync/run.mjs",
+    "manage": "node scripts/studio/server.mjs"
+  },
+  "dependencies": {
+    "three": "0.183.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.183.0",
+    "fast-xml-parser": "5.11.2",
+    "parse5": "8.0.1",
+    "sharp": "0.35.5",
+    "typescript": "5.9.3",
+    "vite": "7.3.1"
+  }
+}

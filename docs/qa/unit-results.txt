@@ -1,0 +1,35 @@
+
+> mimaglows-rhine-archive@5.0.0 check
+> node --test scripts/*.test.mjs
+
+✔ Verified examples share the production schema (2.810166ms)
+✔ A maintainer adds, edits, sorts and hides content without touching renderer code (107.811166ms)
+✔ Manual override and permanent deletion survive repeated automatic cache updates (69.46625ms)
+✔ Private records, bodies and private relations never enter static public JSON (63.848791ms)
+✔ Invalid IDs, field names, URLs and bodies report precise source locations (39.190708ms)
+✔ Missing image has a real local placeholder and API failures retain the last cached content (39.45675ms)
+✔ Adding a fourth OC and disabling a module require only content JSON and Markdown (39.661167ms)
+✔ Git restores an accidental content edit in an isolated maintainer repository (157.403083ms)
+✔ Central navigation remains valid without fixing a maintainer’s chosen URLs (15.257416ms)
+✔ Critical entry keeps Three.js behind an import boundary (1.352291ms)
+✔ Cache rotation and smaller re-imports retain aliases protected by manual mapping and hiding (24.186375ms)
+✔ Canonical recordings use ISRC and cautious metadata, keeping live/remix/re-recordings apart (1.776958ms)
+✔ Manual grouping, split locks, confirmed URLs and hidden aliases take priority (0.216ms)
+✔ Last.fm keeps one track plus genuine timestamped plays, never fabricates nowplaying events (1.327ms)
+✔ Apple matching uses official ID/ISRC endpoints and only accepts one reliable Catalog URL (0.556208ms)
+✔ Authorized NetEase/YouTube imports preserve platform links and only real provided timestamps (0.225542ms)
+✔ Maintainer featured/link/merge/hide choices survive actual repeated sync runner writes and missing credentials (108.270875ms)
+✔ Actual production build excludes hidden artwork and unused uploads, while changed main images discard stale generated sizes (1182.642792ms)
+✔ Local Studio writes validated real files, prevents cross-origin writes, detects conflicts and restores backups (204.447708ms)
+✔ Sync only accepts public HTTPS targets, including mapped/private IPs (3.646209ms)
+✔ RSS and friends parse text, canonical stable URLs and dates without executing HTML (5.426708ms)
+✔ Actual sync runner respects overrides/deletions and retains old success after source failure (109.419875ms)
+✔ Upload optimizer rejects active SVG files (19.652584ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1233.896584

@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-27T03:06:53.166Z",
+  "browser": "156.0.8078.48",
+  "results": [
+    {
+      "name": "Subpath static hosting loads all relative chunks, previews and GLB",
+      "passed": true
+    },
+    {
+      "name": "Failed dynamic module can be retried after network recovery",
+      "passed": true
+    },
+    {
+      "name": "20-second timeout rejects a stalled model, ignores its late result, and retries cleanly",
+      "passed": true
+    },
+    {
+      "name": "Resize desktop → portrait → landscape preserves accessible links and finite camera",
+      "passed": true
+    },
+    {
+      "name": "Physical card hover raycasts select a different native archive lane",
+      "passed": true
+    },
+    {
+      "name": "Changing reduced-motion during playback cancels the intro and reaches static browsing",
+      "passed": true
+    }
+  ]
+}

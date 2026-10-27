@@ -1,0 +1,13 @@
+import { readFile, readdir, stat } from 'node:fs/promises';
+const html = await readFile('dist/index.html', 'utf8');
+if (/__LINK_|modulepreload|fonts.googleapis|music-app/.test(html)) throw new Error('Critical shell regression');
+const site = JSON.parse(await readFile('content/site.json','utf8'));
+for(const item of site.navigation) if(!html.includes(item.url.replaceAll('&','&amp;'))) throw new Error(`Missing static link: ${item.id}`);
+if(!html.includes(site.registration.url)||!html.includes(site.name))throw new Error('Static identity or registration missing');
+if(/studio|manage-server/.test(html))throw new Error('Management code leaked into public HTML');
+const assets = await readdir('dist/assets');
+for (const file of ['preview-day.webp','preview-night.webp','preview-day-mobile.webp','preview-night-mobile.webp','music-case-v043.glb']) await stat(`dist/assets/${file}`);
+const entry = assets.find(file => /^index-.*\.js$/.test(file));
+if (!entry || (await stat(`dist/assets/${entry}`)).size > 18000) throw new Error('Shell JS budget exceeded');
+if (assets.some(file => /woff|ogg|mp3/.test(file))) throw new Error('Unexpected font/audio payload');
+console.log('Static shell, lazy scene, preview assets and payload budgets verified.');

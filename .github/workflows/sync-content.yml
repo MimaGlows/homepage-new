@@ -1,0 +1,33 @@
+name: Refresh public content cache
+# Read-only public sources and repository secrets; never deploys or edits content/.
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Fetch enabled sources; failures preserve previous cache
+        id: sync
+        continue-on-error: true
+        run: npm run sync -- --force
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          APPLE_MUSIC_DEVELOPER_TOKEN: ${{ secrets.APPLE_MUSIC_DEVELOPER_TOKEN }}
+      - run: npm run content:validate
+      - name: Upload reviewable cache (does not publish)
+        uses: actions/upload-artifact@v4
+        with:
+          name: mima-content-cache
+          path: |
+            generated/
+            public/media/
+      - name: Report source errors
+        if: steps.sync.outcome == 'failure'
+        run: echo 'Some sources failed. Previous successful data remains in the cache artifact; inspect generated status before merging.' >> "$GITHUB_STEP_SUMMARY"

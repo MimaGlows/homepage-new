@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-27T03:08:35.093Z",
+  "passed": true,
+  "conditions": "Desktop viewport; injected 2-core/2GiB hints, then separate 70ms RAF timestamp simulations with default and visitor-selected high quality. Verifies automatic downgrade, manual choice retention and actual renderer settings, not real low-end GPU performance.",
+  "checks": [
+    {
+      "type": "hardware",
+      "reason": "hardware",
+      "quality": {
+        "ratio": 1,
+        "width": 1440,
+        "height": 900,
+        "limited": false,
+        "antialias": "off",
+        "transmission": 0.5,
+        "anisotropy": 4,
+        "aoSamples": 0,
+        "aoWidth": 720,
+        "aoHeight": 450,
+        "shadows": 1024,
+        "depthOfField": 0
+      }
+    },
+    {
+      "type": "slow-frames",
+      "reason": "sustained-frame-time",
+      "quality": {
+        "ratio": 1,
+        "width": 1440,
+        "height": 900,
+        "limited": false,
+        "antialias": "off",
+        "transmission": 0.5,
+        "anisotropy": 4,
+        "aoSamples": 0,
+        "aoWidth": 720,
+        "aoHeight": 450,
+        "shadows": 1024,
+        "depthOfField": 0
+      }
+    },
+    {
+      "type": "visitor-high",
+      "reason": "visitor",
+      "quality": {
+        "ratio": 1.25,
+        "width": 1800,
+        "height": 1125,
+        "limited": false,
+        "antialias": "smaa",
+        "transmission": 1,
+        "anisotropy": 16,
+        "aoSamples": 32,
+        "aoWidth": 1800,
+        "aoHeight": 1125,
+        "shadows": 4096,
+        "depthOfField": 100
+      }
+    }
+  ]
+}

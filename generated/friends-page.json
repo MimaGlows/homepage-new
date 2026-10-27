@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "source": "friends-page",
+  "lastAttemptAt": "2026-10-26T11:53:19.642Z",
+  "lastSuccessfulAt": "2026-10-26T11:53:19.642Z",
+  "items": [
+    {
+      "id": "friend-8ae3307ce178b5a9a3",
+      "type": "friend",
+      "title": "表情的个人小站",
+      "description": "",
+      "url": "https://biaoqingqwq.github.io/",
+      "published": true,
+      "order": 10,
+      "source": {
+        "url": "https://mimaglows.com/about-2/",
+        "attribution": "原友链页面及各站点",
+        "retrievedAt": "2026-10-26T11:53:20.692Z",
+        "imageUrl": "https://s2.loli.net/2022/10/28/l8ItXs1iQOqhVF9.jpg",
+        "license": "原站封面/头像，权利归原作者；不随程序代码授予 MIT"
+      },
+      "thumbnail": "/media/friends/b071a12ca8b199b2f9a1-256.webp",
+      "image": "/media/friends/b071a12ca8b199b2f9a1-768.webp",
+      "imageLarge": "/media/friends/b071a12ca8b199b2f9a1-1440.webp"
+    },
+    {
+      "id": "friend-971cb53c25bce258fe",
+      "type": "friend",
+      "title": "maoziの窝",
+      "description": "",
+      "url": "https://gmaox.github.io/",
+      "published": true,
+      "order": 20,
+      "source": {
+        "url": "https://mimaglows.com/about-2/",
+        "attribution": "原友链页面及各站点",
+        "retrievedAt": "2026-10-26T11:53:20.692Z",
+        "imageUrl": "https://gmaox.github.io/1.jpg",
+        "license": "原站封面/头像，权利归原作者；不随程序代码授予 MIT"
+      },
+      "thumbnail": "/media/friends/0d842792f5fcf435e1d2-256.webp",
+      "image": "/media/friends/0d842792f5fcf435e1d2-768.webp",
+      "imageLarge": "/media/friends/0d842792f5fcf435e1d2-1440.webp"
+    },
+    {
+      "id": "friend-713bfb78a5d0e796ff",
+      "type": "friend",
+      "title": "落雪咖啡屋",
+      "description": "",
+      "url": "https://lxns.net/",
+      "published": true,
+      "order": 30,
+      "source": {
+        "url": "https://mimaglows.com/about-2/",
+        "attribution": "原友链页面及各站点",
+        "retrievedAt": "2026-10-26T11:53:20.692Z",
+        "imageUrl": "https://lxns.net/static/avatar.jpg",
+        "license": "原站封面/头像，权利归原作者；不随程序代码授予 MIT"
+      },
+      "image": "/assets/placeholder.svg"
+    }
+  ]
+}

@@ -1,0 +1,3455 @@
+{
+  "date": "2026-10-26T07:14:05.578Z",
+  "base": "http://127.0.0.1:4173/",
+  "browser": "155.0.8059.86",
+  "environment": "Local production Vite preview; fresh contexts; CDP cache disabled; Vite preview gzip responses; no external CDN",
+  "performance": [
+    {
+      "device": "desktop-1440x900",
+      "run": 1,
+      "network": "unthrottled localhost",
+      "errors": [],
+      "firstLinks": [
+        {
+          "href": "https://mimaglows.com/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://mimaglows.com/mckai-fu-quan-xin-lu-li-cheng/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://ten.mimaglows.com:44580/",
+          "visible": true,
+          "clickable": true
+        }
+      ],
+      "lcp": 132,
+      "cls": 0,
+      "longTasks": [
+        {
+          "start": 487.10000002384186,
+          "duration": 64
+        },
+        {
+          "start": 565.2999999523163,
+          "duration": 137
+        }
+      ],
+      "shifts": [],
+      "lcpElement": "BUTTON",
+      "paints": [
+        {
+          "name": "first-paint",
+          "start": 132
+        },
+        {
+          "name": "first-contentful-paint",
+          "start": 132
+        }
+      ],
+      "marks": [
+        {
+          "name": "mima:shell",
+          "start": 32.5
+        },
+        {
+          "name": "mima:preview-visible",
+          "start": 45.200000047683716
+        },
+        {
+          "name": "mima:scene-request",
+          "start": 446.5
+        },
+        {
+          "name": "mima:scene-ready",
+          "start": 710.7000000476837
+        }
+      ],
+      "resources": [
+        {
+          "name": "index-BAb6MVQ1.js",
+          "start": 7.200000047683716,
+          "end": 9.799999952316284,
+          "transfer": 3264,
+          "encoded": 2964,
+          "decoded": 6746,
+          "type": "script"
+        },
+        {
+          "name": "index-DTv9uUhY.css",
+          "start": 7.399999976158142,
+          "end": 10.100000023841858,
+          "transfer": 2840,
+          "encoded": 2540,
+          "decoded": 7941,
+          "type": "link"
+        },
+        {
+          "name": "preview-day.webp",
+          "start": 7.399999976158142,
+          "end": 10.299999952316284,
+          "transfer": 96300,
+          "encoded": 96000,
+          "decoded": 96000,
+          "type": "img"
+        },
+        {
+          "name": "favicon.svg",
+          "start": 38.5,
+          "end": 39.799999952316284,
+          "transfer": 512,
+          "encoded": 212,
+          "decoded": 212,
+          "type": "other"
+        },
+        {
+          "name": "scene-Dgm5104A.js",
+          "start": 446.7999999523163,
+          "end": 451.60000002384186,
+          "transfer": 33556,
+          "encoded": 33256,
+          "decoded": 107167,
+          "type": "script"
+        },
+        {
+          "name": "three-D5mGIMtI.js",
+          "start": 452.7999999523163,
+          "end": 485.60000002384186,
+          "transfer": 300901,
+          "encoded": 300601,
+          "decoded": 940235,
+          "type": "script"
+        },
+        {
+          "name": "music-case-v043.glb?v=f27162cdb5a3",
+          "start": 551.6000000238419,
+          "end": 553.6000000238419,
+          "transfer": 79248,
+          "encoded": 78948,
+          "decoded": 78948,
+          "type": "fetch"
+        },
+        {
+          "name": "cover-blog.webp",
+          "start": 561.6000000238419,
+          "end": 563.1000000238419,
+          "transfer": 28710,
+          "encoded": 28410,
+          "decoded": 28410,
+          "type": "img"
+        },
+        {
+          "name": "cover-minecraft.webp",
+          "start": 702.6000000238419,
+          "end": 704.2000000476837,
+          "transfer": 32382,
+          "encoded": 32082,
+          "decoded": 32082,
+          "type": "img"
+        },
+        {
+          "name": "cover-stronghold.webp",
+          "start": 702.6000000238419,
+          "end": 704.2999999523163,
+          "transfer": 24096,
+          "encoded": 23796,
+          "decoded": 23796,
+          "type": "img"
+        }
+      ],
+      "stats": {
+        "covers": {
+          "atlasWidth": 768,
+          "atlasHeight": 256,
+          "atlasBytes": 786432,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "activeDecodes": 0,
+          "queuedDecodes": 0,
+          "pendingImages": 0,
+          "peakDecodes": 2,
+          "cachedImages": 3,
+          "cachedBytes": 2883584,
+          "dirtyTiles": 0,
+          "uploadedTiles": 6,
+          "uploadedBytes": 1572864,
+          "uploadBatches": 3,
+          "gpuInitialized": true
+        },
+        "arrayMode": "filled",
+        "graphics": {
+          "geometries": 7,
+          "textures": 17,
+          "programs": 22,
+          "contextLost": false
+        },
+        "visibleAlbumCells": 360,
+        "uniqueAlbumCells": 3,
+        "decryption": {
+          "time": -1,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting"
+        },
+        "topLeft": [
+          387,
+          288
+        ],
+        "topRight": [
+          674,
+          97
+        ],
+        "projectedCenter": [
+          534,
+          376
+        ],
+        "labelTopLeft": [
+          449,
+          313
+        ],
+        "labelBottomLeft": [
+          449,
+          359
+        ],
+        "modelPosition": [
+          0,
+          -1.4961,
+          -2.17
+        ],
+        "cameraPosition": [
+          -109.615,
+          59.7121,
+          65.6888
+        ],
+        "cameraAim": [
+          -0.855,
+          0.5455,
+          0.3392
+        ],
+        "fieldOfView": 3.3322196837484346,
+        "loaded": true,
+        "drawCalls": 37,
+        "triangles": 1312609,
+        "archiveCount": 360,
+        "returningFiles": 0,
+        "selectionPhase": "wave",
+        "pendingPulse": null,
+        "pulses": [
+          {
+            "lane": 0,
+            "row": 12,
+            "time": 0.7027999999523162
+          }
+        ],
+        "referenceTime": 35.67,
+        "selectedSlot": 12,
+        "selectedLane": 0,
+        "selectedAlbumId": "blog",
+        "albumCovers": true,
+        "theme": "day",
+        "selectionLight": {
+          "experiment": {
+            "mode": "guided",
+            "strength": 1.3,
+            "dayGain": 11,
+            "width": 1.35,
+            "offset": 0.3,
+            "fill": 1,
+            "transitionDuration": 1.1
+          },
+          "ribbon": {
+            "row": 12.3,
+            "lane": 0,
+            "opening": false,
+            "position": [
+              0,
+              -1.4960904783305038,
+              -2.17
+            ]
+          },
+          "visible": true,
+          "position": [
+            -60.922374136513966,
+            0.00797297819377385,
+            -22.678946660194647
+          ],
+          "target": [
+            -1.858,
+            0.7447326073736333,
+            -2.17
+          ]
+        },
+        "selectedCell": {
+          "lane": 0,
+          "row": 12
+        },
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -4,
+          "maxLane": 4,
+          "minRow": -7,
+          "maxRow": 32
+        },
+        "laneFocus": 0,
+        "columnCamera": -9.492,
+        "rotation": 0,
+        "clearance": -2.374327903939734,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.9,
+        "previewLift": 0.9,
+        "appearance": 1,
+        "cameraDetail": 0,
+        "musicPresentationPhase": "archive",
+        "musicPlacement": {
+          "progress": 0,
+          "velocity": 0,
+          "settled": true
+        },
+        "musicArchiveMotion": {
+          "active": false,
+          "progress": 1,
+          "duration": 0,
+          "tracks": {
+            "rail": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "column": {
+              "value": -9.492,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "shoulder": {
+              "value": 12,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "lane": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            }
+          }
+        },
+        "musicNavigationLift": false,
+        "musicPresentationReady": false,
+        "musicArchiveReady": true,
+        "idleGain": 0.00009450959830274898,
+        "cameraDistance": 140,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 150,
+        "fogFar": 180,
+        "returningAppearance": [],
+        "rail": 0,
+        "reduced": false,
+        "suspended": false,
+        "animationScheduled": true,
+        "mobile": false
+      },
+      "devtools": [
+        {
+          "name": "Timestamp",
+          "value": 619833.995555
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 1
+        },
+        {
+          "name": "Frames",
+          "value": 1
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 51
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 95
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 175
+        },
+        {
+          "name": "Resources",
+          "value": 3
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 9
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 1
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 58
+        },
+        {
+          "name": "LayoutCount",
+          "value": 7
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 126
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.021313
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.012601
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.006153
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.148702
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0.000027
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.456079
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.267283
+        },
+        {
+          "name": "ThreadTime",
+          "value": 0.285
+        },
+        {
+          "name": "ProcessTime",
+          "value": 0.547366
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 9726920
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 16351232
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 619831.897941
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 619831.798935
+        },
+        {
+          "name": "NavigationStart",
+          "value": 619831.765995
+        }
+      ]
+    },
+    {
+      "device": "desktop-1440x900",
+      "run": 2,
+      "network": "unthrottled localhost",
+      "errors": [],
+      "firstLinks": [
+        {
+          "href": "https://mimaglows.com/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://mimaglows.com/mckai-fu-quan-xin-lu-li-cheng/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://ten.mimaglows.com:44580/",
+          "visible": true,
+          "clickable": true
+        }
+      ],
+      "lcp": 40,
+      "cls": 0,
+      "longTasks": [
+        {
+          "start": 458.60000002384186,
+          "duration": 51
+        },
+        {
+          "start": 522.9000000953674,
+          "duration": 119
+        }
+      ],
+      "shifts": [],
+      "lcpElement": "BUTTON",
+      "paints": [
+        {
+          "name": "first-paint",
+          "start": 40
+        },
+        {
+          "name": "first-contentful-paint",
+          "start": 40
+        }
+      ],
+      "marks": [
+        {
+          "name": "mima:shell",
+          "start": 10.900000095367432
+        },
+        {
+          "name": "mima:preview-visible",
+          "start": 29.90000009536743
+        },
+        {
+          "name": "mima:scene-request",
+          "start": 432.5
+        },
+        {
+          "name": "mima:scene-ready",
+          "start": 650.6000000238419
+        }
+      ],
+      "resources": [
+        {
+          "name": "index-BAb6MVQ1.js",
+          "start": 7.400000095367432,
+          "end": 10,
+          "transfer": 3264,
+          "encoded": 2964,
+          "decoded": 6746,
+          "type": "script"
+        },
+        {
+          "name": "preview-day.webp",
+          "start": 7.5,
+          "end": 10.100000023841858,
+          "transfer": 96300,
+          "encoded": 96000,
+          "decoded": 96000,
+          "type": "img"
+        },
+        {
+          "name": "index-DTv9uUhY.css",
+          "start": 7.5,
+          "end": 10.200000047683716,
+          "transfer": 2840,
+          "encoded": 2540,
+          "decoded": 7941,
+          "type": "link"
+        },
+        {
+          "name": "favicon.svg",
+          "start": 33,
+          "end": 34,
+          "transfer": 512,
+          "encoded": 212,
+          "decoded": 212,
+          "type": "other"
+        },
+        {
+          "name": "scene-Dgm5104A.js",
+          "start": 432.8000000715256,
+          "end": 435.90000009536743,
+          "transfer": 33556,
+          "encoded": 33256,
+          "decoded": 107167,
+          "type": "script"
+        },
+        {
+          "name": "three-D5mGIMtI.js",
+          "start": 437.3000000715256,
+          "end": 457.40000009536743,
+          "transfer": 300901,
+          "encoded": 300601,
+          "decoded": 940235,
+          "type": "script"
+        },
+        {
+          "name": "music-case-v043.glb?v=f27162cdb5a3",
+          "start": 510.10000002384186,
+          "end": 512,
+          "transfer": 79248,
+          "encoded": 78948,
+          "decoded": 78948,
+          "type": "fetch"
+        },
+        {
+          "name": "cover-blog.webp",
+          "start": 519.4000000953674,
+          "end": 520.6000000238419,
+          "transfer": 28710,
+          "encoded": 28410,
+          "decoded": 28410,
+          "type": "img"
+        },
+        {
+          "name": "cover-minecraft.webp",
+          "start": 642.1000000238419,
+          "end": 643.7000000476837,
+          "transfer": 32382,
+          "encoded": 32082,
+          "decoded": 32082,
+          "type": "img"
+        },
+        {
+          "name": "cover-stronghold.webp",
+          "start": 642.2000000476837,
+          "end": 643.7000000476837,
+          "transfer": 24096,
+          "encoded": 23796,
+          "decoded": 23796,
+          "type": "img"
+        }
+      ],
+      "stats": {
+        "covers": {
+          "atlasWidth": 768,
+          "atlasHeight": 256,
+          "atlasBytes": 786432,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "activeDecodes": 0,
+          "queuedDecodes": 0,
+          "pendingImages": 0,
+          "peakDecodes": 2,
+          "cachedImages": 3,
+          "cachedBytes": 2883584,
+          "dirtyTiles": 0,
+          "uploadedTiles": 6,
+          "uploadedBytes": 1572864,
+          "uploadBatches": 3,
+          "gpuInitialized": true
+        },
+        "arrayMode": "filled",
+        "graphics": {
+          "geometries": 7,
+          "textures": 17,
+          "programs": 22,
+          "contextLost": false
+        },
+        "visibleAlbumCells": 360,
+        "uniqueAlbumCells": 3,
+        "decryption": {
+          "time": -1,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting"
+        },
+        "topLeft": [
+          387,
+          288
+        ],
+        "topRight": [
+          674,
+          97
+        ],
+        "projectedCenter": [
+          534,
+          376
+        ],
+        "labelTopLeft": [
+          449,
+          313
+        ],
+        "labelBottomLeft": [
+          449,
+          359
+        ],
+        "modelPosition": [
+          0,
+          -1.4961,
+          -2.17
+        ],
+        "cameraPosition": [
+          -109.615,
+          59.7121,
+          65.6888
+        ],
+        "cameraAim": [
+          -0.855,
+          0.5455,
+          0.3392
+        ],
+        "fieldOfView": 3.3322196837484346,
+        "loaded": true,
+        "drawCalls": 37,
+        "triangles": 1312609,
+        "archiveCount": 360,
+        "returningFiles": 0,
+        "selectionPhase": "wave",
+        "pendingPulse": null,
+        "pulses": [
+          {
+            "lane": 0,
+            "row": 12,
+            "time": 0.6424000000953675
+          }
+        ],
+        "referenceTime": 35.68,
+        "selectedSlot": 12,
+        "selectedLane": 0,
+        "selectedAlbumId": "blog",
+        "albumCovers": true,
+        "theme": "day",
+        "selectionLight": {
+          "experiment": {
+            "mode": "guided",
+            "strength": 1.3,
+            "dayGain": 11,
+            "width": 1.35,
+            "offset": 0.3,
+            "fill": 1,
+            "transitionDuration": 1.1
+          },
+          "ribbon": {
+            "row": 12.3,
+            "lane": 0,
+            "opening": false,
+            "position": [
+              0,
+              -1.4960632693830704,
+              -2.17
+            ]
+          },
+          "visible": true,
+          "position": [
+            -60.922374136513966,
+            0.00812295913642691,
+            -22.678946660194647
+          ],
+          "target": [
+            -1.858,
+            0.7448825883162864,
+            -2.17
+          ]
+        },
+        "selectedCell": {
+          "lane": 0,
+          "row": 12
+        },
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -4,
+          "maxLane": 4,
+          "minRow": -7,
+          "maxRow": 32
+        },
+        "laneFocus": 0,
+        "columnCamera": -9.492,
+        "rotation": 0,
+        "clearance": -2.3744033722403044,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.9,
+        "previewLift": 0.9,
+        "appearance": 1,
+        "cameraDetail": 0,
+        "musicPresentationPhase": "archive",
+        "musicPlacement": {
+          "progress": 0,
+          "velocity": 0,
+          "settled": true
+        },
+        "musicArchiveMotion": {
+          "active": false,
+          "progress": 1,
+          "duration": 0,
+          "tracks": {
+            "rail": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "column": {
+              "value": -9.492,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "shoulder": {
+              "value": 12,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "lane": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            }
+          }
+        },
+        "musicNavigationLift": false,
+        "musicPresentationReady": false,
+        "musicArchiveReady": true,
+        "idleGain": 0.00009267524560932932,
+        "cameraDistance": 140,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 150,
+        "fogFar": 180,
+        "returningAppearance": [],
+        "rail": 0,
+        "reduced": false,
+        "suspended": false,
+        "animationScheduled": true,
+        "mobile": false
+      },
+      "devtools": [
+        {
+          "name": "Timestamp",
+          "value": 619836.540848
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 1
+        },
+        {
+          "name": "Frames",
+          "value": 1
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 51
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 95
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 175
+        },
+        {
+          "name": "Resources",
+          "value": 3
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 9
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 1
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 58
+        },
+        {
+          "name": "LayoutCount",
+          "value": 7
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 127
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.018137
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.012364
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.007417
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.1625
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0.000031
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.433042
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.232593
+        },
+        {
+          "name": "ThreadTime",
+          "value": 0.310173
+        },
+        {
+          "name": "ProcessTime",
+          "value": 0.581306
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 7788824
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 16351232
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 619834.412731
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 619834.384574
+        },
+        {
+          "name": "NavigationStart",
+          "value": 619834.37329
+        }
+      ]
+    },
+    {
+      "device": "desktop-1440x900",
+      "run": 3,
+      "network": "unthrottled localhost",
+      "errors": [],
+      "firstLinks": [
+        {
+          "href": "https://mimaglows.com/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://mimaglows.com/mckai-fu-quan-xin-lu-li-cheng/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://ten.mimaglows.com:44580/",
+          "visible": true,
+          "clickable": true
+        }
+      ],
+      "lcp": 28,
+      "cls": 0,
+      "longTasks": [
+        {
+          "start": 456.3000000715256,
+          "duration": 52
+        },
+        {
+          "start": 519.3000000715256,
+          "duration": 115
+        }
+      ],
+      "shifts": [],
+      "lcpElement": "BUTTON",
+      "paints": [
+        {
+          "name": "first-paint",
+          "start": 28
+        },
+        {
+          "name": "first-contentful-paint",
+          "start": 28
+        }
+      ],
+      "marks": [
+        {
+          "name": "mima:shell",
+          "start": 6.800000071525574
+        },
+        {
+          "name": "mima:preview-visible",
+          "start": 23.200000047683716
+        },
+        {
+          "name": "mima:scene-request",
+          "start": 424.60000002384186
+        },
+        {
+          "name": "mima:scene-ready",
+          "start": 644.9000000953674
+        }
+      ],
+      "resources": [
+        {
+          "name": "index-BAb6MVQ1.js",
+          "start": 3.700000047683716,
+          "end": 5.800000071525574,
+          "transfer": 3264,
+          "encoded": 2964,
+          "decoded": 6746,
+          "type": "script"
+        },
+        {
+          "name": "preview-day.webp",
+          "start": 3.8000000715255737,
+          "end": 5.800000071525574,
+          "transfer": 96300,
+          "encoded": 96000,
+          "decoded": 96000,
+          "type": "img"
+        },
+        {
+          "name": "index-DTv9uUhY.css",
+          "start": 3.8000000715255737,
+          "end": 5.900000095367432,
+          "transfer": 2840,
+          "encoded": 2540,
+          "decoded": 7941,
+          "type": "link"
+        },
+        {
+          "name": "favicon.svg",
+          "start": 26.40000009536743,
+          "end": 27.800000071525574,
+          "transfer": 512,
+          "encoded": 212,
+          "decoded": 212,
+          "type": "other"
+        },
+        {
+          "name": "scene-Dgm5104A.js",
+          "start": 425.10000002384186,
+          "end": 431.40000009536743,
+          "transfer": 33556,
+          "encoded": 33256,
+          "decoded": 107167,
+          "type": "script"
+        },
+        {
+          "name": "three-D5mGIMtI.js",
+          "start": 433.2000000476837,
+          "end": 455,
+          "transfer": 300901,
+          "encoded": 300601,
+          "decoded": 940235,
+          "type": "script"
+        },
+        {
+          "name": "music-case-v043.glb?v=f27162cdb5a3",
+          "start": 508.3000000715256,
+          "end": 509.60000002384186,
+          "transfer": 79248,
+          "encoded": 78948,
+          "decoded": 78948,
+          "type": "fetch"
+        },
+        {
+          "name": "cover-blog.webp",
+          "start": 516,
+          "end": 517.3000000715256,
+          "transfer": 28710,
+          "encoded": 28410,
+          "decoded": 28410,
+          "type": "img"
+        },
+        {
+          "name": "cover-minecraft.webp",
+          "start": 635,
+          "end": 636.9000000953674,
+          "transfer": 32382,
+          "encoded": 32082,
+          "decoded": 32082,
+          "type": "img"
+        },
+        {
+          "name": "cover-stronghold.webp",
+          "start": 635.1000000238419,
+          "end": 637.7000000476837,
+          "transfer": 24096,
+          "encoded": 23796,
+          "decoded": 23796,
+          "type": "img"
+        }
+      ],
+      "stats": {
+        "covers": {
+          "atlasWidth": 768,
+          "atlasHeight": 256,
+          "atlasBytes": 786432,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "activeDecodes": 0,
+          "queuedDecodes": 0,
+          "pendingImages": 0,
+          "peakDecodes": 2,
+          "cachedImages": 3,
+          "cachedBytes": 2883584,
+          "dirtyTiles": 0,
+          "uploadedTiles": 6,
+          "uploadedBytes": 1572864,
+          "uploadBatches": 3,
+          "gpuInitialized": true
+        },
+        "arrayMode": "filled",
+        "graphics": {
+          "geometries": 7,
+          "textures": 17,
+          "programs": 22,
+          "contextLost": false
+        },
+        "visibleAlbumCells": 360,
+        "uniqueAlbumCells": 3,
+        "decryption": {
+          "time": -1,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting"
+        },
+        "topLeft": [
+          387,
+          288
+        ],
+        "topRight": [
+          674,
+          97
+        ],
+        "projectedCenter": [
+          534,
+          376
+        ],
+        "labelTopLeft": [
+          449,
+          313
+        ],
+        "labelBottomLeft": [
+          449,
+          359
+        ],
+        "modelPosition": [
+          0,
+          -1.4961,
+          -2.17
+        ],
+        "cameraPosition": [
+          -109.615,
+          59.7121,
+          65.6888
+        ],
+        "cameraAim": [
+          -0.855,
+          0.5455,
+          0.3392
+        ],
+        "fieldOfView": 3.3322196837484346,
+        "loaded": true,
+        "drawCalls": 37,
+        "triangles": 1312609,
+        "archiveCount": 360,
+        "returningFiles": 0,
+        "selectionPhase": "wave",
+        "pendingPulse": null,
+        "pulses": [
+          {
+            "lane": 0,
+            "row": 12,
+            "time": 0.6352000000476837
+          }
+        ],
+        "referenceTime": 35.67,
+        "selectedSlot": 12,
+        "selectedLane": 0,
+        "selectedAlbumId": "blog",
+        "albumCovers": true,
+        "theme": "day",
+        "selectionLight": {
+          "experiment": {
+            "mode": "guided",
+            "strength": 1.3,
+            "dayGain": 11,
+            "width": 1.35,
+            "offset": 0.3,
+            "fill": 1,
+            "transitionDuration": 1.1
+          },
+          "ribbon": {
+            "row": 12.3,
+            "lane": 0,
+            "opening": false,
+            "position": [
+              0,
+              -1.496104777871217,
+              -2.17
+            ]
+          },
+          "visible": true,
+          "position": [
+            -60.922374136513966,
+            0.00789963738245092,
+            -22.678946660194647
+          ],
+          "target": [
+            -1.858,
+            0.7446592665623104,
+            -2.17
+          ]
+        },
+        "selectedCell": {
+          "lane": 0,
+          "row": 12
+        },
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -4,
+          "maxLane": 4,
+          "minRow": -7,
+          "maxRow": 32
+        },
+        "laneFocus": 0,
+        "columnCamera": -9.492,
+        "rotation": 0,
+        "clearance": -2.3742902630098275,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.9,
+        "previewLift": 0.9,
+        "appearance": 1,
+        "cameraDetail": 0,
+        "musicPresentationPhase": "archive",
+        "musicPlacement": {
+          "progress": 0,
+          "velocity": 0,
+          "settled": true
+        },
+        "musicArchiveMotion": {
+          "active": false,
+          "progress": 1,
+          "duration": 0,
+          "tracks": {
+            "rail": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "column": {
+              "value": -9.492,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "shoulder": {
+              "value": 12,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "lane": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            }
+          }
+        },
+        "musicNavigationLift": false,
+        "musicPresentationReady": false,
+        "musicArchiveReady": true,
+        "idleGain": 0.00009542125945466349,
+        "cameraDistance": 140,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 150,
+        "fogFar": 180,
+        "returningAppearance": [],
+        "rail": 0,
+        "reduced": false,
+        "suspended": false,
+        "animationScheduled": true,
+        "mobile": false
+      },
+      "devtools": [
+        {
+          "name": "Timestamp",
+          "value": 619838.822561
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 1
+        },
+        {
+          "name": "Frames",
+          "value": 1
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 51
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 95
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 175
+        },
+        {
+          "name": "Resources",
+          "value": 3
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 9
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 2
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 1
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 58
+        },
+        {
+          "name": "LayoutCount",
+          "value": 7
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 125
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.015803
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.010748
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.005913
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.151494
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0.00002
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.412601
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.228623
+        },
+        {
+          "name": "ThreadTime",
+          "value": 0.288128
+        },
+        {
+          "name": "ProcessTime",
+          "value": 0.560114
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 7888484
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 17137664
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 619836.69213
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 619836.671945
+        },
+        {
+          "name": "NavigationStart",
+          "value": 619836.66488
+        }
+      ]
+    },
+    {
+      "device": "mobile-390x844",
+      "run": 1,
+      "network": "1.6 Mbps down / 150 ms latency / CPU 4x",
+      "errors": [],
+      "firstLinks": [
+        {
+          "href": "https://mimaglows.com/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://mimaglows.com/mckai-fu-quan-xin-lu-li-cheng/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://ten.mimaglows.com:44580/",
+          "visible": true,
+          "clickable": true
+        }
+      ],
+      "lcp": 432,
+      "cls": 0,
+      "longTasks": [
+        {
+          "start": 2848.6999999284744,
+          "duration": 154
+        },
+        {
+          "start": 3887.7999999523163,
+          "duration": 180
+        }
+      ],
+      "shifts": [],
+      "lcpElement": "BUTTON",
+      "paints": [
+        {
+          "name": "first-paint",
+          "start": 432
+        },
+        {
+          "name": "first-contentful-paint",
+          "start": 432
+        }
+      ],
+      "marks": [
+        {
+          "name": "mima:shell",
+          "start": 422.89999997615814
+        },
+        {
+          "name": "mima:preview-visible",
+          "start": 628.8999999761581
+        },
+        {
+          "name": "mima:scene-request",
+          "start": 849.3999999761581
+        },
+        {
+          "name": "mima:scene-ready",
+          "start": 4084.600000023842
+        }
+      ],
+      "resources": [
+        {
+          "name": "index-BAb6MVQ1.js",
+          "start": 172.29999995231628,
+          "end": 374.89999997615814,
+          "transfer": 3264,
+          "encoded": 2964,
+          "decoded": 6746,
+          "type": "script"
+        },
+        {
+          "name": "index-DTv9uUhY.css",
+          "start": 172.39999997615814,
+          "end": 360.10000002384186,
+          "transfer": 2840,
+          "encoded": 2540,
+          "decoded": 7941,
+          "type": "link"
+        },
+        {
+          "name": "preview-day-mobile.webp",
+          "start": 172.39999997615814,
+          "end": 623,
+          "transfer": 52036,
+          "encoded": 51736,
+          "decoded": 51736,
+          "type": "img"
+        },
+        {
+          "name": "favicon.svg",
+          "start": 625.5,
+          "end": 788,
+          "transfer": 512,
+          "encoded": 212,
+          "decoded": 212,
+          "type": "other"
+        },
+        {
+          "name": "scene-Dgm5104A.js",
+          "start": 849.8999999761581,
+          "end": 1177.6999999284744,
+          "transfer": 33556,
+          "encoded": 33256,
+          "decoded": 107167,
+          "type": "script"
+        },
+        {
+          "name": "three-D5mGIMtI.js",
+          "start": 1179.2999999523163,
+          "end": 2842.399999976158,
+          "transfer": 300901,
+          "encoded": 300601,
+          "decoded": 940235,
+          "type": "script"
+        },
+        {
+          "name": "music-case-v043.glb?v=f27162cdb5a3",
+          "start": 3000.899999976158,
+          "end": 3548.100000023842,
+          "transfer": 79248,
+          "encoded": 78948,
+          "decoded": 78948,
+          "type": "fetch"
+        },
+        {
+          "name": "cover-blog.webp",
+          "start": 3582.1999999284744,
+          "end": 3885.100000023842,
+          "transfer": 28710,
+          "encoded": 28410,
+          "decoded": 28410,
+          "type": "img"
+        },
+        {
+          "name": "cover-minecraft.webp",
+          "start": 4068.1999999284744,
+          "end": 4514.199999928474,
+          "transfer": 32382,
+          "encoded": 32082,
+          "decoded": 32082,
+          "type": "img"
+        },
+        {
+          "name": "cover-stronghold.webp",
+          "start": 4068.600000023842,
+          "end": 4477.799999952316,
+          "transfer": 24096,
+          "encoded": 23796,
+          "decoded": 23796,
+          "type": "img"
+        }
+      ],
+      "stats": {
+        "covers": {
+          "atlasWidth": 768,
+          "atlasHeight": 256,
+          "atlasBytes": 786432,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "activeDecodes": 0,
+          "queuedDecodes": 0,
+          "pendingImages": 0,
+          "peakDecodes": 2,
+          "cachedImages": 3,
+          "cachedBytes": 2883584,
+          "dirtyTiles": 0,
+          "uploadedTiles": 6,
+          "uploadedBytes": 1572864,
+          "uploadBatches": 4,
+          "gpuInitialized": true
+        },
+        "arrayMode": "filled",
+        "graphics": {
+          "geometries": 7,
+          "textures": 11,
+          "programs": 14,
+          "contextLost": false
+        },
+        "visibleAlbumCells": 360,
+        "uniqueAlbumCells": 3,
+        "decryption": {
+          "time": -1,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting"
+        },
+        "topLeft": [
+          134,
+          243
+        ],
+        "topRight": [
+          254,
+          165
+        ],
+        "projectedCenter": [
+          195,
+          283
+        ],
+        "labelTopLeft": [
+          160,
+          254
+        ],
+        "labelBottomLeft": [
+          160,
+          274
+        ],
+        "modelPosition": [
+          0,
+          -1.4961,
+          -2.17
+        ],
+        "cameraPosition": [
+          -109.682,
+          56.7137,
+          63.7336
+        ],
+        "cameraAim": [
+          -0.9219,
+          -2.4528,
+          -1.616
+        ],
+        "fieldOfView": 7.42921025288988,
+        "loaded": true,
+        "drawCalls": 15,
+        "triangles": 589157,
+        "archiveCount": 360,
+        "returningFiles": 0,
+        "selectionPhase": "wave",
+        "pendingPulse": null,
+        "pulses": [
+          {
+            "lane": 0,
+            "row": 12,
+            "time": 4.069100000023842
+          }
+        ],
+        "referenceTime": 35.67,
+        "selectedSlot": 12,
+        "selectedLane": 0,
+        "selectedAlbumId": "blog",
+        "albumCovers": true,
+        "theme": "day",
+        "selectionLight": {
+          "experiment": {
+            "mode": "guided",
+            "strength": 1.3,
+            "dayGain": 11,
+            "width": 1.35,
+            "offset": 0.3,
+            "fill": 1,
+            "transitionDuration": 1.1
+          },
+          "ribbon": {
+            "row": 12.3,
+            "lane": 0,
+            "opening": false,
+            "position": [
+              0,
+              -1.4960633265848262,
+              -2.17
+            ]
+          },
+          "visible": true,
+          "position": [
+            -60.922374136513966,
+            0.008450465894112247,
+            -22.678946660194647
+          ],
+          "target": [
+            -1.858,
+            0.7452100950739717,
+            -2.17
+          ]
+        },
+        "selectedCell": {
+          "lane": 0,
+          "row": 12
+        },
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -4,
+          "maxLane": 4,
+          "minRow": -7,
+          "maxRow": 32
+        },
+        "laneFocus": 0,
+        "columnCamera": -9.492,
+        "rotation": 0,
+        "clearance": -2.3743563880844727,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.9,
+        "previewLift": 0.9,
+        "appearance": 1,
+        "cameraDetail": 0,
+        "musicPresentationPhase": "archive",
+        "musicPlacement": {
+          "progress": 0,
+          "velocity": 0,
+          "settled": true
+        },
+        "musicArchiveMotion": {
+          "active": false,
+          "progress": 1,
+          "duration": 0,
+          "tracks": {
+            "rail": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "column": {
+              "value": -9.492,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "shoulder": {
+              "value": 12,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "lane": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            }
+          }
+        },
+        "musicNavigationLift": false,
+        "musicPresentationReady": false,
+        "musicArchiveReady": true,
+        "idleGain": 0.00009379404791822503,
+        "cameraDistance": 140,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 150,
+        "fogFar": 180,
+        "returningAppearance": [],
+        "rail": 0,
+        "reduced": false,
+        "suspended": false,
+        "animationScheduled": true,
+        "mobile": true
+      },
+      "devtools": [
+        {
+          "name": "Timestamp",
+          "value": 619844.641657
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 6
+        },
+        {
+          "name": "Frames",
+          "value": 5
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 51
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 104
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 221
+        },
+        {
+          "name": "Resources",
+          "value": 12
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 16
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 4
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 6
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 2
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 159
+        },
+        {
+          "name": "LayoutCount",
+          "value": 10
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 262
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.060083
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.039417
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.023856
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.201148
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0.000048
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.888484
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.563932
+        },
+        {
+          "name": "ThreadTime",
+          "value": 4.318644
+        },
+        {
+          "name": "ProcessTime",
+          "value": 4.769077
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 10173212
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 18415616
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 619839.474821
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 619839.470762
+        },
+        {
+          "name": "NavigationStart",
+          "value": 619839.04604
+        }
+      ]
+    },
+    {
+      "device": "mobile-390x844",
+      "run": 2,
+      "network": "1.6 Mbps down / 150 ms latency / CPU 4x",
+      "errors": [],
+      "firstLinks": [
+        {
+          "href": "https://mimaglows.com/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://mimaglows.com/mckai-fu-quan-xin-lu-li-cheng/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://ten.mimaglows.com:44580/",
+          "visible": true,
+          "clickable": true
+        }
+      ],
+      "lcp": 440,
+      "cls": 0,
+      "longTasks": [
+        {
+          "start": 2846.6999999284744,
+          "duration": 150
+        },
+        {
+          "start": 3879.7999999523163,
+          "duration": 172
+        }
+      ],
+      "shifts": [],
+      "lcpElement": "BUTTON",
+      "paints": [
+        {
+          "name": "first-paint",
+          "start": 440
+        },
+        {
+          "name": "first-contentful-paint",
+          "start": 440
+        }
+      ],
+      "marks": [
+        {
+          "name": "mima:shell",
+          "start": 431
+        },
+        {
+          "name": "mima:preview-visible",
+          "start": 639.5999999046326
+        },
+        {
+          "name": "mima:scene-request",
+          "start": 859.0999999046326
+        },
+        {
+          "name": "mima:scene-ready",
+          "start": 4068.899999976158
+        }
+      ],
+      "resources": [
+        {
+          "name": "index-BAb6MVQ1.js",
+          "start": 170.79999995231628,
+          "end": 374,
+          "transfer": 3264,
+          "encoded": 2964,
+          "decoded": 6746,
+          "type": "script"
+        },
+        {
+          "name": "index-DTv9uUhY.css",
+          "start": 171.09999990463257,
+          "end": 367.09999990463257,
+          "transfer": 2840,
+          "encoded": 2540,
+          "decoded": 7941,
+          "type": "link"
+        },
+        {
+          "name": "preview-day-mobile.webp",
+          "start": 171.39999997615814,
+          "end": 622.3999999761581,
+          "transfer": 52036,
+          "encoded": 51736,
+          "decoded": 51736,
+          "type": "img"
+        },
+        {
+          "name": "favicon.svg",
+          "start": 625.7999999523163,
+          "end": 787,
+          "transfer": 512,
+          "encoded": 212,
+          "decoded": 212,
+          "type": "other"
+        },
+        {
+          "name": "scene-Dgm5104A.js",
+          "start": 860.1999999284744,
+          "end": 1184.3999999761581,
+          "transfer": 33556,
+          "encoded": 33256,
+          "decoded": 107167,
+          "type": "script"
+        },
+        {
+          "name": "three-D5mGIMtI.js",
+          "start": 1186.0999999046326,
+          "end": 2841.5999999046326,
+          "transfer": 300901,
+          "encoded": 300601,
+          "decoded": 940235,
+          "type": "script"
+        },
+        {
+          "name": "music-case-v043.glb?v=f27162cdb5a3",
+          "start": 2995,
+          "end": 3547.1999999284744,
+          "transfer": 79248,
+          "encoded": 78948,
+          "decoded": 78948,
+          "type": "fetch"
+        },
+        {
+          "name": "cover-blog.webp",
+          "start": 3577,
+          "end": 3877.0999999046326,
+          "transfer": 28710,
+          "encoded": 28410,
+          "decoded": 28410,
+          "type": "img"
+        },
+        {
+          "name": "cover-stronghold.webp",
+          "start": 4052.5999999046326,
+          "end": 4462.099999904633,
+          "transfer": 24096,
+          "encoded": 23796,
+          "decoded": 23796,
+          "type": "img"
+        },
+        {
+          "name": "cover-minecraft.webp",
+          "start": 4052.5999999046326,
+          "end": 4498.799999952316,
+          "transfer": 32382,
+          "encoded": 32082,
+          "decoded": 32082,
+          "type": "img"
+        }
+      ],
+      "stats": {
+        "covers": {
+          "atlasWidth": 768,
+          "atlasHeight": 256,
+          "atlasBytes": 786432,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "activeDecodes": 0,
+          "queuedDecodes": 0,
+          "pendingImages": 0,
+          "peakDecodes": 2,
+          "cachedImages": 3,
+          "cachedBytes": 2883584,
+          "dirtyTiles": 0,
+          "uploadedTiles": 6,
+          "uploadedBytes": 1572864,
+          "uploadBatches": 4,
+          "gpuInitialized": true
+        },
+        "arrayMode": "filled",
+        "graphics": {
+          "geometries": 7,
+          "textures": 11,
+          "programs": 14,
+          "contextLost": false
+        },
+        "visibleAlbumCells": 360,
+        "uniqueAlbumCells": 3,
+        "decryption": {
+          "time": -1,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting"
+        },
+        "topLeft": [
+          134,
+          243
+        ],
+        "topRight": [
+          254,
+          165
+        ],
+        "projectedCenter": [
+          195,
+          283
+        ],
+        "labelTopLeft": [
+          160,
+          254
+        ],
+        "labelBottomLeft": [
+          160,
+          274
+        ],
+        "modelPosition": [
+          0,
+          -1.4961,
+          -2.17
+        ],
+        "cameraPosition": [
+          -109.682,
+          56.7137,
+          63.7336
+        ],
+        "cameraAim": [
+          -0.9219,
+          -2.4528,
+          -1.616
+        ],
+        "fieldOfView": 7.42921025288988,
+        "loaded": true,
+        "drawCalls": 15,
+        "triangles": 589157,
+        "archiveCount": 360,
+        "returningFiles": 0,
+        "selectionPhase": "wave",
+        "pendingPulse": null,
+        "pulses": [
+          {
+            "lane": 0,
+            "row": 12,
+            "time": 4.0532999999523165
+          }
+        ],
+        "referenceTime": 35.67,
+        "selectedSlot": 12,
+        "selectedLane": 0,
+        "selectedAlbumId": "blog",
+        "albumCovers": true,
+        "theme": "day",
+        "selectionLight": {
+          "experiment": {
+            "mode": "guided",
+            "strength": 1.3,
+            "dayGain": 11,
+            "width": 1.35,
+            "offset": 0.3,
+            "fill": 1,
+            "transitionDuration": 1.1
+          },
+          "ribbon": {
+            "row": 12.3,
+            "lane": 0,
+            "opening": false,
+            "position": [
+              0,
+              -1.4961088616191023,
+              -2.17
+            ]
+          },
+          "visible": true,
+          "position": [
+            -60.922374136513966,
+            0.00821649857482154,
+            -22.678946660194647
+          ],
+          "target": [
+            -1.858,
+            0.744976127754681,
+            -2.17
+          ]
+        },
+        "selectedCell": {
+          "lane": 0,
+          "row": 12
+        },
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -4,
+          "maxLane": 4,
+          "minRow": -7,
+          "maxRow": 32
+        },
+        "laneFocus": 0,
+        "columnCamera": -9.492,
+        "rotation": 0,
+        "clearance": -2.374233814920885,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.9,
+        "previewLift": 0.9,
+        "appearance": 1,
+        "cameraDetail": 0,
+        "musicPresentationPhase": "archive",
+        "musicPlacement": {
+          "progress": 0,
+          "velocity": 0,
+          "settled": true
+        },
+        "musicArchiveMotion": {
+          "active": false,
+          "progress": 1,
+          "duration": 0,
+          "tracks": {
+            "rail": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "column": {
+              "value": -9.492,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "shoulder": {
+              "value": 12,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "lane": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            }
+          }
+        },
+        "musicNavigationLift": false,
+        "musicPresentationReady": false,
+        "musicArchiveReady": true,
+        "idleGain": 0.000096766552126031,
+        "cameraDistance": 140,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 150,
+        "fogFar": 180,
+        "returningAppearance": [],
+        "rail": 0,
+        "reduced": false,
+        "suspended": false,
+        "animationScheduled": true,
+        "mobile": true
+      },
+      "devtools": [
+        {
+          "name": "Timestamp",
+          "value": 619850.401469
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 6
+        },
+        {
+          "name": "Frames",
+          "value": 5
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 51
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 104
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 221
+        },
+        {
+          "name": "Resources",
+          "value": 12
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 16
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 4
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 6
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 2
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 158
+        },
+        {
+          "name": "LayoutCount",
+          "value": 9
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 261
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.064454
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.042417
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.025114
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.212059
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0.000038
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.899717
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.555635
+        },
+        {
+          "name": "ThreadTime",
+          "value": 4.311933
+        },
+        {
+          "name": "ProcessTime",
+          "value": 4.761979
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 10960780
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 17629184
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 619845.259385
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 619845.254416
+        },
+        {
+          "name": "NavigationStart",
+          "value": 619844.820711
+        }
+      ]
+    },
+    {
+      "device": "mobile-390x844",
+      "run": 3,
+      "network": "1.6 Mbps down / 150 ms latency / CPU 4x",
+      "errors": [],
+      "firstLinks": [
+        {
+          "href": "https://mimaglows.com/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://mimaglows.com/mckai-fu-quan-xin-lu-li-cheng/",
+          "visible": true,
+          "clickable": true
+        },
+        {
+          "href": "https://ten.mimaglows.com:44580/",
+          "visible": true,
+          "clickable": true
+        }
+      ],
+      "lcp": 436,
+      "cls": 0,
+      "longTasks": [
+        {
+          "start": 2862,
+          "duration": 135
+        },
+        {
+          "start": 3881,
+          "duration": 167
+        }
+      ],
+      "shifts": [],
+      "lcpElement": "BUTTON",
+      "paints": [
+        {
+          "name": "first-paint",
+          "start": 436
+        },
+        {
+          "name": "first-contentful-paint",
+          "start": 436
+        }
+      ],
+      "marks": [
+        {
+          "name": "mima:shell",
+          "start": 432.7000000476837
+        },
+        {
+          "name": "mima:preview-visible",
+          "start": 639.1000000238419
+        },
+        {
+          "name": "mima:scene-request",
+          "start": 867
+        },
+        {
+          "name": "mima:scene-ready",
+          "start": 4063.5
+        }
+      ],
+      "resources": [
+        {
+          "name": "index-BAb6MVQ1.js",
+          "start": 168.70000004768372,
+          "end": 382.60000002384186,
+          "transfer": 3264,
+          "encoded": 2964,
+          "decoded": 6746,
+          "type": "script"
+        },
+        {
+          "name": "index-DTv9uUhY.css",
+          "start": 169.70000004768372,
+          "end": 367.10000002384186,
+          "transfer": 2840,
+          "encoded": 2540,
+          "decoded": 7941,
+          "type": "link"
+        },
+        {
+          "name": "preview-day-mobile.webp",
+          "start": 169.70000004768372,
+          "end": 622.8999999761581,
+          "transfer": 52036,
+          "encoded": 51736,
+          "decoded": 51736,
+          "type": "img"
+        },
+        {
+          "name": "favicon.svg",
+          "start": 625.6000000238419,
+          "end": 787.5,
+          "transfer": 512,
+          "encoded": 212,
+          "decoded": 212,
+          "type": "other"
+        },
+        {
+          "name": "scene-Dgm5104A.js",
+          "start": 867.7999999523163,
+          "end": 1192,
+          "transfer": 33556,
+          "encoded": 33256,
+          "decoded": 107167,
+          "type": "script"
+        },
+        {
+          "name": "three-D5mGIMtI.js",
+          "start": 1193.7000000476837,
+          "end": 2857,
+          "transfer": 300901,
+          "encoded": 300601,
+          "decoded": 940235,
+          "type": "script"
+        },
+        {
+          "name": "music-case-v043.glb?v=f27162cdb5a3",
+          "start": 2996.600000023842,
+          "end": 3547.600000023842,
+          "transfer": 79248,
+          "encoded": 78948,
+          "decoded": 78948,
+          "type": "fetch"
+        },
+        {
+          "name": "cover-blog.webp",
+          "start": 3575.100000023842,
+          "end": 3877.7999999523163,
+          "transfer": 28710,
+          "encoded": 28410,
+          "decoded": 28410,
+          "type": "img"
+        },
+        {
+          "name": "cover-minecraft.webp",
+          "start": 4048.2999999523163,
+          "end": 4492.600000023842,
+          "transfer": 32382,
+          "encoded": 32082,
+          "decoded": 32082,
+          "type": "img"
+        },
+        {
+          "name": "cover-stronghold.webp",
+          "start": 4048.600000023842,
+          "end": 4454.399999976158,
+          "transfer": 24096,
+          "encoded": 23796,
+          "decoded": 23796,
+          "type": "img"
+        }
+      ],
+      "stats": {
+        "covers": {
+          "atlasWidth": 768,
+          "atlasHeight": 256,
+          "atlasBytes": 786432,
+          "tileWidth": 256,
+          "tileHeight": 256,
+          "activeDecodes": 0,
+          "queuedDecodes": 0,
+          "pendingImages": 0,
+          "peakDecodes": 2,
+          "cachedImages": 3,
+          "cachedBytes": 2883584,
+          "dirtyTiles": 0,
+          "uploadedTiles": 6,
+          "uploadedBytes": 1572864,
+          "uploadBatches": 4,
+          "gpuInitialized": true
+        },
+        "arrayMode": "filled",
+        "graphics": {
+          "geometries": 7,
+          "textures": 11,
+          "programs": 14,
+          "contextLost": false
+        },
+        "visibleAlbumCells": 360,
+        "uniqueAlbumCells": 3,
+        "decryption": {
+          "time": -1,
+          "intervals": [],
+          "markers": 0,
+          "point": 0,
+          "label": 0,
+          "labelValue": 0,
+          "clarity": 0,
+          "phase": "waiting"
+        },
+        "topLeft": [
+          134,
+          243
+        ],
+        "topRight": [
+          254,
+          165
+        ],
+        "projectedCenter": [
+          195,
+          283
+        ],
+        "labelTopLeft": [
+          160,
+          254
+        ],
+        "labelBottomLeft": [
+          160,
+          274
+        ],
+        "modelPosition": [
+          0,
+          -1.4961,
+          -2.17
+        ],
+        "cameraPosition": [
+          -109.682,
+          56.7137,
+          63.7336
+        ],
+        "cameraAim": [
+          -0.9219,
+          -2.4528,
+          -1.616
+        ],
+        "fieldOfView": 7.42921025288988,
+        "loaded": true,
+        "drawCalls": 15,
+        "triangles": 589157,
+        "archiveCount": 360,
+        "returningFiles": 0,
+        "selectionPhase": "wave",
+        "pendingPulse": null,
+        "pulses": [
+          {
+            "lane": 0,
+            "row": 12,
+            "time": 4.048700000047684
+          }
+        ],
+        "referenceTime": 35.67,
+        "selectedSlot": 12,
+        "selectedLane": 0,
+        "selectedAlbumId": "blog",
+        "albumCovers": true,
+        "theme": "day",
+        "selectionLight": {
+          "experiment": {
+            "mode": "guided",
+            "strength": 1.3,
+            "dayGain": 11,
+            "width": 1.35,
+            "offset": 0.3,
+            "fill": 1,
+            "transitionDuration": 1.1
+          },
+          "ribbon": {
+            "row": 12.3,
+            "lane": 0,
+            "opening": false,
+            "position": [
+              0,
+              -1.4960844018724302,
+              -2.17
+            ]
+          },
+          "visible": true,
+          "position": [
+            -60.922374136513966,
+            0.00833914820474202,
+            -22.678946660194647
+          ],
+          "target": [
+            -1.858,
+            0.7450987773846015,
+            -2.17
+          ]
+        },
+        "selectedCell": {
+          "lane": 0,
+          "row": 12
+        },
+        "coordinateOrigin": {
+          "lane": 0,
+          "row": 0
+        },
+        "poolBounds": {
+          "minLane": -4,
+          "maxLane": 4,
+          "minRow": -7,
+          "maxRow": 32
+        },
+        "laneFocus": 0,
+        "columnCamera": -9.492,
+        "rotation": 0,
+        "clearance": -2.374298723890827,
+        "canInspect": false,
+        "returnPhase": "lowering",
+        "extraction": 0.9,
+        "previewLift": 0.9,
+        "appearance": 1,
+        "cameraDetail": 0,
+        "musicPresentationPhase": "archive",
+        "musicPlacement": {
+          "progress": 0,
+          "velocity": 0,
+          "settled": true
+        },
+        "musicArchiveMotion": {
+          "active": false,
+          "progress": 1,
+          "duration": 0,
+          "tracks": {
+            "rail": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "column": {
+              "value": -9.492,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "shoulder": {
+              "value": 12,
+              "velocity": 0,
+              "acceleration": 0
+            },
+            "lane": {
+              "value": 0,
+              "velocity": 0,
+              "acceleration": 0
+            }
+          }
+        },
+        "musicNavigationLift": false,
+        "musicPresentationReady": false,
+        "musicArchiveReady": true,
+        "idleGain": 0.00009519252302548086,
+        "cameraDistance": 140,
+        "cameraNear": 5,
+        "cameraFar": 300,
+        "fogNear": 150,
+        "fogFar": 180,
+        "returningAppearance": [],
+        "rail": 0,
+        "reduced": false,
+        "suspended": false,
+        "animationScheduled": true,
+        "mobile": true
+      },
+      "devtools": [
+        {
+          "name": "Timestamp",
+          "value": 619856.098521
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 6
+        },
+        {
+          "name": "Frames",
+          "value": 5
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 51
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 104
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 221
+        },
+        {
+          "name": "Resources",
+          "value": 12
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 16
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 4
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 6
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 2
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 159
+        },
+        {
+          "name": "LayoutCount",
+          "value": 9
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 263
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.066965
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.033814
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.027804
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 0.162603
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0.000043
+        },
+        {
+          "name": "TaskDuration",
+          "value": 0.792904
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 0.501675
+        },
+        {
+          "name": "ThreadTime",
+          "value": 4.291177
+        },
+        {
+          "name": "ProcessTime",
+          "value": 4.713214
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 10384012
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 17727488
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 619850.955765
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 619850.957859
+        },
+        {
+          "name": "NavigationStart",
+          "value": 619850.523044
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "Theme controls update scene lighting, DOM and persisted preference",
+      "passed": true
+    },
+    {
+      "name": "Replay and Escape skip preserve unobstructed external navigation",
+      "passed": true
+    },
+    {
+      "name": "Keyboard and link hover select matching native 3D archive lanes",
+      "passed": true
+    },
+    {
+      "name": "Extraction and return use original camera and lift transition",
+      "passed": true
+    },
+    {
+      "name": "Full 5.2-second native camera replay reaches a continuous browsing endpoint",
+      "passed": true
+    },
+    {
+      "name": "Context loss keeps poster + links and supports a clean retry",
+      "passed": true
+    },
+    {
+      "name": "Touch swipe changes archive without touching the link strip",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion suppresses intro, parallax, idle animation and recurring RAF",
+      "passed": true
+    },
+    {
+      "name": "Complete static fallback: no-javascript",
+      "passed": true
+    },
+    {
+      "name": "Complete static fallback: module-failure",
+      "passed": true
+    },
+    {
+      "name": "Complete static fallback: model-failure",
+      "passed": true
+    },
+    {
+      "name": "Complete static fallback: no-webgl",
+      "passed": true
+    },
+    {
+      "name": "Complete static fallback: save-data",
+      "passed": true
+    }
+  ],
+  "build": [
+    {
+      "name": "index-BAb6MVQ1.js",
+      "bytes": 6746,
+      "sha256": "0fbf5f3f91ef6027ffeb510700c5f9d6735d0e635dfe981496341294f195e914"
+    },
+    {
+      "name": "index-DTv9uUhY.css",
+      "bytes": 7941,
+      "sha256": "08e77c5e30483cb4b6ef5ffb340652efade7f25a51e58b87a7f1b1cd7463505d"
+    },
+    {
+      "name": "scene-Dgm5104A.js",
+      "bytes": 107167,
+      "sha256": "8805df49e59f2972fb6fb670b5c5c8446c94074e1ae71b79dd8d8a8e6d4a02d2"
+    },
+    {
+      "name": "three-D5mGIMtI.js",
+      "bytes": 940235,
+      "sha256": "adec893556da338acc62bc61bb95d361c42d0c7bb7aab5e85500e19205e9d034"
+    }
+  ],
+  "baseline": {
+    "lcp": 32,
+    "cls": 0.5000623403206448,
+    "longTasks": [
+      {
+        "start": 444.7999999523163,
+        "duration": 54
+      },
+      {
+        "start": 643.8999999761581,
+        "duration": 107
+      }
+    ],
+    "shifts": [
+      0.5,
+      0.000024380572702331966,
+      0.000013878641010802469,
+      0.00002408110693158436
+    ],
+    "lcpElement": "DIV",
+    "paints": [
+      {
+        "name": "first-paint",
+        "start": 32
+      },
+      {
+        "name": "first-contentful-paint",
+        "start": 32
+      }
+    ],
+    "resources": [
+      {
+        "name": "overlay.css",
+        "start": 6.099999904632568,
+        "end": 8.5,
+        "transfer": 3342,
+        "encoded": 3042,
+        "decoded": 9579
+      },
+      {
+        "name": "links.js",
+        "start": 6.199999928474426,
+        "end": 8.899999976158142,
+        "transfer": 485,
+        "encoded": 185,
+        "decoded": 185
+      },
+      {
+        "name": "index-C5o00X_L.js",
+        "start": 6.199999928474426,
+        "end": 8.799999952316284,
+        "transfer": 1531,
+        "encoded": 1231,
+        "decoded": 2490
+      },
+      {
+        "name": "overlay.js",
+        "start": 6.199999928474426,
+        "end": 9.199999928474426,
+        "transfer": 4739,
+        "encoded": 4439,
+        "decoded": 13113
+      },
+      {
+        "name": "music-app-BzTQOEUd.js",
+        "start": 21.199999928474426,
+        "end": 29.199999928474426,
+        "transfer": 68271,
+        "encoded": 67971,
+        "decoded": 203955
+      },
+      {
+        "name": "audio-D5ReJ3rG.css",
+        "start": 21.299999952316284,
+        "end": 24.09999990463257,
+        "transfer": 8772,
+        "encoded": 8472,
+        "decoded": 36048
+      },
+      {
+        "name": "audio-D9sa8uHr.js",
+        "start": 21.299999952316284,
+        "end": 52.699999928474426,
+        "transfer": 373838,
+        "encoded": 373538,
+        "decoded": 1144276
+      },
+      {
+        "name": "music-app-DSSbf9ii.css",
+        "start": 21.399999976158142,
+        "end": 25.199999928474426,
+        "transfer": 16153,
+        "encoded": 15853,
+        "decoded": 83923
+      },
+      {
+        "name": "MiSans-Bold.woff2",
+        "start": 27.09999990463257,
+        "end": 41.299999952316284,
+        "transfer": 5081404,
+        "encoded": 5081104,
+        "decoded": 5081104
+      },
+      {
+        "name": "MiSans-Regular.woff2",
+        "start": 27.199999928474426,
+        "end": 40.5,
+        "transfer": 4858924,
+        "encoded": 4858624,
+        "decoded": 4858624
+      },
+      {
+        "name": "favicon.svg",
+        "start": 43.39999997615814,
+        "end": 44.799999952316284,
+        "transfer": 595,
+        "encoded": 295,
+        "decoded": 295
+      },
+      {
+        "name": "MiSans-Light.woff2",
+        "start": 78.5,
+        "end": 93.5,
+        "transfer": 4810668,
+        "encoded": 4810368,
+        "decoded": 4810368
+      },
+      {
+        "name": "MiSans-Demibold.woff2",
+        "start": 80.5,
+        "end": 97.69999992847443,
+        "transfer": 4994664,
+        "encoded": 4994364,
+        "decoded": 4994364
+      },
+      {
+        "name": "music-case-v043.glb?v=f27162cdb5a3",
+        "start": 234.79999995231628,
+        "end": 236.39999997615814,
+        "transfer": 79248,
+        "encoded": 78948,
+        "decoded": 78948
+      },
+      {
+        "name": "cover-blog.png",
+        "start": 254.19999992847443,
+        "end": 256,
+        "transfer": 303731,
+        "encoded": 303431,
+        "decoded": 303431
+      },
+      {
+        "name": "cover-minecraft.png",
+        "start": 297.6999999284744,
+        "end": 300.89999997615814,
+        "transfer": 374188,
+        "encoded": 373888,
+        "decoded": 373888
+      },
+      {
+        "name": "cover-stronghold.png",
+        "start": 297.7999999523163,
+        "end": 300.5,
+        "transfer": 261866,
+        "encoded": 261566,
+        "decoded": 261566
+      }
+    ],
+    "preparation": "{\"milliseconds\":489,\"parallelCompile\":true,\"glError\":0,\"covers\":{\"atlasWidth\":6144,\"atlasHeight\":6656,\"atlasBytes\":163577856,\"tileWidth\":256,\"tileHeight\":256,\"activeDecodes\":0,\"queuedDecodes\":0,\"pendingImages\":0,\"peakDecodes\":2,\"cachedImages\":3,\"cachedBytes\":4718592,\"dirtyTiles\":0,\"uploadedTiles\":612,\"uploadedBytes\":160432128,\"uploadBatches\":10,\"gpuInitialized\":true}}",
+    "stats": {
+      "covers": {
+        "atlasWidth": 6144,
+        "atlasHeight": 6656,
+        "atlasBytes": 163577856,
+        "tileWidth": 256,
+        "tileHeight": 256,
+        "activeDecodes": 0,
+        "queuedDecodes": 0,
+        "pendingImages": 0,
+        "peakDecodes": 2,
+        "cachedImages": 3,
+        "cachedBytes": 4718592,
+        "dirtyTiles": 0,
+        "uploadedTiles": 612,
+        "uploadedBytes": 160432128,
+        "uploadBatches": 10,
+        "gpuInitialized": true
+      },
+      "arrayMode": "filled",
+      "graphics": {
+        "geometries": 8,
+        "textures": 17,
+        "programs": 31,
+        "contextLost": false
+      },
+      "visibleAlbumCells": 612,
+      "uniqueAlbumCells": 3,
+      "decryption": {
+        "time": 30.43520000007154,
+        "intervals": [],
+        "markers": 0,
+        "point": 0,
+        "label": 0,
+        "labelValue": 0,
+        "clarity": 0,
+        "phase": "waiting"
+      },
+      "topLeft": [
+        308,
+        402
+      ],
+      "topRight": [
+        596,
+        209
+      ],
+      "projectedCenter": [
+        455,
+        486
+      ],
+      "labelTopLeft": [
+        370,
+        426
+      ],
+      "labelBottomLeft": [
+        371,
+        471
+      ],
+      "modelPosition": [
+        0,
+        -3.6424,
+        -2.17
+      ],
+      "cameraPosition": [
+        -109.7926,
+        58.9938,
+        66.656
+      ],
+      "cameraAim": [
+        -1.0326,
+        -0.1728,
+        1.3064
+      ],
+      "fieldOfView": 3.3322196837484346,
+      "loaded": true,
+      "drawCalls": 39,
+      "triangles": 2228881,
+      "archiveCount": 612,
+      "returningFiles": 0,
+      "selectionPhase": "settled",
+      "pendingPulse": null,
+      "pulses": [],
+      "referenceTime": 30.44,
+      "selectedSlot": 12,
+      "selectedLane": 0,
+      "selectedAlbumId": "mima-blog",
+      "albumCovers": true,
+      "theme": "night",
+      "selectionLight": {
+        "experiment": {
+          "mode": "baseline",
+          "strength": 1,
+          "dayGain": 11,
+          "width": 1,
+          "offset": 0,
+          "fill": 1,
+          "transitionDuration": 1.2
+        },
+        "ribbon": {
+          "row": 12,
+          "lane": 0,
+          "opening": true,
+          "position": [
+            0,
+            -3.6424486861362055,
+            -2.17
+          ]
+        },
+        "visible": true,
+        "position": [
+          -60.922374136513966,
+          -2.1272083348548656,
+          -22.67865000760668
+        ],
+        "target": [
+          -1.858,
+          -1.3904487056750061,
+          -2.1697033474120304
+        ]
+      },
+      "selectedCell": {
+        "lane": 0,
+        "row": 12
+      },
+      "coordinateOrigin": {
+        "lane": 0,
+        "row": 0
+      },
+      "poolBounds": {
+        "minLane": -4,
+        "maxLane": 4,
+        "minRow": -21,
+        "maxRow": 46
+      },
+      "laneFocus": 0,
+      "columnCamera": -9.492,
+      "rotation": 0,
+      "clearance": -3.323251291854972,
+      "canInspect": false,
+      "returnPhase": "lowering",
+      "extraction": 0,
+      "previewLift": 0.9,
+      "appearance": 0,
+      "cameraDetail": 0,
+      "musicPresentationPhase": "hidden",
+      "musicPlacement": {
+        "progress": 0,
+        "velocity": 0,
+        "settled": true
+      },
+      "musicArchiveMotion": {
+        "active": false,
+        "progress": 1,
+        "duration": 0,
+        "tracks": {
+          "rail": {
+            "value": 0,
+            "velocity": 0,
+            "acceleration": 0
+          },
+          "column": {
+            "value": -9.492,
+            "velocity": 0,
+            "acceleration": 0
+          },
+          "shoulder": {
+            "value": 12,
+            "velocity": 0,
+            "acceleration": 0
+          },
+          "lane": {
+            "value": 0,
+            "velocity": 0,
+            "acceleration": 0
+          }
+        }
+      },
+      "musicNavigationLift": false,
+      "musicPresentationReady": false,
+      "musicArchiveReady": false,
+      "idleGain": 1,
+      "cameraDistance": 140,
+      "cameraNear": 5,
+      "cameraFar": 300,
+      "fogNear": 145,
+      "fogFar": 165,
+      "returningAppearance": [],
+      "rail": 0
+    }
+  }
+}
