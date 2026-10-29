@@ -1,7 +1,7 @@
 import { loadProject, compileProject } from './project.mjs';
 import {readFile,readdir}from'node:fs/promises';
 import path from'node:path';
-const coreAssets=['preview-day.webp','preview-night.webp','preview-day-mobile.webp','preview-night-mobile.webp','music-case-v043.glb','placeholder.svg','cover-blog.webp','cover-minecraft.webp','cover-stronghold.webp'];
+const coreAssets=['preview-day.webp','preview-night.webp','preview-day-mobile.webp','preview-night-mobile.webp','preview-day-archive.webp','preview-night-archive.webp','preview-day-archive-mobile.webp','preview-night-archive-mobile.webp','music-case-v043.glb','placeholder.svg','cover-blog.webp','cover-minecraft.webp','cover-stronghold.webp'];
 const escape=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function contentPlugin(root=process.cwd()) {
  let snapshot;

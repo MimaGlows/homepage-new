@@ -9,7 +9,7 @@ export async function openArchiveDetail(id:string,options:BrowserOptions){await 
 export async function toggleBrowser(options:BrowserOptions,initialId?:string){
  const root=document.querySelector<HTMLElement>('#archive-browser')!,button=document.querySelector<HTMLElement>('#browse')!;
  if(!root.hidden&&!initialId){close();return;}
- lastOpener=document.activeElement as HTMLElement;root.hidden=false;button.setAttribute('aria-expanded','true');root.focus();
+ lastOpener=document.activeElement as HTMLElement;root.hidden=false;root.dataset.view='list';button.setAttribute('aria-expanded','true');root.focus();
  function close(){revision++;root.hidden=true;button.setAttribute('aria-expanded','false');lastOpener?.focus();}
  root.onkeydown=e=>{e.stopPropagation();if(e.key==='Escape'){e.preventDefault();close();}};
  const header=document.createElement('div');header.className='archive-browser-header';
@@ -27,7 +27,7 @@ export async function toggleBrowser(options:BrowserOptions,initialId?:string){
   if(!available.length){body.textContent='尚无公开档案。';return;}
   let active:ModuleId=available[0];
   const show=async(module:ModuleId,detailId?:string)=>{
-   const token=++revision;active=module;workspace.dataset.detail='false';detailBody.hidden=true;detailBody.replaceChildren();
+   const token=++revision;active=module;root.dataset.view='list';workspace.dataset.detail='false';detailBody.hidden=true;detailBody.replaceChildren();
    tabs.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.module===module)));
    body.replaceChildren();body.textContent='正在读取本地档案…';
    try{
@@ -59,22 +59,22 @@ export async function toggleBrowser(options:BrowserOptions,initialId?:string){
    }catch{if(token===revision)body.textContent='本地档案读取失败，请稍后重新打开。';}
   };
   async function detail(item:ArchiveItem){
-   const token=++revision;workspace.dataset.detail='true';detailBody.hidden=false;detailBody.replaceChildren();detailBody.scrollTop=0;
+   const token=++revision;root.dataset.view='companion';workspace.dataset.detail='true';detailBody.hidden=false;detailBody.replaceChildren();detailBody.scrollTop=0;
    body.querySelectorAll<HTMLElement>('[data-archive-id]').forEach(card=>card.setAttribute('aria-current',String(card.dataset.archiveId===item.id)));
-   const back=document.createElement('button');back.type='button';back.textContent='← 返回列表';back.className='archive-back';back.onclick=()=>{revision++;detailBody.hidden=true;workspace.dataset.detail='false';body.querySelector<HTMLButtonElement>(`[data-archive-id="${item.id}"]`)?.focus();};
+   const back=document.createElement('button');back.type='button';back.textContent='← 返回列表';back.className='archive-back';back.onclick=()=>{if(root.dataset.view==='reading'){root.dataset.view='companion';full.hidden=true;read.hidden=false;back.textContent='← 返回列表';read.focus();return;}revision++;root.dataset.view='list';detailBody.hidden=true;workspace.dataset.detail='false';body.querySelector<HTMLButtonElement>(`[data-archive-id="${item.id}"]`)?.focus();};
    const h=document.createElement('h3');h.textContent=item.title;h.tabIndex=-1;
    const img=document.createElement('img');img.src=localImage(item.imageLarge||item.image);img.alt=item.title;img.loading='lazy';img.onerror=()=>{img.onerror=null;img.src=localImage('/assets/placeholder.svg');};
-   const description=document.createElement('p');description.textContent=item.description;detailBody.append(back,h,img,description);
+   const description=document.createElement('p');description.textContent=item.description;const read=document.createElement('button');read.type='button';read.className='archive-read';read.textContent='阅读完整档案 ↗';const full=document.createElement('div');full.className='archive-full';full.hidden=true;read.onclick=()=>{root.dataset.view='reading';full.hidden=false;read.hidden=true;back.textContent='← 返回摘要';detailBody.scrollTop=0;h.focus({preventScroll:true});};full.append(img);detailBody.append(back,h,description,read,full);
    h.focus({preventScroll:true});
    const metadata=[item.artist,item.album,item.publishedAt?new Date(item.publishedAt).toLocaleDateString('zh-CN'):undefined,item.lastPlayedAt?`最近收听 ${new Date(item.lastPlayedAt).toLocaleString('zh-CN')}`:undefined].filter(Boolean);
-   if(metadata.length){const p=document.createElement('p');p.className='archive-meta';p.textContent=metadata.join(' · ');detailBody.append(p);}
-   for(const link of [{title:'打开来源 ↗',url:item.url},...(item.platformLinks||[]).map(x=>({title:x.platform+' ↗',url:x.url})),...(item.articleLinks||[])])if(link.url&&safeLink(link.url)){const a=document.createElement('a');a.href=link.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=link.title;detailBody.append(a,document.createElement('br'));}
-   if(item.bodyUrl){try{const content=await loadBody(item.bodyUrl);if(token!==revision)return;detailBody.append(markdown(content.markdown));}catch{const p=document.createElement('p');p.textContent='详细设定暂不可用，仍可打开来源页面。';detailBody.append(p);}}
+   if(metadata.length){const p=document.createElement('p');p.className='archive-meta';p.textContent=metadata.join(' · ');full.append(p);}
+   for(const link of [{title:'打开来源 ↗',url:item.url},...(item.platformLinks||[]).map(x=>({title:x.platform+' ↗',url:x.url})),...(item.articleLinks||[])])if(link.url&&safeLink(link.url)){const a=document.createElement('a');a.href=link.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=link.title;full.append(a,document.createElement('br'));}
+   if(item.bodyUrl){try{const content=await loadBody(item.bodyUrl);if(token!==revision)return;full.append(markdown(content.markdown));}catch{const p=document.createElement('p');p.textContent='详细设定暂不可用，仍可打开来源页面。';full.append(p);}}
    if(token!==revision)return;
-   for(const art of item.artworks||[]){if(art.image===(item.imageLarge||item.image))continue;const figure=document.createElement('figure'),image=document.createElement('img'),caption=document.createElement('figcaption');image.src=localImage(art.image);image.alt=art.caption||item.title;image.loading='lazy';caption.textContent=[art.caption,art.attribution].filter(Boolean).join(' · ');figure.append(image,caption);detailBody.append(figure);}
-   for(const relation of item.relations||[]){const target=catalog.items.find(x=>x.id===relation.targetId);if(!target)continue;const button=document.createElement('button');button.className='archive-relation';button.textContent=`${relation.label} → ${target.title}`;button.onclick=async()=>{const next=(await loadModule(target.module)).find(x=>x.id===target.id);if(next){options.select(next.id);void show(target.module,next.id);}};detailBody.append(button);}
-   if(item.source){const credit=document.createElement('p');credit.className='archive-credit';credit.textContent=[item.source.attribution,item.source.license].filter(Boolean).join(' · ');detailBody.append(credit);}
-   if(item.module==='social'&&item.url){const u=new URL(item.url);if(['x.com','twitter.com'].includes(u.hostname)&&/^\/[A-Za-z0-9_]{1,15}\/?$/.test(u.pathname)){const load=document.createElement('button');load.className='archive-relation';load.textContent='载入 X 官方时间线';const timeline=document.createElement('div');load.onclick=async()=>{load.disabled=true;load.textContent='正在连接 X…';try{const{showTimeline}=await import('./x-timeline');await showTimeline(u.pathname.replaceAll('/',''),timeline);load.hidden=true;}catch{load.disabled=false;load.textContent='连接不可用，重试或打开来源';}};detailBody.append(load,timeline);}}
+   for(const art of item.artworks||[]){if(art.image===(item.imageLarge||item.image))continue;const figure=document.createElement('figure'),image=document.createElement('img'),caption=document.createElement('figcaption');image.src=localImage(art.image);image.alt=art.caption||item.title;image.loading='lazy';caption.textContent=[art.caption,art.attribution].filter(Boolean).join(' · ');figure.append(image,caption);full.append(figure);}
+   for(const relation of item.relations||[]){const target=catalog.items.find(x=>x.id===relation.targetId);if(!target)continue;const button=document.createElement('button');button.className='archive-relation';button.textContent=`${relation.label} → ${target.title}`;button.onclick=async()=>{const next=(await loadModule(target.module)).find(x=>x.id===target.id);if(next){options.select(next.id);void show(target.module,next.id);}};full.append(button);}
+   if(item.source){const credit=document.createElement('p');credit.className='archive-credit';credit.textContent=[item.source.attribution,item.source.license].filter(Boolean).join(' · ');full.append(credit);}
+   if(item.module==='social'&&item.url){const u=new URL(item.url);if(['x.com','twitter.com'].includes(u.hostname)&&/^\/[A-Za-z0-9_]{1,15}\/?$/.test(u.pathname)){const load=document.createElement('button');load.className='archive-relation';load.textContent='载入 X 官方时间线';const timeline=document.createElement('div');load.onclick=async()=>{load.disabled=true;load.textContent='正在连接 X…';try{const{showTimeline}=await import('./x-timeline');await showTimeline(u.pathname.replaceAll('/',''),timeline);load.hidden=true;}catch{load.disabled=false;load.textContent='连接不可用，重试或打开来源';}};full.append(load,timeline);}}
   }
   for(const module of available){const tab=document.createElement('button');tab.type='button';tab.dataset.module=module;tab.textContent=labels[module];tab.onclick=()=>{body.classList.remove('archive-detail');void show(module);};tabs.append(tab);}
   if(initialId){const module=catalog.items.find(item=>item.id===initialId)?.module;if(module)await show(module,initialId);else void show(active);}else void show(active);

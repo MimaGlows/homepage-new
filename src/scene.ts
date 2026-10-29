@@ -123,7 +123,7 @@ export async function mountScene(host: HTMLElement, options: {
       replay() { if (reduced) return; introTime = 0; scene.select(selected); scene.setMode('hidden'); wake(); },
       skip() { if (introTime !== null) { introTime = null; scene.showMusicArchiveImmediately(performance.now() / 1000); wake(); } },
       quality(level,locked) { graphicsLevel=level;graphicsLocked=locked;frameLimited=false;budgetStart=0;budgetFrames=0;frameOrigin=0;quality();wake(); },
-      resize() { if(!graphicsLocked&&!frameLimited){const next=defaultGraphicsLevel();if(next!==graphicsLevel){graphicsLevel=next;options.onQualityChange(next);}}quality(); wake(); },
+      resize() { if(!graphicsLocked&&!frameLimited){const next=defaultGraphicsLevel();if(next!==graphicsLevel){graphicsLevel=next;options.onQualityChange(next);}}quality(); scene.resize(); wake(); },
       pause() { suspended = true;budgetStart=0;budgetFrames=0; clearTimeout(hoverTimer); stop(); },
       resume() { suspended = false; lastFrame = 0; wake(); },
       dispose,

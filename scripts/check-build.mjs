@@ -6,7 +6,7 @@ for(const item of site.navigation) if(!html.includes(item.url.replaceAll('&','&a
 if(!html.includes(site.registration.url)||!html.includes(site.name))throw new Error('Static identity or registration missing');
 if(/studio|manage-server/.test(html))throw new Error('Management code leaked into public HTML');
 const assets = await readdir('dist/assets');
-for (const file of ['preview-day.webp','preview-night.webp','preview-day-mobile.webp','preview-night-mobile.webp','music-case-v043.glb']) await stat(`dist/assets/${file}`);
+for (const file of ['preview-day.webp','preview-night.webp','preview-day-mobile.webp','preview-night-mobile.webp','preview-day-archive.webp','preview-night-archive.webp','preview-day-archive-mobile.webp','preview-night-archive-mobile.webp','music-case-v043.glb']) await stat(`dist/assets/${file}`);
 const entry = assets.find(file => /^index-.*\.js$/.test(file));
 if (!entry || (await stat(`dist/assets/${entry}`)).size > 18000) throw new Error('Shell JS budget exceeded');
 if (assets.some(file => /woff|ogg|mp3/.test(file))) throw new Error('Unexpected font/audio payload');

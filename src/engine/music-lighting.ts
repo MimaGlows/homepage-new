@@ -91,7 +91,7 @@ export class MusicSelectionLighting {
     // moving ribbon receives daylight compensation, on the shared theme clock.
     const effectiveStrength = strength * (1 + (this.experiment.dayGain - 1) * this.rowDayMix.value);
     this.rowSettings.value.y = effectiveStrength;
-    const gain = mode === "area" ? 1 : mode === "hybrid" ? 0.3 : 0;
+    const gain = mode === "area" ? 1 : mode === "hybrid" ? 0.3 : mode === "guided" ? 0.05 : 0;
     this.area.intensity = this.areaThemeIntensity.value * effectiveStrength * gain * (1 - this.rowDetail.value);
     // Keep the shelf's broad source steady while a case enters or leaves detail.
     // Day uses the former inspection level throughout, avoiding a global dip.
@@ -104,15 +104,15 @@ export class MusicSelectionLighting {
     const targets = transition ?? new ThemeTransition();
     targets.number(this.rowDayMix, "value", day ? 1 : 0);
     targets.number(this.scene, "environmentIntensity", night ? 0.16 : day ? 0.30 : 0.25);
-    targets.number(key, "intensity", night ? 0.30 : day ? 0.38 : 0.45);
+    targets.number(key, "intensity", night ? 0.36 : day ? 0.44 : 0.45);
     for (const child of this.scene.children) {
-      if (child instanceof THREE.HemisphereLight) targets.number(child, "intensity", night ? 0.21 : day ? 0.70 : 0.32);
+      if (child instanceof THREE.HemisphereLight) targets.number(child, "intensity", night ? 0.24 : day ? 0.60 : 0.32);
       if (child instanceof THREE.DirectionalLight && child !== key) targets.number(child, "intensity", 0.045);
     }
     targets.color(this.spot.color, night ? "#dbe9ff" : "#ffe3b2");
     targets.color(this.area.color, night ? "#dbe9ff" : "#ffe3b2");
     targets.number(this.areaThemeIntensity, "value", night ? 24 : day ? 18 : 34);
-    targets.number(this.spotThemeIntensity, "value", (night ? 130 : day ? 70 : 180) * 64);
+    targets.number(this.spotThemeIntensity, "value", (night ? 118 : day ? 76 : 180) * 64);
     targets.color(this.scatterColor.value, night ? "#cee5ff" : "#ffdba3");
     targets.number(this.scatterStrength, "value", night ? 0.72 : day ? 0.12 : 1);
     // Pale surroundings need readable diffuse neighbors, not a brighter peak.

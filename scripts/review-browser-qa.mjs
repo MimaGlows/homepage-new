@@ -35,13 +35,16 @@ try{
   assert.ok(viewport.height-layout.footer.bottom<=45,JSON.stringify(layout));assert.ok(layout.registration.x>viewport.width/2,JSON.stringify(layout));assert.ok(layout.registration.y>=layout.footer.bottom,JSON.stringify(layout));
   for(const a of layout.links)assert.ok(a.x>=0&&a.right<=viewport.width&&a.bottom<=viewport.height,JSON.stringify(layout));
   await page.locator('#browse').click();await page.locator('[data-archive-id]').first().waitFor();
-  const panel=await page.locator('#archive-browser').boundingBox();assert.ok(panel.width>viewport.width*.75);assert.ok(panel.height>viewport.height*.4);
+  const panel=await page.locator('#archive-browser').boundingBox();assert.ok(panel.width>=Math.min(300,viewport.width-36));assert.ok(panel.width<=viewport.width);assert.ok(panel.height>100);assert.ok(panel.y+panel.height<=layout.footer.y);
   await page.locator('[data-module=characters]').click();await page.locator('[data-archive-id=nanakaze]').click();await page.locator('.archive-detail h3').first().waitFor();
-  assert.ok(await page.locator('.archive-detail').isVisible());assert.ok(await page.locator('.archive-detail img').first().isVisible());await page.locator('.archive-detail>img').evaluate(img=>img.decode());
-  if(viewport.width>700)assert.ok(await page.locator('.archive-browser-content').isVisible());else assert.equal(await page.locator('.archive-browser-content').isVisible(),false);
+  assert.ok(await page.locator('.archive-detail').isVisible());assert.equal(await page.locator('.archive-browser-content').isVisible(),false);
+  assert.equal(await page.locator('#archive-browser').getAttribute('data-view'),'companion');assert.ok(await page.locator('.archive-read').isVisible());
+  await page.locator('.archive-read').click();assert.equal(await page.locator('#archive-browser').getAttribute('data-view'),'reading');
+  assert.ok(await page.locator('.archive-full>img').isVisible());await page.locator('.archive-full>img').evaluate(img=>img.decode());
   await page.screenshot({path:`docs/qa/review-layout-${viewport.width}.png`});
+  await page.locator('.archive-back').click();assert.equal(await page.locator('#archive-browser').getAttribute('data-view'),'companion');
   await page.locator('.archive-back').click();assert.ok(await page.locator('[data-archive-id=nanakaze]').isVisible());await page.locator('.archive-close').click();
-  checks.push({name:`${viewport.width}×${viewport.height} 底部导航、右下备案、大档案区及详情返回`,passed:true,layout,panel});
+  checks.push({name:`${viewport.width}×${viewport.height} 底部导航、右下备案、摘要及阅读返回`,passed:true,layout,panel});
  }
  await page.close();
  const reduced=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'reduce'});

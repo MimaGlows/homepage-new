@@ -51,7 +51,7 @@ npm run dev
 
 ## 首屏与失败回退
 
-`index.html + shell.css + 四张真实场景 WebP` 构成静态层。入口 JS 与 Three.js 分离，构建强制 ≤18 KB；两次 paint 和短暂空闲窗口之后，才通过 `import('./scene')` 请求 Three.js 和场景。实际体积和测量见 PERFORMANCE。
+`index.html + shell.css + 八张真实场景 WebP` 构成静态层。入口 JS 与 Three.js 分离，构建强制 ≤18 KB；两次 paint 和短暂空闲窗口之后，才通过 `import('./scene')` 请求 Three.js 和场景。实际体积和测量见 PERFORMANCE。
 
 静态姓名、链接与构图不等待任何 GLB、字体、播放器或 shader 预编译。3D 启动失败、WebGL 不可用、上下文丢失或 20 秒超时时保留完整静态背景，允许重试；省流量模式默认停留静态层。禁用 JS 仍有完整首屏。三维 RAF 在后台暂停，BFCache 返回复用场景。
 

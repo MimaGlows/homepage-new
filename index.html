@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#eae5e1" />
+  <meta name="theme-color" content="#ded7ce" />
   <meta name="description" content="__SITE_DESCRIPTION__" />
   <title>__SITE_TITLE__</title>
   <!--SITE_CONFIG-->
@@ -17,6 +17,7 @@
       <source media="(max-aspect-ratio: 1/1)" srcset="./assets/preview-day-mobile.webp" />
       <img src="./assets/preview-day.webp" width="1440" height="900" alt="" fetchpriority="high" decoding="async" />
     </picture>
+    <script>(()=>{let saved=null,configured='focus';try{saved=localStorage.getItem('mima-mode')}catch{}try{configured=JSON.parse(document.querySelector('#site-config').textContent).defaults.mode}catch{}const requested=new URLSearchParams(location.search).get('mode');const mode=requested==='focus'||requested==='archive'?requested:saved==='focus'||saved==='archive'?saved:configured;const theme=document.documentElement.dataset.theme==='night'?'night':'day';const stem='./assets/preview-'+theme+(mode==='archive'?'-archive':'');const picture=document.querySelector('#preview');picture.querySelector('source').srcset=stem+'-mobile.webp';picture.querySelector('img').src=stem+'.webp'})()</script>
     <div id="scene" aria-label="三维档案阵列"></div>
     <div class="veil" aria-hidden="true"></div>
     <div class="scan" aria-hidden="true"></div>

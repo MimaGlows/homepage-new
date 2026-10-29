@@ -23,14 +23,15 @@ v3 把个人 overlay 加在原 app 之上，并用 CSS 隐藏播放器。原 mus
 
 ## 保留与改动
 
-`src/engine/` 中保留 30 个模块；当前 25 个与该 tag 字节相同，包括 `appearance.ts`、`music-model.ts`、`music-lighting.ts`、`music-camera.ts`、`music-intro-motion.ts`、灯光、光学与主题过渡。scene.ts 增加了内容可见性/图片刷新/氛围开关适配，原着色、光学和镜头主体继续复用。当前与原始 SHA-256 见 `upstream-manifest.json`，可运行 scripts/update-upstream-manifest.mjs 重算当前值。
+`src/engine/` 中保留 30 个模块；当前 24 个与该 tag 字节相同，包括 `appearance.ts`、`music-model.ts`、`music-camera.ts`、`music-intro-motion.ts`、光学与主题过渡。`scene.ts` 包含内容可见性、图片刷新、双模式相机构图及真实实例编排；`music-lighting.ts` 调整了昼夜的选中照明，原玻璃着色、GLB 和相机运动机制继续复用。当前与原始 SHA-256 见 `upstream-manifest.json`，可运行 scripts/update-upstream-manifest.mjs 重算当前值。
 
 | 文件 | 变化 |
 |---|---|
 | `src/engine/archive-loop.ts` | 显示池从 9×68 改为 9×40；盒体、列距与时钟不变 |
 | `src/engine/cover-atlas.ts` | 重复实例按稳定记录共享图块，多行图集/16 MiB 上限/URL 更新；保留原印刷 shader、加载取消与快照，抽取封面仍为 1024px |
 | `src/engine/data.ts` | 标准内容到原档案结构的薄适配器，日常内容不写在引擎中 |
-| `src/engine/scene.ts` | 可见 ID 过滤、原生 overview 双模式、图片刷新、粒子/视差开关、按画质裁减粒子数量及昼夜空间微粒；复用原 SMAA 管线，仍使用原模型、灯光、编排和相机 |
+| `src/engine/scene.ts` | 可见 ID 过滤、双模式相机构图、实例升降、图片刷新及粒子/视差开关；复用原 SMAA 管线、原模型和相机运动 |
+| `src/engine/music-lighting.ts` | 调整昼夜选中光与环境填充强度，保留原局部光源和材质着色机制 |
 | `src/engine/generated-album-cover.ts` | 仅本地系统字体的缺图回退，移除字体等待及原生成器依赖 |
 | `art/build-music-case.mjs` | 仅调整引擎目录路径；模型参数和建模过程保留 |
 | `src/scene.ts` | 新增精简控制器，替代庞大 music-app 的启动与 UI 所有权 |

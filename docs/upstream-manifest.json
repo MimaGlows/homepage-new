@@ -133,8 +133,8 @@
       "file": "src/engine/music-lighting.ts",
       "upstream_file": "src/music-lighting.ts",
       "upstream_sha256": "7f3c65fe07b3630d195704cbe0c2d661b419e34268262c119889f7ba11e183be",
-      "current_sha256": "7f3c65fe07b3630d195704cbe0c2d661b419e34268262c119889f7ba11e183be",
-      "unchanged": true
+      "current_sha256": "238df6eb4287577253f30c25e55ed6e1cd5f4e3348d147823f443024029e88c3",
+      "unchanged": false
     },
     {
       "file": "src/engine/music-model.ts",
@@ -196,7 +196,7 @@
       "file": "src/engine/scene.ts",
       "upstream_file": "src/scene.ts",
       "upstream_sha256": "f071fcc9eeebb517b5634dd52f055b09c21b5fcc6c5c258e62d0abf6bac9b23c",
-      "current_sha256": "6c7198e52a677cf523a83eee53958182812b403830420490e5fe18ca763b8dbc",
+      "current_sha256": "d0f3e0a11cfbfdfb9c29411848e74e680a4a52bc6e5f1d84cf46758dde08c167",
       "unchanged": false
     },
     {

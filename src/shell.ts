@@ -48,17 +48,20 @@ const markPreview = () => void previewImage.decode().then(() => requestAnimation
 previewImage.addEventListener('load', markPreview);
 markPreview();
 
+function updatePreview() {
+  const picture = query<HTMLPictureElement>('#preview');
+  const img = picture.querySelector('img')!;
+  const source = picture.querySelector('source')!;
+  const stem = `${import.meta.env.BASE_URL}assets/preview-${theme}${mode === 'archive' ? '-archive' : ''}`;
+  if (!img.getAttribute('src')?.endsWith(`${stem}.webp`)) img.src = `${stem}.webp`;
+  source.srcset = `${stem}-mobile.webp`;
+}
 function setTheme(value: Theme, persist = true) {
   theme = value; root.dataset.theme = value;
   themeButton.setAttribute('aria-pressed', String(value === 'night'));
   themeButton.setAttribute('aria-label', value === 'day' ? '切换至暗色主题' : '切换至亮色主题');
-  query<HTMLMetaElement>('meta[name=theme-color]').content = value === 'day' ? '#eae5e1' : '#07111f';
-  const picture = query<HTMLPictureElement>('#preview');
-  const img = picture.querySelector('img')!;
-  const source = picture.querySelector('source')!;
-  const url = (suffix: string) => `${import.meta.env.BASE_URL}assets/preview-${value}${suffix}.webp`;
-  if (!img.getAttribute('src')?.includes(`preview-${value}.webp`)) img.src = url('');
-  source.srcset = url('-mobile');
+  query<HTMLMetaElement>('meta[name=theme-color]').content = value === 'day' ? '#ded7ce' : '#101e2c';
+  updatePreview();
   try { if(persist) localStorage.setItem('mima-theme', value); } catch { /* Privacy mode keeps an in-memory theme. */ }
   controller?.theme(value);
 }
@@ -110,7 +113,7 @@ function failScene() {
 }
 function step(direction:number){const indices=visibleIndices();if(!indices.length)return;const current=indices.indexOf(selected);select(indices[(Math.max(0,current)+direction+indices.length)%indices.length]);}
 function setMode(value:DisplayMode,persist=true){
- mode=value;syncModeUI();finishIntro();extract(false);controller?.mode(value);
+ mode=value;syncModeUI();updatePreview();finishIntro();extract(false);controller?.mode(value);
  if(!visibleIndices().includes(selected)){const first=visibleIndices()[0];if(first!==undefined)select(first,false);}
  if(persist){try{localStorage.setItem('mima-mode',value);}catch{}const url=new URL(location.href);url.searchParams.set('mode',value);history.replaceState(null,'',url);}
 }

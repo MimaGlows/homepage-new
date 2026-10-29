@@ -546,11 +546,11 @@ export class ArchiveScene {
     const targets = new ThemeTransition();
     targets.number(this.themeWarmth, "value", theme === "day" ? 1 : 0);
     const musicDaylight = musicLibrary && theme === "day";
-    const background = theme === "night" ? "#07111f" : theme === "dusk" ? "#b9c7cc" : musicDaylight ? MUSIC_DAYLIGHT.background : "#eae5e1";
+    const background = theme === "night" ? "#101e2c" : theme === "dusk" ? "#b9c7cc" : musicDaylight ? "#ded7ce" : "#eae5e1";
     targets.color(this.scene.background as THREE.Color, background);
     targets.color((this.scene.fog as THREE.Fog).color, background);
     targets.color(this.floor.material.color, theme === "night" ? "#0b1828" : theme === "dusk" ? "#a6b8c0" : musicDaylight ? MUSIC_DAYLIGHT.floor : "#d8c9b9");
-    targets.number(this.renderer, "toneMappingExposure", theme === "night" ? 1.08 : 1.05);
+    targets.number(this.renderer, "toneMappingExposure", theme === "night" ? 0.96 : 0.91);
     targets.number(this.scene, "environmentIntensity", theme === "night" ? .68 : .48);
     targets.color(this.light.color, theme === "night" ? "#e5f0ff" : theme === "dusk" ? "#eff8ff" : musicDaylight ? MUSIC_DAYLIGHT.key : "#fff7ed");
     targets.number(this.light, "intensity", theme === "night" ? 1.7 : 1.4);
@@ -1672,7 +1672,12 @@ export class ArchiveScene {
       this.dummy.rotation.set(slope * 0.024 * (1 - detail), 0, 0);
       const hiddenCell = !this.actualCell(this.cells[i]) || hidden.has(cellKey(this.cells[i])) ||
         (!musicIntro && (cinematic || !this.looping) && i >= (musicLibrary ? 5 * this.poolRows : 160));
-      this.applyMusicColumnExtent(this.dummy, hiddenCell ? 0 : cinematic ? 1 : this.musicColumnExtent(lane));
+      // Focus keeps a small supporting shelf, while overview restores the full
+      // real array. Move whole cases beneath the floor; never flatten the glass.
+      const supporting = lane === selectedLane + 1 && Math.abs(row - selectedRow) <= 2;
+      const visibility = cinematic || supporting ? 1 : overview;
+      if (!cinematic && visibility < 1) this.dummy.position.y -= (1 - visibility) * (MUSIC_MODEL.height + 0.4);
+      this.applyMusicColumnExtent(this.dummy, hiddenCell || visibility < .005 ? 0 : cinematic ? 1 : this.musicColumnExtent(lane));
       this.dummy.updateMatrix();
       for (const inst of this.instances) inst.setMatrixAt(i, this.dummy.matrix);
       if (musicLibrary && this.covers) {
@@ -1888,6 +1893,30 @@ export class ArchiveScene {
         Math.sin(elevation), Math.cos(yaw) * Math.cos(elevation)), overview).normalize();
       cameraAim.lerp(new THREE.Vector3(wide.aimColumns * this.columnSpacing, -1.8, -1.5), overview);
       framing.span = THREE.MathUtils.lerp(framing.span, wide.span, overview);
+    }
+    if (!cinematic) {
+      // Gallery and library are two framings of this same physical scene.
+      // The existing camera spring carries continuous velocity between them.
+      const gallery = (1 - overview) * (1 - detail);
+      const portrait = width / height < 1.05;
+      const angle = THREE.MathUtils.degToRad(34);
+      const tilt = THREE.MathUtils.degToRad(12);
+      const galleryDirection = new THREE.Vector3(-Math.sin(angle) * Math.cos(tilt), Math.sin(tilt), Math.cos(angle) * Math.cos(tilt));
+      viewDirection.lerp(galleryDirection, gallery).normalize();
+      const galleryAim = this.model.position.clone().add(new THREE.Vector3(0, MUSIC_MODEL.center.y, 0));
+      const galleryRight = new THREE.Vector3().crossVectors(new THREE.Vector3(0, 1, 0), galleryDirection).normalize();
+      const galleryUp = new THREE.Vector3().crossVectors(galleryDirection, galleryRight).normalize();
+      const focusSpan = portrait ? 8.1 : 6.8;
+      galleryAim.addScaledVector(galleryRight, portrait ? 0 : focusSpan * width / height * .11);
+      galleryAim.addScaledVector(galleryUp, portrait ? -focusSpan * .10 : 0);
+      cameraAim.lerp(galleryAim, gallery);
+      framing.span = THREE.MathUtils.lerp(framing.span, focusSpan, gallery);
+      if (overview > 0) {
+        const archiveYaw = THREE.MathUtils.degToRad(22);
+        const archiveElevation = THREE.MathUtils.degToRad(38);
+        viewDirection.lerp(new THREE.Vector3(-Math.sin(archiveYaw) * Math.cos(archiveElevation), Math.sin(archiveElevation), Math.cos(archiveYaw) * Math.cos(archiveElevation)), overview).normalize();
+        framing.span = THREE.MathUtils.lerp(framing.span, portrait ? 23 : 19.2, overview);
+      }
     }
     const cameraPosition = cameraAim
       .clone()
